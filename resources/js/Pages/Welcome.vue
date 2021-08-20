@@ -238,12 +238,133 @@
                 align-items: center;
             }
         }
+
+        #steps{
+            width: 100%;
+            height: 500px;
+            z-index: 10000;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 80%;
+        }
+
+        #price{
+            width: 100%;
+            height: 500px;
+            z-index: 10000;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 110%;
+        }
+
+        #payments{
+            width: 100%;
+            height: 500px;
+            z-index: 10000;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 160%;
+        }
+
+        .whatsapp-2{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            z-index: 10000;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: 82%;
+            margin-top: 156%;
+        }
+
+        .whatsapp{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            z-index: 10000;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: 82%;
+            margin-top: 41%;
+        }
+
+        
     }
+
+    @media only screen and (max-width: 1000px){ 
+
+                .menu-float{
+                    display: none !important;
+                }
+
+                .box-normal{
+                    padding: 0;
+                    margin-bottom: 50px  !important;
+                }
+
+                .box-big{
+                    padding: 0;
+                    margin-bottom: 50px  !important;
+                    
+                }
+                .binnie-container{
+                    flex-direction: column;
+                }
+
+                .whatsapp{
+                    width: 50px !important;
+                    height: 50px !important;
+                }
+
+                .whatsapp-2{
+                    width: 50px !important;
+                    height: 50px !important;
+                }
+
+                .footer{
+                    flex-direction: column !important;
+                }
+
+                .menu-score{
+
+                    margin-top: 10px !important;
+                    margin-right: 5% !important;
+
+                    width: 90% !important;
+
+                }
+
+                .binnie{
+                    flex-direction: column !important;
+                }
+
+                .binnie-2{
+                    margin-top: 595% !important;
+                }
+            }
+
+    
 </style>
 
 <template>
     <div class="section-1">
         <img class="bg-1" src="/images/home1.png" alt="">
+
+        <div id="steps">
+
+        </div>
+        <div id="price">
+
+        </div>
+
+        <div id="payments">
+
+        </div>
 
         <div class="binnie" id="questions">
             <div class="sec">
@@ -274,7 +395,7 @@
                     </div>
                     <div class="winners-container">
                         <div class="winner">
-                            <span>450 PARTICIPANTES</span>
+                            <span>{{ info.registers }} PARTICIPANTES</span>
                         </div>
                     </div>
                 </div>
@@ -283,9 +404,9 @@
                         <p>GANADORES</p>
                     </div>
                     <div class="winners-container">
-                        <div class="winner" v-for="item in [1, 1, 2 , 1, 8]">
-                            <span>Gerardo</span>
-                            <span>01</span>
+                        <div class="winner" v-for="item in winners" :key="item.id">
+                            <span>{{ item.name }}</span>
+                            <span>{{ item.points }}</span>
                         </div>
                     </div>
                 </div>
@@ -295,7 +416,7 @@
                     </div>
                     <div class="winners-container">
                         <div class="winner">
-                            <span>230 PREMIOS ENTREGADOS</span>
+                            <span>{{ info.prizes }} PREMIOS ENTREGADOS</span>
                         </div>
                     </div>
                 </div>
@@ -313,10 +434,15 @@
         <div class="menu-score">
             <p>¿Y tu, ya te <br> registraste?</p>
             <span>|</span>
-            <p>253 Ganadores</p>
+            <p>{{ winners.length }} Ganadores</p>
             <span>|</span>
-            <p>450 Registros</p>
+            <p>{{ info.registers }} Registros</p>
         </div>
+
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=15551234567" class="whatsapp">
+        </a>
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=15551234567" class="whatsapp-2">
+        </a>
 
         <div class="menu-float">
             <a href="#home">
@@ -334,7 +460,7 @@
                     <i class="fas fa-dollar-sign"></i>
                 </div>
             </a>
-            <a href="#methods">
+            <a href="#payments">
                 <div class="btn-menu">
                     <i class="far fa-credit-card"></i>
                 </div>
@@ -368,26 +494,14 @@
             canRegister: Boolean,
             laravelVersion: String,
             phpVersion: String,
+            questions: Array,
+            winners: Array,
+            info: Object
         },
 
         data(){
             return{
                 indexSelect: null,
-
-                questions: [
-                    {
-                        name: 'Question 1',
-                        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet euismod diam. Vivamus consectetur mi eget lobortis efficitur. Integer tincidunt elit non bibendum tempus. Pellentesque dui magna, euismod ut aliquet volutpat, porttitor sed nisl. Aliquam eleifend gravida lacus. Morbi iaculis pellentesque vestibulum.'
-                    },
-                    {
-                        name: 'Question 2',
-                        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet euismod diam. Vivamus consectetur mi eget lobortis efficitur. Integer tincidunt elit non bibendum tempus. Pellentesque dui magna, euismod ut aliquet volutpat, porttitor sed nisl. Aliquam eleifend gravida lacus. Morbi iaculis pellentesque vestibulum.'
-                    },
-                    {
-                        name: 'Question 3',
-                        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet euismod diam. Vivamus consectetur mi eget lobortis efficitur. Integer tincidunt elit non bibendum tempus. Pellentesque dui magna, euismod ut aliquet volutpat, porttitor sed nisl. Aliquam eleifend gravida lacus. Morbi iaculis pellentesque vestibulum.'
-                    }
-                ]
             }
         }
     }

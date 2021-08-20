@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Inertia\Inertia;
-use App\Models\Question;
+use App\Models\Winner;
 use Illuminate\Http\Request;
 
-class QuestionController extends Controller
+class WinnerController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +15,8 @@ class QuestionController extends Controller
      */
     public function index()
     {
-        $questions = Question::all();
-        return Inertia::render('Admin/Questions/Index', compact('questions'));
+        $winners = Winner::all();
+        return Inertia::render('Admin/Users/Index', compact('winners'));
     }
 
     /**
@@ -26,7 +26,7 @@ class QuestionController extends Controller
      */
     public function create()
     {
-        return Inertia::render('Admin/Questions/Create');
+        return Inertia::render('Admin/Users/Create');
     }
 
     /**
@@ -37,8 +37,8 @@ class QuestionController extends Controller
      */
     public function store(Request $request)
     {
-        $question = new Question();
-        $question->create($request->all());
+        $user = new Winner();
+        $user->create($request->all());
         return;
     }
 
@@ -61,9 +61,9 @@ class QuestionController extends Controller
      */
     public function edit($id)
     {
-        $question = Question::find($id);
+        $user = Winner::find($id);
 
-        return Inertia::render('Admin/Questions/Edit', \compact('question'));
+        return Inertia::render('Admin/Users/Edit', \compact('user'));
     }
 
     /**
@@ -77,10 +77,10 @@ class QuestionController extends Controller
     {
 
 
-        $question = Question::find($id);
-        $question->name = $request->name;
-        $question->answer = $request->answer;
-        $question->save();
+        $user = Winner::find($id);
+        $user->name = $request->name;
+        $user->points = $request->points;
+        $user->save();
 
         return;
     }
@@ -93,16 +93,16 @@ class QuestionController extends Controller
      */
     public function destroy($id)
     {
-        $question = Question::find($id);
-        $question->delete();
+        $user = Winner::find($id);
+        $user->delete();
 
         return;
     }
 
-    public function getQuestions()
+    public function getWinners()
     {
-        $questions = Question::all();
+        $winners = Winner::all();
 
-        return $questions;
+        return $winners;
     }
 }

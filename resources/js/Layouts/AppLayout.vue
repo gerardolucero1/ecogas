@@ -12,8 +12,8 @@
                         <div class="flex">
                             <!-- Logo -->
                             <div class="flex-shrink-0 flex items-center">
-                                <Link :href="route('dashboard')">
-                                    <jet-application-mark class="block h-9 w-auto" />
+                                <Link :href="route('welcome')">
+                                    Ecogas
                                 </Link>
                             </div>
 
@@ -24,6 +24,9 @@
                                 </jet-nav-link>
                                 <jet-nav-link :href="route('questions.index')" :active="route().current('questions.index')">
                                     Preguntas
+                                </jet-nav-link>
+                                <jet-nav-link :href="route('winners.index')" :active="route().current('winners.index')">
+                                    Ganadores
                                 </jet-nav-link>
                             </div>
                         </div>
@@ -110,7 +113,7 @@
                                         </div>
 
                                         <jet-dropdown-link :href="route('profile.show')">
-                                            Profile
+                                            Perfil
                                         </jet-dropdown-link>
 
                                         <jet-dropdown-link :href="route('api-tokens.index')" v-if="$page.props.jetstream.hasApiFeatures">
@@ -122,7 +125,7 @@
                                         <!-- Authentication -->
                                         <form @submit.prevent="logout">
                                             <jet-dropdown-link as="button">
-                                                Log Out
+                                                Salir
                                             </jet-dropdown-link>
                                         </form>
                                     </template>
@@ -165,7 +168,7 @@
 
                         <div class="mt-3 space-y-1">
                             <jet-responsive-nav-link :href="route('profile.show')" :active="route().current('profile.show')">
-                                Profile
+                                Perfil
                             </jet-responsive-nav-link>
 
                             <jet-responsive-nav-link :href="route('api-tokens.index')" :active="route().current('api-tokens.index')" v-if="$page.props.jetstream.hasApiFeatures">
@@ -175,7 +178,7 @@
                             <!-- Authentication -->
                             <form method="POST" @submit.prevent="logout">
                                 <jet-responsive-nav-link as="button">
-                                    Log Out
+                                    Salir
                                 </jet-responsive-nav-link>
                             </form>
 
