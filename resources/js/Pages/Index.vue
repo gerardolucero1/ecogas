@@ -3,28 +3,6 @@
         position: relative;
         width: 100vw;
 
-        .whatsapp{
-            z-index: 10000;
-
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            width: 120px;
-            margin-bottom: 20px;
-            margin-right: 20px;
-        }
-
-        .section{
-            position: relative;
-            width: 100vw;
-            height: auto;
-            overflow-x: hidden;
-
-            img{
-                width: 100%;
-                height: auto;
-            }
-        }
 
         .menu-float{
             z-index: 10000;
@@ -52,6 +30,29 @@
                 box-shadow: 1px 1px 5px gray;
 
                 font-size: 35px;
+            }
+        }
+
+        .whatsapp{
+            z-index: 10000;
+
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 120px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+
+        .section{
+            position: relative;
+            width: 100vw;
+            height: auto;
+            overflow-x: hidden;
+
+            img{
+                width: 100%;
+                height: auto;
             }
         }
 
@@ -278,13 +279,42 @@
             background-color: #085995;
             display: block;
 
+            .menu-float{
+                z-index: 900000;
+                position: fixed;
+                top: 0;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 20px;
+                margin-left: 20px;
+
+                .btn-menu{
+                    
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 10px;
+                    width: 40px;
+                    height: 40px;
+                    background-color: #76B727;
+                    color: white;
+                    box-shadow: 1px 1px 5px gray;
+
+                    font-size: 18px;
+                }
+            }
+
             .whatsapp{
                 z-index: 10000;
 
                 position: fixed;
                 bottom: 0;
                 right: 0;
-                width: 100px;
+                width: 60px;
                 margin-bottom: 20px;
                 margin-right: 20px;
             }
@@ -301,7 +331,7 @@
                 }
             }
 
-            #questions{
+            #questionsMovil{
                 position: relative;
                 width: 100vw;
 
@@ -353,15 +383,15 @@
                 }
             }
 
-            #score{
+            #scoreMovil{
                 position: relative;
-                width: 100vw;
+                background-image: url('/images/movil/Mesa de trabajo 6.png');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
 
                 .score{
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
+
                     display: flex;
                     flex-direction: column;
 
@@ -452,6 +482,7 @@
                         justify-content: center;
                         align-items: flex-end;
                         margin-top: 50px;
+                        flex-direction: column;
                         
 
                         p{
@@ -465,28 +496,19 @@
                             color: white;
                             font-weight: bold;
                             padding: 5px 10px;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
                         }
                     }
                 }
             }
         }
+
     }
 </style>
 
 <template>
     <div>
-        <div class="container">
 
-            <div class="menu-score">
-                <p>¿Y tu, ya te <br> registraste?</p>
-                <span>|</span>
-                <p>{{ winners.length }} Ganadores</p>
-                <span>|</span>
-                <p>{{ info.registers }} Registros</p>
-            </div>
+        <div class="container">
 
             <div class="menu-float">
                 <a href="#home">
@@ -521,11 +543,18 @@
                 </a>
             </div>
 
+            <div class="menu-score">
+                <p>¿Y tu, ya te <br> registraste?</p>
+                <span>|</span>
+                <p>{{ winners.length }} Ganadores</p>
+                <span>|</span>
+                <p>{{ info.registers }} Registros</p>
+            </div>
+
             <a target="_blank" href="https://api.whatsapp.com/send?phone=8007000000">
                 <img class="whatsapp" src="https://i0.wp.com/www.smartparent.in/wp-content/uploads/2018/06/Whatsapp-Icon.png" alt="">
             </a>
 
-            
 
             <section class="section" id="home">
                 <img src="/images/Mesa de trabajo 1.png" alt="">
@@ -612,23 +641,57 @@
         </div>
 
         <div class="container-movil">
+
+            <div class="menu-float">
+                <a href="#homeMovil">
+                    <div class="btn-menu">
+                        <i class="fas fa-home"></i>
+                    </div>
+                </a>
+                <a href="#stepsMovil">
+                    <div class="btn-menu">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                </a>
+                <a href="#priceMovil">
+                    <div class="btn-menu">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                </a>
+                <a href="#paymentsMovil">
+                    <div class="btn-menu">
+                        <i class="far fa-credit-card"></i>
+                    </div>
+                </a>
+                <a href="#questionsMovil">
+                    <div class="btn-menu">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                </a>
+                <a href="#scoreMovil">
+                    <div class="btn-menu">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                </a>
+            </div>
+
             <a target="_blank" href="https://api.whatsapp.com/send?phone=8007000000">
                 <img class="whatsapp" src="https://i0.wp.com/www.smartparent.in/wp-content/uploads/2018/06/Whatsapp-Icon.png" alt="">
             </a>
 
-            <section class="section" id="home">
+            <section class="section" id="homeMovil">
                 <img src="/images/movil/Mesa de trabajo 1.png" alt="">
             </section>
-            <section class="section" id="steps">
+            <section class="section" id="stepsMovil">
                 <img src="/images/movil/Mesa de trabajo 2.png" alt="">
             </section>
-            <section class="section" id="price">
+            <section class="section" id="priceMovil">
                 <img src="/images/movil/Mesa de trabajo 3.png" alt="">
             </section>
-            <section class="section" id="payments">
+            <section class="section" id="paymentsMovil">
                 <img src="/images/movil/Mesa de trabajo 4.png" alt="">
             </section>
-            <section class="section" id="questions">
+            <section class="section" id="questionsMovil">
                 <img src="/images/movil/Mesa de trabajo 5.png" alt="">
 
                 <div class="questions">
@@ -652,8 +715,8 @@
                     </div>
                 </div>
             </section>
-            <section class="section" id="score">
-                <img src="/images/movil/Mesa de trabajo 6.png" alt="">
+            <section class="section" id="scoreMovil">
+                <!-- <img src="/images/movil/Mesa de trabajo 6.png" alt=""> -->
 
                 <div class="score">
                     <div class="binnie-container">
