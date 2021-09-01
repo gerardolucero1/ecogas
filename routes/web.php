@@ -25,7 +25,7 @@ Route::get('/', function () {
     $winners = Winner::all();
     $info = Info::first();
 
-    return Inertia::render('Index', [
+    return Inertia::render('Index2', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
         'laravelVersion' => Application::VERSION,
