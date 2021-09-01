@@ -27,8 +27,8 @@
             .menu-web{
                 position: fixed;
                 display: flex;
-                    left: 0;
-                    top: 25%;
+                left: 0;
+                top: 25%;
                 flex-direction: column;
                 z-index: 1000;
                 margin-left: 20px;
@@ -37,11 +37,30 @@
                         margin-top: 10px;
 
                         img{
-                            width: 75px;
+                            width: 65px;
                         }
                     }
 
                  
+            }
+
+            #premios{
+                .content{
+                    display: flex;
+
+                    .box{
+                        flex: 1;
+                        
+                    }
+
+                    & .box:nth-child(2){
+                        
+                        img{
+                            width: 60%;
+                            margin-top: 25%;
+                        }
+                    }
+                }
             }
 
 
@@ -116,6 +135,7 @@
             }
 
             #preguntas{
+                z-index: 100;
                 .content{
                     display: flex;
 
@@ -179,8 +199,9 @@
                                 }
 
                                 iframe{
-                                    margin-top: -25%;
+                                    margin-top: -30%;
                                     width: 70%;
+                                    height: 270px;
                                     margin-left: 15%;
                                     z-index: 10000;
                                 }
@@ -223,6 +244,19 @@
                         }
 
                     
+                }
+
+                #premios2{
+                    .content{
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-start;
+                        img{
+                            margin-left: 17%;
+                            width: 70%;
+                            margin-top: 50%;
+                        }
+                    }
                 }
 
                 #ganadores2{
@@ -413,7 +447,14 @@
             <section class="section" id="premios">
                 <img src="/images/nueva/web/PREMIOS.png" alt="">
                 <div class="content">
-                    
+                    <div class="box">
+                       
+                    </div>
+                    <div class="box">
+                        <div>
+                            <img src="/images/nueva/elements/premios 2k.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="section" id="pagos">
@@ -532,11 +573,15 @@
             <section class="section" id="premios2">
                 <img src="/images/nueva/movil/PREMIOS.png" alt="">
                 <div class="content">
-                    
+                    <div class="box">
+                       <div>
+                            <img src="/images/nueva/elements/premios 2k.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="section" id="pagos2" style="background-color: #005295;">
-                <img style="margin-left: 3px;" src="/images/nueva/movil/FORMAS DE PAGO.png" alt="">
+                <img src="/images/nueva/movil/FORMAS DE PAGO.png" alt="">
                 <div class="content">
                     
                 </div>
