@@ -26,16 +26,15 @@
 
             .menu-web{
                 position: fixed;
-                top: 0;
-                left: 0;
                 display: flex;
+                    left: 0;
+                    top: 25%;
                 flex-direction: column;
                 z-index: 1000;
                 margin-left: 20px;
-                margin-top: 20px;
 
                     .btn-menu{
-                        margin-top: 20px;
+                        margin-top: 10px;
 
                         img{
                             width: 75px;
@@ -207,7 +206,7 @@
 
                 .menu-movil{
                     position: fixed;
-                    top: 0;
+                    top: 170px;
                     left: 0;
                     display: flex;
                     flex-direction: column;
@@ -216,10 +215,10 @@
                     margin-top: 10px;
 
                         .btn-menu{
-                            margin-top: 20px;
+                            margin-top: 5px;
 
                             img{
-                                width: 50px;
+                                width: 33px;
                             }
                         }
 
@@ -484,7 +483,7 @@
                 </div>
             </section>
         </div>
-        <div class="movil">
+        <div class="movil" style="background-color: #005295; overflow: hidden;">
             <div class="menu-movil">
                 <div class="btn-menu">
                     <a href="#home2">
@@ -536,8 +535,8 @@
                     
                 </div>
             </section>
-            <section class="section" id="pagos2">
-                <img src="/images/nueva/movil/FORMAS DE PAGO.png" alt="">
+            <section class="section" id="pagos2" style="background-color: #005295;">
+                <img style="margin-left: 3px;" src="/images/nueva/movil/FORMAS DE PAGO.png" alt="">
                 <div class="content">
                     
                 </div>
@@ -567,8 +566,8 @@
                     </div>
                 </div>
             </section>
-            <section class="section" id="ganadores2">
-                <img src="/images/nueva/movil/GANADORES.png" alt="">
+            <section class="section" id="ganadores2" style="background-color: #005295">
+                <img style="margin-left: -2px;" src="/images/nueva/movil/GANADORES.png" alt="">
                 <div class="content">
                     <div class="box">
 
