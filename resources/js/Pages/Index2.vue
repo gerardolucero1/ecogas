@@ -151,7 +151,7 @@
                             flex-direction: column;
 
                             .sec{
-                                margin-top: 30%;
+                                margin-top: 35%;
                                 flex: 1;
                                 justify-content: center;
                                 align-items: center;
