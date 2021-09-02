@@ -20759,8 +20759,40 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      indexSelect: null
+      slide: 0,
+      indexSelect: null,
+      slides: ['/images/nueva/elements/premios 2k.png', '/images/nueva/elements/premios 10k.png', '/images/nueva/elements/premios 25k.png', '/images/nueva/elements/premios 5500.png']
     };
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    setInterval(function () {
+      _this.slide++;
+
+      if (_this.slide == 4) {
+        _this.slide = 0;
+      }
+    }, 4000);
+  },
+  watch: {},
+  methods: {
+    left: function left() {
+      console.log('ola');
+
+      if (this.slide == 0) {
+        this.slide = this.slides.length - 1;
+      } else {
+        this.slides--;
+      }
+    },
+    right: function right() {
+      if (this.slide == this.slides.length - 1) {
+        this.slide = 0;
+      } else {
+        this.slides++;
+      }
+    }
   }
 });
 
@@ -25922,52 +25954,103 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   "class": "main-container"
 };
-var _hoisted_2 = {
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  target: "_blank",
+  href: "https://api.whatsapp.com/send?phone=8007000000"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "wp",
+  src: "/images/nueva/icos/Recurso 81.png",
+  alt: ""
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_3 = {
   "class": "web"
 };
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"menu-web\" data-v-d7008eee><div class=\"btn-menu\" data-v-d7008eee><a href=\"#home\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 75.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#mecanica\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 76.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#premios\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 77.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#pagos\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 78.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#preguntas\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 79.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#ganadores\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 80.png\" alt=\"\" data-v-d7008eee></a></div></div><section class=\"section\" id=\"home\" data-v-d7008eee><img src=\"/images/nueva/web/HOME.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section><section class=\"section\" id=\"mecanica\" data-v-d7008eee><img src=\"/images/nueva/web/MECANICA.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section><section class=\"section\" id=\"premios\" data-v-d7008eee><img src=\"/images/nueva/web/PREMIOS.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee><div class=\"box\" data-v-d7008eee></div><div class=\"box\" data-v-d7008eee><div data-v-d7008eee><img src=\"/images/nueva/elements/premios 2k.png\" alt=\"\" data-v-d7008eee></div></div></div></section><section class=\"section\" id=\"pagos\" data-v-d7008eee><img src=\"/images/nueva/web/FORMAS DE PAGO.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section>", 5);
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"menu-web\" data-v-d7008eee><div class=\"btn-menu\" data-v-d7008eee><a href=\"#home\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 75.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#mecanica\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 76.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#premios\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 77.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#pagos\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 78.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#preguntas\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 79.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#ganadores\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 80.png\" alt=\"\" data-v-d7008eee></a></div></div><section class=\"section\" id=\"home\" data-v-d7008eee><img src=\"/images/nueva/web/HOME.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section><section class=\"section\" id=\"mecanica\" data-v-d7008eee><img src=\"/images/nueva/web/MECANICA.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section>", 3);
 
-var _hoisted_8 = {
+var _hoisted_7 = {
+  "class": "section",
+  id: "premios"
+};
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/nueva/web/PREMIOS.png",
+  alt: ""
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_9 = {
+  "class": "content"
+};
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "box"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_11 = {
+  "class": "box"
+};
+var _hoisted_12 = ["src"];
+
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "class": "section",
+  id: "pagos"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/nueva/web/FORMAS DE PAGO.png",
+  alt: ""
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "content"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_14 = {
   "class": "section",
   id: "preguntas"
 };
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/images/nueva/web/PREGUNTAS.png",
   alt: ""
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_10 = {
+var _hoisted_16 = {
   "class": "content"
 };
-var _hoisted_11 = {
+var _hoisted_17 = {
   "class": "box"
 };
-var _hoisted_12 = {
+var _hoisted_18 = {
   "class": "questions"
 };
-var _hoisted_13 = {
+var _hoisted_19 = {
   "class": "sec"
 };
-var _hoisted_14 = ["onClick"];
-var _hoisted_15 = {
+var _hoisted_20 = ["onClick"];
+var _hoisted_21 = {
   "class": "question-name"
 };
 
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
   "class": "fas fa-plus"
 })], -1
 /* HOISTED */
 );
 
-var _hoisted_17 = {
+var _hoisted_23 = {
   "class": "answer"
 };
 
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "sec"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("iframe", {
   width: "100%",
@@ -25981,50 +26064,50 @@ var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"box\" data-v-d7008eee><a href=\"#\" data-v-d7008eee><i class=\"fab fa-facebook-square\" data-v-d7008eee></i></a><a href=\"#\" data-v-d7008eee><i class=\"fab fa-twitter\" data-v-d7008eee></i></a><a href=\"#\" data-v-d7008eee><i class=\"fab fa-instagram\" data-v-d7008eee></i></a></div>", 1);
+var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"box\" data-v-d7008eee><a href=\"#\" data-v-d7008eee><i class=\"fab fa-facebook-square\" data-v-d7008eee></i></a><a href=\"#\" data-v-d7008eee><i class=\"fab fa-twitter\" data-v-d7008eee></i></a><a href=\"#\" data-v-d7008eee><i class=\"fab fa-instagram\" data-v-d7008eee></i></a></div>", 1);
 
-var _hoisted_20 = {
+var _hoisted_26 = {
   "class": "section",
   id: "ganadores"
 };
 
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/images/nueva/web/GANADORES.png",
   alt: ""
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_22 = {
+var _hoisted_28 = {
   "class": "content"
 };
 
-var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "box"
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_24 = {
+var _hoisted_30 = {
   "class": "box"
 };
-var _hoisted_25 = {
+var _hoisted_31 = {
   "class": "binnie-container"
 };
-var _hoisted_26 = {
+var _hoisted_32 = {
   "class": "box-big"
 };
 
-var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "header"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "GANADORES")], -1
 /* HOISTED */
 );
 
-var _hoisted_28 = {
+var _hoisted_34 = {
   "class": "winners-container"
 };
-var _hoisted_29 = {
+var _hoisted_35 = {
   "class": "movil",
   style: {
     "background-color": "#005295",
@@ -26032,48 +26115,83 @@ var _hoisted_29 = {
   }
 };
 
-var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"menu-movil\" data-v-d7008eee><div class=\"btn-menu\" data-v-d7008eee><a href=\"#home2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 75.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#mecanica2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 76.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#premios2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 77.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#pagos2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 78.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#preguntas2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 79.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#ganadores2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 80.png\" alt=\"\" data-v-d7008eee></a></div></div><section class=\"section\" id=\"home2\" data-v-d7008eee><img src=\"/images/nueva/movil/HOME.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section><section class=\"section\" id=\"mecanica2\" data-v-d7008eee><img src=\"/images/nueva/movil/MECANICA.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section><section class=\"section\" id=\"premios2\" data-v-d7008eee><img src=\"/images/nueva/movil/PREMIOS.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee><div class=\"box\" data-v-d7008eee><div data-v-d7008eee><img src=\"/images/nueva/elements/premios 2k.png\" alt=\"\" data-v-d7008eee></div></div></div></section><section class=\"section\" id=\"pagos2\" style=\"background-color:#005295;\" data-v-d7008eee><img src=\"/images/nueva/movil/FORMAS DE PAGO.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section>", 5);
+var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"menu-movil\" data-v-d7008eee><div class=\"btn-menu\" data-v-d7008eee><a href=\"#home2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 75.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#mecanica2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 76.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#premios2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 77.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#pagos2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 78.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#preguntas2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 79.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#ganadores2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 80.png\" alt=\"\" data-v-d7008eee></a></div></div><section class=\"section\" id=\"home2\" data-v-d7008eee><img src=\"/images/nueva/movil/HOME.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section><section class=\"section\" id=\"mecanica2\" data-v-d7008eee><img src=\"/images/nueva/movil/MECANICA.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section>", 3);
 
-var _hoisted_35 = {
+var _hoisted_39 = {
+  "class": "section",
+  id: "premios2"
+};
+
+var _hoisted_40 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/nueva/movil/PREMIOS.png",
+  alt: ""
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_41 = {
+  "class": "content"
+};
+var _hoisted_42 = {
+  "class": "box"
+};
+var _hoisted_43 = ["src"];
+
+var _hoisted_44 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "class": "section",
+  id: "pagos2",
+  style: {
+    "background-color": "#005295"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/nueva/movil/FORMAS DE PAGO.png",
+  alt: ""
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "content"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_45 = {
   "class": "section",
   id: "preguntas2"
 };
 
-var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_46 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/images/nueva/movil/PREGUNTAS.png",
   alt: ""
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_37 = {
+var _hoisted_47 = {
   "class": "content"
 };
-var _hoisted_38 = {
+var _hoisted_48 = {
   "class": "box"
 };
-var _hoisted_39 = {
+var _hoisted_49 = {
   "class": "questions"
 };
-var _hoisted_40 = {
+var _hoisted_50 = {
   "class": "sec"
 };
-var _hoisted_41 = ["onClick"];
-var _hoisted_42 = {
+var _hoisted_51 = ["onClick"];
+var _hoisted_52 = {
   "class": "question-name"
 };
 
-var _hoisted_43 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+var _hoisted_53 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
   "class": "fas fa-plus"
 })], -1
 /* HOISTED */
 );
 
-var _hoisted_44 = {
+var _hoisted_54 = {
   "class": "answer"
 };
 
-var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_55 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "sec"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("iframe", {
   width: "100%",
@@ -26087,7 +26205,7 @@ var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_46 = {
+var _hoisted_56 = {
   "class": "section",
   id: "ganadores2",
   style: {
@@ -26095,7 +26213,7 @@ var _hoisted_46 = {
   }
 };
 
-var _hoisted_47 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_57 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   style: {
     "margin-left": "-2px"
   },
@@ -26105,58 +26223,63 @@ var _hoisted_47 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_48 = {
+var _hoisted_58 = {
   "class": "content"
 };
 
-var _hoisted_49 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_59 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "box"
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_50 = {
+var _hoisted_60 = {
   "class": "box"
 };
-var _hoisted_51 = {
+var _hoisted_61 = {
   "class": "binnie-container"
 };
-var _hoisted_52 = {
+var _hoisted_62 = {
   "class": "box-big"
 };
 
-var _hoisted_53 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_63 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "header"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "GANADORES")], -1
 /* HOISTED */
 );
 
-var _hoisted_54 = {
+var _hoisted_64 = {
   "class": "winners-container"
 };
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.questions, function (question, index) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.slides[$data.slide],
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_12)])])])]), _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_14, [_hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.questions, function (question, index) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       "class": "question-form",
       key: index,
       onClick: function onClick($event) {
         return $data.indexSelect == index ? $data.indexSelect = null : $data.indexSelect = index;
       }
-    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.name), 1
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.name), 1
     /* TEXT */
-    ), _hoisted_16]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.answer), 1
+    ), _hoisted_22]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.answer), 1
     /* TEXT */
     )], 512
     /* NEED_PATCH */
     ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.indexSelect == index]])], 8
     /* PROPS */
-    , _hoisted_14);
+    , _hoisted_20);
   }), 128
   /* KEYED_FRAGMENT */
-  ))]), _hoisted_18])]), _hoisted_19])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_20, [_hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [_hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [_hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.winners, function (item) {
+  ))]), _hoisted_24])]), _hoisted_25])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_26, [_hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, [_hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [_hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.winners, function (item) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       "class": "winner",
       key: item.id
@@ -26167,25 +26290,30 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     )]);
   }), 128
   /* KEYED_FRAGMENT */
-  ))])])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [_hoisted_30, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_35, [_hoisted_36, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_38, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.questions, function (question, index) {
+  ))])])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, [_hoisted_36, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_39, [_hoisted_40, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.slides[$data.slide],
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_43)])])])]), _hoisted_44, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_45, [_hoisted_46, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_47, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_48, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_49, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.questions, function (question, index) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       "class": "question-form",
       key: index,
       onClick: function onClick($event) {
         return $data.indexSelect == index ? $data.indexSelect = null : $data.indexSelect = index;
       }
-    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.name), 1
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.name), 1
     /* TEXT */
-    ), _hoisted_43]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.answer), 1
+    ), _hoisted_53]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_54, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.answer), 1
     /* TEXT */
     )], 512
     /* NEED_PATCH */
     ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.indexSelect == index]])], 8
     /* PROPS */
-    , _hoisted_41);
+    , _hoisted_51);
   }), 128
   /* KEYED_FRAGMENT */
-  ))]), _hoisted_45])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_46, [_hoisted_47, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_48, [_hoisted_49, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [_hoisted_53, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_54, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.winners, function (item) {
+  ))]), _hoisted_55])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_56, [_hoisted_57, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_58, [_hoisted_59, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_60, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_61, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_62, [_hoisted_63, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_64, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.winners, function (item) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       "class": "winner",
       key: item.id
@@ -27534,9 +27662,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 /* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
 /* harmony import */ var _inertiajs_progress__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @inertiajs/progress */ "./node_modules/@inertiajs/progress/dist/index.js");
+/* harmony import */ var vue3_touch_events__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue3-touch-events */ "./node_modules/vue3-touch-events/index.js");
 var _window$document$getE;
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
 
 
 
@@ -27558,7 +27688,7 @@ var appName = ((_window$document$getE = window.document.getElementsByTagName('ti
       render: function render() {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.h)(app, props);
       }
-    }).use(plugin).mixin({
+    }).use(plugin).use(vue3_touch_events__WEBPACK_IMPORTED_MODULE_3__.default).mixin({
       methods: {
         route: route
       }
@@ -27727,7 +27857,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-d7008eee] {\n  padding: 0;\n  margin: 0;\n}\n.main-container .section[data-v-d7008eee] {\n  position: relative;\n}\n.main-container .section img[data-v-d7008eee] {\n  width: 100%;\n  height: 100%;\n}\n.main-container .section .content[data-v-d7008eee] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n.main-container .web[data-v-d7008eee] {\n  display: block;\n  position: relative;\n}\n.main-container .web .menu-web[data-v-d7008eee] {\n  position: fixed;\n  display: flex;\n  left: 0;\n  top: 25%;\n  flex-direction: column;\n  z-index: 1000;\n  margin-left: 20px;\n}\n.main-container .web .menu-web .btn-menu[data-v-d7008eee] {\n  margin-top: 10px;\n}\n.main-container .web .menu-web .btn-menu img[data-v-d7008eee] {\n  width: 65px;\n}\n.main-container .web #premios .content[data-v-d7008eee] {\n  display: flex;\n}\n.main-container .web #premios .content .box[data-v-d7008eee] {\n  flex: 1;\n}\n.main-container .web #premios .content .box:nth-child(2) img[data-v-d7008eee] {\n  width: 60%;\n  margin-top: 25%;\n}\n.main-container .web #ganadores .content[data-v-d7008eee] {\n  display: flex;\n  justify-content: flex-end;\n  align-items: center;\n}\n.main-container .web #ganadores .content .box[data-v-d7008eee] {\n  flex: 1;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container[data-v-d7008eee] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .box-big[data-v-d7008eee] {\n  flex: .7;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 0 20px;\n  flex-direction: column;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .header[data-v-d7008eee] {\n  background-color: #76B727;\n  padding: 15px 15px;\n  font-size: 45px;\n  border-radius: 5px;\n  z-index: 500000;\n  box-shadow: 1px 1px 5px #2b2b2b;\n  margin-bottom: -30px;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .header p[data-v-d7008eee] {\n  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;\n  transform: rotate(-10deg);\n  color: #1D71B9;\n  letter-spacing: 2px;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .winners-container[data-v-d7008eee] {\n  width: 100%;\n  background-color: #76B727;\n  box-shadow: 1px 1px 5px gray;\n  padding: 50px 5px;\n  border-radius: 10px;\n  padding-top: 55px;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .winners-container .winner[data-v-d7008eee] {\n  border-radius: 10px;\n  background-color: white;\n  color: blue;\n  font-weight: bold;\n  font-size: 27px;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  margin-bottom: 10px;\n}\n.main-container .web #preguntas[data-v-d7008eee] {\n  z-index: 100;\n}\n.main-container .web #preguntas .content[data-v-d7008eee] {\n  display: flex;\n}\n.main-container .web #preguntas .content .box[data-v-d7008eee] {\n  flex: 1;\n}\n.main-container .web #preguntas .content .box[data-v-d7008eee]:nth-child(2) {\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n  margin-right: 7%;\n  z-index: 1000000;\n}\n.main-container .web #preguntas .content .box:nth-child(2) a[data-v-d7008eee] {\n  display: inline-block;\n  font-size: 39px;\n  padding: 10px;\n}\n.main-container .web #preguntas .content .box[data-v-d7008eee]:nth-child(1) {\n  flex: 1.5;\n  padding-right: 8%;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions[data-v-d7008eee] {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec[data-v-d7008eee] {\n  margin-top: 35%;\n  flex: 1;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec .question-form[data-v-d7008eee] {\n  padding: 0 15%;\n  margin-top: 10px;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec .question-form .question-name[data-v-d7008eee] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background-color: #76B727;\n  box-shadow: 1px 1px 5px gray;\n  border-radius: 5px;\n  color: white;\n  padding: 10px;\n  cursor: pointer;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec .question-form .answer[data-v-d7008eee] {\n  padding: 5px;\n  background-color: white;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec iframe[data-v-d7008eee] {\n  margin-top: -30%;\n  width: 70%;\n  height: 270px;\n  margin-left: 15%;\n  z-index: 10000;\n}\n.main-container .movil[data-v-d7008eee] {\n  display: none;\n}\n@media only screen and (max-width: 1000px) {\n.main-container .web[data-v-d7008eee] {\n    display: none;\n}\n.main-container .movil[data-v-d7008eee] {\n    display: block;\n    position: relative;\n}\n.main-container .movil .menu-movil[data-v-d7008eee] {\n    position: fixed;\n    top: 170px;\n    left: 0;\n    display: flex;\n    flex-direction: column;\n    z-index: 1000;\n    margin-left: 10px;\n    margin-top: 10px;\n}\n.main-container .movil .menu-movil .btn-menu[data-v-d7008eee] {\n    margin-top: 5px;\n}\n.main-container .movil .menu-movil .btn-menu img[data-v-d7008eee] {\n    width: 33px;\n}\n.main-container .movil #premios2 .content[data-v-d7008eee] {\n    display: flex;\n    justify-content: center;\n    align-items: flex-start;\n}\n.main-container .movil #premios2 .content img[data-v-d7008eee] {\n    margin-left: 17%;\n    width: 70%;\n    margin-top: 50%;\n}\n.main-container .movil #ganadores2 .content[data-v-d7008eee] {\n    display: flex;\n    flex-direction: column-reverse;\n}\n.main-container .movil #ganadores2 .content .box[data-v-d7008eee] {\n    flex: 1;\n}\n.main-container .movil #ganadores2 .content .box[data-v-d7008eee]:nth-child(2) {\n    padding: 15%;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container[data-v-d7008eee] {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .box-big[data-v-d7008eee] {\n    flex: 1;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .header[data-v-d7008eee] {\n    background-color: #1D71B9;\n    padding: 15px 15px;\n    font-size: 35px;\n    border-radius: 5px;\n    z-index: 500000;\n    box-shadow: 1px 1px 5px gray;\n    margin-bottom: -30px;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .header p[data-v-d7008eee] {\n    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;\n    transform: rotate(-10deg);\n    color: #76B727;\n    letter-spacing: 2px;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .winners-container[data-v-d7008eee] {\n    width: 100%;\n    background-color: #76B727;\n    box-shadow: 1px 1px 5px gray;\n    padding: 50px 5px;\n    border-radius: 10px;\n    padding-top: 55px;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .winners-container .winner[data-v-d7008eee] {\n    border-radius: 10px;\n    background-color: white;\n    color: blue;\n    font-weight: bold;\n    font-size: 23px;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    margin-bottom: 10px;\n}\n.main-container .movil #preguntas2 .content[data-v-d7008eee] {\n    display: flex;\n    flex-direction: column-reverse;\n}\n.main-container .movil #preguntas2 .content .box[data-v-d7008eee] {\n    flex: 1;\n}\n.main-container .movil #preguntas2 .content .box[data-v-d7008eee]:nth-child(1) {\n    flex: 1.5;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions[data-v-d7008eee] {\n    margin-top: 50%;\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec[data-v-d7008eee] {\n    flex: 1;\n    justify-content: center;\n    align-items: center;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec .question-form[data-v-d7008eee] {\n    padding: 0 15%;\n    margin-top: 10px;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec .question-form .question-name[data-v-d7008eee] {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    background-color: #76B727;\n    box-shadow: 1px 1px 5px gray;\n    border-radius: 5px;\n    color: white;\n    padding: 10px;\n    cursor: pointer;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec .question-form .answer[data-v-d7008eee] {\n    padding: 5px;\n    background-color: white;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec iframe[data-v-d7008eee] {\n    display: none;\n    width: 70%;\n    margin-left: 15%;\n    z-index: 10000;\n}\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-d7008eee] {\n  padding: 0;\n  margin: 0;\n  position: relative;\n}\n.main-container .wp[data-v-d7008eee] {\n  position: fixed;\n  bottom: 0;\n  right: 0;\n  width: 90px;\n  z-index: 1000000;\n  margin-bottom: 20px;\n  margin-right: 20px;\n}\n.main-container .section[data-v-d7008eee] {\n  position: relative;\n}\n.main-container .section img[data-v-d7008eee] {\n  width: 100%;\n  height: 100%;\n}\n.main-container .section .content[data-v-d7008eee] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n.main-container .web[data-v-d7008eee] {\n  display: block;\n  position: relative;\n}\n.main-container .web .menu-web[data-v-d7008eee] {\n  position: fixed;\n  display: flex;\n  left: 0;\n  top: 25%;\n  flex-direction: column;\n  z-index: 1000;\n  margin-left: 20px;\n}\n.main-container .web .menu-web .btn-menu[data-v-d7008eee] {\n  margin-top: 10px;\n}\n.main-container .web .menu-web .btn-menu img[data-v-d7008eee] {\n  width: 65px;\n}\n.main-container .web #premios .content[data-v-d7008eee] {\n  display: flex;\n}\n.main-container .web #premios .content .box[data-v-d7008eee] {\n  flex: 1;\n}\n.main-container .web #premios .content .box:nth-child(2) img[data-v-d7008eee] {\n  width: 60%;\n  margin-top: 25%;\n}\n.main-container .web #ganadores .content[data-v-d7008eee] {\n  display: flex;\n  justify-content: flex-end;\n  align-items: center;\n}\n.main-container .web #ganadores .content .box[data-v-d7008eee] {\n  flex: 1;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container[data-v-d7008eee] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .box-big[data-v-d7008eee] {\n  flex: .7;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 0 20px;\n  flex-direction: column;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .header[data-v-d7008eee] {\n  background-color: #76B727;\n  padding: 15px 15px;\n  font-size: 45px;\n  border-radius: 5px;\n  z-index: 500000;\n  box-shadow: 1px 1px 5px #2b2b2b;\n  margin-bottom: -30px;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .header p[data-v-d7008eee] {\n  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;\n  transform: rotate(-10deg);\n  color: #1D71B9;\n  letter-spacing: 2px;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .winners-container[data-v-d7008eee] {\n  width: 100%;\n  background-color: #76B727;\n  box-shadow: 1px 1px 5px gray;\n  padding: 50px 5px;\n  border-radius: 10px;\n  padding-top: 55px;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .winners-container .winner[data-v-d7008eee] {\n  border-radius: 10px;\n  background-color: white;\n  color: blue;\n  font-weight: bold;\n  font-size: 27px;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  margin-bottom: 10px;\n}\n.main-container .web #preguntas[data-v-d7008eee] {\n  z-index: 100;\n}\n.main-container .web #preguntas .content[data-v-d7008eee] {\n  display: flex;\n}\n.main-container .web #preguntas .content .box[data-v-d7008eee] {\n  flex: 1;\n}\n.main-container .web #preguntas .content .box[data-v-d7008eee]:nth-child(2) {\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n  margin-right: 7%;\n  z-index: 1000000;\n}\n.main-container .web #preguntas .content .box:nth-child(2) a[data-v-d7008eee] {\n  display: inline-block;\n  font-size: 39px;\n  padding: 10px;\n}\n.main-container .web #preguntas .content .box[data-v-d7008eee]:nth-child(1) {\n  flex: 1.5;\n  padding-right: 8%;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions[data-v-d7008eee] {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec[data-v-d7008eee] {\n  margin-top: 35%;\n  flex: 1;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec .question-form[data-v-d7008eee] {\n  padding: 0 15%;\n  margin-top: 10px;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec .question-form .question-name[data-v-d7008eee] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background-color: #76B727;\n  box-shadow: 1px 1px 5px gray;\n  border-radius: 5px;\n  color: white;\n  padding: 10px;\n  cursor: pointer;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec .question-form .answer[data-v-d7008eee] {\n  padding: 5px;\n  background-color: white;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec iframe[data-v-d7008eee] {\n  margin-top: -30%;\n  width: 70%;\n  height: 270px;\n  margin-left: 15%;\n  z-index: 10000;\n}\n.main-container .movil[data-v-d7008eee] {\n  display: none;\n}\n@media only screen and (max-width: 1000px) {\n.main-container .wp[data-v-d7008eee] {\n    width: 50px;\n}\n.main-container .web[data-v-d7008eee] {\n    display: none;\n}\n.main-container .movil[data-v-d7008eee] {\n    display: block;\n    position: relative;\n}\n.main-container .movil .menu-movil[data-v-d7008eee] {\n    position: fixed;\n    top: 170px;\n    left: 0;\n    display: flex;\n    flex-direction: column;\n    z-index: 1000;\n    margin-left: 10px;\n    margin-top: 10px;\n}\n.main-container .movil .menu-movil .btn-menu[data-v-d7008eee] {\n    margin-top: 5px;\n}\n.main-container .movil .menu-movil .btn-menu img[data-v-d7008eee] {\n    width: 33px;\n}\n.main-container .movil #premios2 .content[data-v-d7008eee] {\n    display: flex;\n    justify-content: center;\n    align-items: flex-start;\n}\n.main-container .movil #premios2 .content img[data-v-d7008eee] {\n    margin-left: 17%;\n    width: 70%;\n    margin-top: 50%;\n}\n.main-container .movil #ganadores2 .content[data-v-d7008eee] {\n    display: flex;\n    flex-direction: column-reverse;\n}\n.main-container .movil #ganadores2 .content .box[data-v-d7008eee] {\n    flex: 1;\n}\n.main-container .movil #ganadores2 .content .box[data-v-d7008eee]:nth-child(2) {\n    padding: 15%;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container[data-v-d7008eee] {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .box-big[data-v-d7008eee] {\n    flex: 1;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .header[data-v-d7008eee] {\n    background-color: #1D71B9;\n    padding: 15px 15px;\n    font-size: 35px;\n    border-radius: 5px;\n    z-index: 500000;\n    box-shadow: 1px 1px 5px gray;\n    margin-bottom: -30px;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .header p[data-v-d7008eee] {\n    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;\n    transform: rotate(-10deg);\n    color: #76B727;\n    letter-spacing: 2px;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .winners-container[data-v-d7008eee] {\n    width: 100%;\n    background-color: #76B727;\n    box-shadow: 1px 1px 5px gray;\n    padding: 50px 5px;\n    border-radius: 10px;\n    padding-top: 55px;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .winners-container .winner[data-v-d7008eee] {\n    border-radius: 10px;\n    background-color: white;\n    color: blue;\n    font-weight: bold;\n    font-size: 23px;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    margin-bottom: 10px;\n}\n.main-container .movil #preguntas2 .content[data-v-d7008eee] {\n    display: flex;\n    flex-direction: column-reverse;\n}\n.main-container .movil #preguntas2 .content .box[data-v-d7008eee] {\n    flex: 1;\n}\n.main-container .movil #preguntas2 .content .box[data-v-d7008eee]:nth-child(1) {\n    flex: 1.5;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions[data-v-d7008eee] {\n    margin-top: 50%;\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec[data-v-d7008eee] {\n    flex: 1;\n    justify-content: center;\n    align-items: center;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec .question-form[data-v-d7008eee] {\n    padding: 0 15%;\n    margin-top: 10px;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec .question-form .question-name[data-v-d7008eee] {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    background-color: #76B727;\n    box-shadow: 1px 1px 5px gray;\n    border-radius: 5px;\n    color: white;\n    padding: 10px;\n    cursor: pointer;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec .question-form .answer[data-v-d7008eee] {\n    padding: 5px;\n    background-color: white;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec iframe[data-v-d7008eee] {\n    display: none;\n    width: 70%;\n    margin-left: 15%;\n    z-index: 10000;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -55037,6 +55167,436 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Welcome_vue_vue_type_style_index_0_id_317d1a6e_lang_scss_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Welcome.vue?vue&type=style&index=0&id=317d1a6e&lang=scss&scoped=true */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Welcome.vue?vue&type=style&index=0&id=317d1a6e&lang=scss&scoped=true");
 
+
+/***/ }),
+
+/***/ "./node_modules/vue3-touch-events/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/vue3-touch-events/index.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/**
+ * @project   vue3-touch-events
+ * @author    Robin Rodricks, Xavier Julien, Jerry Bendy
+ * @since     30/4/2021
+ * @url       https://github.com/robinrodricks/vue3-touch-events
+ */
+
+function touchX(event) {
+    if(event.type.indexOf('mouse') !== -1){
+        return event.clientX;
+    }
+    return event.touches[0].clientX;
+}
+
+function touchY(event) {
+    if(event.type.indexOf('mouse') !== -1){
+        return event.clientY;
+    }
+    return event.touches[0].clientY;
+}
+
+var isPassiveSupported = (function() {
+    var supportsPassive = false;
+    try {
+        var opts = Object.defineProperty({}, 'passive', {
+            get: function() {
+                supportsPassive = true;
+            }
+        });
+        window.addEventListener('test', null, opts);
+    } catch (e) {}
+    return supportsPassive;
+})();
+
+var vueTouchEvents = {
+    install: function (app, constructorOptions) {
+		
+        var globalOptions = Object.assign({}, {
+            disableClick: false,
+            tapTolerance: 10,  // px
+            swipeTolerance: 30,  // px
+            touchHoldTolerance: 400,  // ms
+            longTapTimeInterval: 400,  // ms
+            touchClass: '',
+			dragFrequency: 100, // ms
+			rollOverFrequency: 100, // ms
+        }, constructorOptions);
+
+        function touchStartEvent(event) {
+            var $this = this.$$touchObj,
+                isTouchEvent = event.type.indexOf('touch') >= 0,
+                isMouseEvent = event.type.indexOf('mouse') >= 0,
+                $el = this;
+
+            if (isTouchEvent) {
+                $this.lastTouchStartTime = event.timeStamp;
+            }
+
+            if (isMouseEvent && $this.lastTouchStartTime && event.timeStamp - $this.lastTouchStartTime < 350) {
+                return;
+            }
+
+            if ($this.touchStarted) {
+                return;
+            }
+
+            addTouchClass(this);
+
+            $this.touchStarted = true; // always true while the element is being PRESSED
+
+            $this.touchMoved = false; // true only when the element is PRESSED and DRAGGED a bit
+            $this.swipeOutBounded = false;
+
+            $this.startX = touchX(event);
+            $this.startY = touchY(event);
+
+            $this.currentX = 0; // always updated with the last mouse X/Y while over the element
+            $this.currentY = 0;
+
+            $this.touchStartTime = event.timeStamp;
+			
+			// performance: only process swipe events if `swipe.*` event is registered on this element
+			$this.hasSwipe = hasEvent(this, 'swipe')
+				|| hasEvent(this, 'swipe.left') || hasEvent(this, 'swipe.right')
+				|| hasEvent(this, 'swipe.top') || hasEvent(this, 'swipe.bottom');
+
+			// performance: only start hold timer if the `hold` event is registered on this element
+			if (hasEvent(this, 'hold')){
+				
+				// Trigger touchhold event after `touchHoldTolerance` MS
+				$this.touchHoldTimer = setTimeout(function() {
+					$this.touchHoldTimer = null;
+					triggerEvent(event, $el, 'hold');
+				}, $this.options.touchHoldTolerance);
+			}
+			
+            triggerEvent(event, this, 'press');
+        }
+
+        function touchMoveEvent(event) {
+            var $this = this.$$touchObj;
+			
+			var curX = touchX(event);
+			var curY = touchY(event);
+
+			var movedAgain = ($this.currentX != curX) || ($this.currentY != curY);
+			
+            $this.currentX = curX;
+            $this.currentY = curY;
+
+            if (!$this.touchMoved) {
+                var tapTolerance = $this.options.tapTolerance;
+
+                $this.touchMoved = Math.abs($this.startX - $this.currentX) > tapTolerance ||
+								   Math.abs($this.startY - $this.currentY) > tapTolerance;
+
+				// trigger `drag.once` only once after mouse FIRST moved while dragging the element
+				// (`touchMoved` is the flag that indicates we no longer need to trigger this)
+                if($this.touchMoved){
+                    cancelTouchHoldTimer($this);
+                    triggerEvent(event, this, 'drag.once');
+                }
+
+			// performance: only process swipe events if `swipe.*` event is registered on this element
+            } else if ($this.hasSwipe && !$this.swipeOutBounded) {
+				var swipeOutBounded = $this.options.swipeTolerance;
+
+				$this.swipeOutBounded = Math.abs($this.startX - $this.currentX) > swipeOutBounded &&
+					Math.abs($this.startY - $this.currentY) > swipeOutBounded;
+            }
+
+			// only trigger `rollover` event if cursor actually moved over this element
+            if(hasEvent(this, 'rollover') && movedAgain){
+				
+				// throttle the `rollover` event based on `rollOverFrequency`
+				var now = event.timeStamp;
+				var throttle = $this.options.rollOverFrequency;
+				if ($this.touchRollTime == null || now > ($this.touchRollTime + throttle)){
+					$this.touchRollTime = now;
+					
+					triggerEvent(event, this, 'rollover');
+				}
+            }
+
+			// only trigger `drag` event if cursor actually moved and if we are still dragging this element
+            if(hasEvent(this, 'drag') && $this.touchStarted && $this.touchMoved && movedAgain){
+				
+				// throttle the `drag` event based on `dragFrequency`
+				var now = event.timeStamp;
+				var throttle = $this.options.dragFrequency;
+				if ($this.touchDragTime == null || now > ($this.touchDragTime + throttle)){
+					$this.touchDragTime = now;
+					
+					triggerEvent(event, this, 'drag');
+				}
+            }
+        }
+
+        function touchCancelEvent() {
+            var $this = this.$$touchObj;
+
+            cancelTouchHoldTimer($this);
+            removeTouchClass(this);
+
+            $this.touchStarted = $this.touchMoved = false;
+            $this.startX = $this.startY = 0;
+        }
+
+        function touchEndEvent(event) {
+            var $this = this.$$touchObj,
+                isTouchEvent = event.type.indexOf('touch') >= 0,
+                isMouseEvent = event.type.indexOf('mouse') >= 0;
+
+            if (isTouchEvent) {
+                $this.lastTouchEndTime = event.timeStamp;
+            }
+
+            var touchholdEnd = isTouchEvent && !$this.touchHoldTimer;
+            cancelTouchHoldTimer($this);
+
+            $this.touchStarted = false;
+
+            removeTouchClass(this);
+
+            if (isMouseEvent && $this.lastTouchEndTime && event.timeStamp - $this.lastTouchEndTime < 350) {
+                return;
+            }
+
+            // trigger `end` event when touch stopped
+            triggerEvent(event, this, 'release');
+
+            if (!$this.touchMoved) {
+                // detect if this is a longTap event or not
+                if (hasEvent(this, 'longtap') && event.timeStamp - $this.touchStartTime > $this.options.longTapTimeInterval) {
+                    if (event.cancelable) {
+                        event.preventDefault();
+                    }
+                    triggerEvent(event, this, 'longtap');
+
+                } else if (hasEvent(this, 'hold') && touchholdEnd) {
+                    if (event.cancelable) {
+                        event.preventDefault();
+                    }
+                    return;
+                } else {
+                    // emit tap event
+                    triggerEvent(event, this, 'tap');
+                }
+
+			// performance: only process swipe events if `swipe.*` event is registered on this element
+            } else if ($this.hasSwipe && !$this.swipeOutBounded) {
+                var swipeOutBounded = $this.options.swipeTolerance,
+                    direction,
+                    distanceY = Math.abs($this.startY - $this.currentY),
+                    distanceX = Math.abs($this.startX - $this.currentX);
+
+                if (distanceY > swipeOutBounded || distanceX > swipeOutBounded) {
+                    if (distanceY > swipeOutBounded) {
+                        direction = $this.startY > $this.currentY ? 'top' : 'bottom';
+                    } else {
+                        direction = $this.startX > $this.currentX ? 'left' : 'right';
+                    }
+
+                    // Only emit the specified event when it has modifiers
+                    if (hasEvent(this, 'swipe.' + direction)) {
+                        triggerEvent(event, this, 'swipe.' + direction, direction);
+                    } else {
+                        // Emit a common event when it has no any modifier
+                        triggerEvent(event, this, 'swipe', direction);
+                    }
+                }
+            }
+        }
+
+        function mouseEnterEvent() {
+            addTouchClass(this);
+        }
+
+        function mouseLeaveEvent() {
+            removeTouchClass(this);
+        }
+
+        function hasEvent($el, eventType) {
+            var callbacks = $el.$$touchObj.callbacks[eventType];
+			return (callbacks != null && callbacks.length > 0);
+		}
+		
+        function triggerEvent(e, $el, eventType, param) {
+            var $this = $el.$$touchObj;
+
+            // get the subscribers for this event
+            var callbacks = $this.callbacks[eventType];
+			
+			// exit if no subscribers to this particular event
+            if (callbacks == null || callbacks.length === 0) {
+                return null;
+            }
+
+			// per callback
+            for (var i = 0; i < callbacks.length; i++) {
+                var binding = callbacks[i];
+
+                if (binding.modifiers.stop) {
+                    e.stopPropagation();
+                }
+
+                if (binding.modifiers.prevent) {
+                    e.preventDefault();
+                }
+
+                // handle `self` modifier`
+                if (binding.modifiers.self && e.target !== e.currentTarget) {
+                    continue;
+                }
+
+                if (typeof binding.value === 'function') {
+                    if (param) {
+                        binding.value(param, e);
+                    } else {
+                        binding.value(e);
+                    }
+                }
+            }
+        }
+
+        function addTouchClass($el) {
+            var className = $el.$$touchObj.options.touchClass;
+            className && $el.classList.add(className);
+        }
+
+        function removeTouchClass($el) {
+            var className = $el.$$touchObj.options.touchClass;
+            className && $el.classList.remove(className);
+        }
+
+        function cancelTouchHoldTimer($this) {
+            if ($this.touchHoldTimer) {
+                clearTimeout($this.touchHoldTimer);
+                $this.touchHoldTimer = null;
+            }
+        }
+
+        function buildTouchObj($el, extraOptions) {
+            var touchObj = $el.$$touchObj || {
+                // an object contains all callbacks registered,
+                // key is event name, value is an array
+                callbacks: {},
+                // prevent bind twice, set to true when event bound
+                hasBindTouchEvents: false,
+                // default options, would be override by v-touch-options
+                options: globalOptions
+            };
+            if (extraOptions) {
+                touchObj.options = Object.assign({}, touchObj.options, extraOptions);
+            }
+            $el.$$touchObj = touchObj;
+            return $el.$$touchObj;
+        }
+
+        app.directive('touch', {
+            beforeMount: function ($el, binding) {
+                // build a touch configuration object
+                var $this = buildTouchObj($el);
+                // declare passive option for the event listener. Defaults to { passive: true } if supported
+                var passiveOpt = isPassiveSupported ? { passive: true } : false;
+                // register callback
+                var eventType = binding.arg || 'tap';
+                switch (eventType) {
+                    case 'swipe':
+                        var _m = binding.modifiers;
+                        if (_m.left || _m.right || _m.top || _m.bottom) {
+                            for (var i in binding.modifiers) {
+                                if (['left', 'right', 'top', 'bottom'].indexOf(i) >= 0) {
+                                    var _e = 'swipe.' + i;
+                                    $this.callbacks[_e] = $this.callbacks[_e] || [];
+                                    $this.callbacks[_e].push(binding);
+                                }
+                            }
+                        } else {
+                            $this.callbacks.swipe = $this.callbacks.swipe || [];
+                            $this.callbacks.swipe.push(binding);
+                        }
+                        break;
+
+                    case 'press':
+                    case 'drag':
+                        if (binding.modifiers.disablePassive) {
+                            // change the passive option for the `drag` event if disablePassive modifier exists
+                            passiveOpt = false;
+                        }
+                    default:
+                        $this.callbacks[eventType] = $this.callbacks[eventType] || [];
+                        $this.callbacks[eventType].push(binding);
+                }
+
+                // prevent bind twice
+                if ($this.hasBindTouchEvents) {
+                    return;
+                }
+
+                $el.addEventListener('touchstart', touchStartEvent, passiveOpt);
+                $el.addEventListener('touchmove', touchMoveEvent, passiveOpt);
+                $el.addEventListener('touchcancel', touchCancelEvent);
+                $el.addEventListener('touchend', touchEndEvent);
+
+                if (!$this.options.disableClick) {
+                    $el.addEventListener('mousedown', touchStartEvent);
+                    $el.addEventListener('mousemove', touchMoveEvent);
+                    $el.addEventListener('mouseup', touchEndEvent);
+                    $el.addEventListener('mouseenter', mouseEnterEvent);
+                    $el.addEventListener('mouseleave', mouseLeaveEvent);
+                }
+
+                // set bind mark to true
+                $this.hasBindTouchEvents = true;
+            },
+
+            unmounted: function ($el) {
+                $el.removeEventListener('touchstart', touchStartEvent);
+                $el.removeEventListener('touchmove', touchMoveEvent);
+                $el.removeEventListener('touchcancel', touchCancelEvent);
+                $el.removeEventListener('touchend', touchEndEvent);
+
+                if ($el.$$touchObj && !$el.$$touchObj.options.disableClick) {
+                    $el.removeEventListener('mousedown', touchStartEvent);
+                    $el.removeEventListener('mousemove', touchMoveEvent);
+                    $el.removeEventListener('mouseup', touchEndEvent);
+                    $el.removeEventListener('mouseenter', mouseEnterEvent);
+                    $el.removeEventListener('mouseleave', mouseLeaveEvent);
+                }
+
+                // remove vars
+                delete $el.$$touchObj;
+            }
+        });
+
+        app.directive('touch-class', {
+            beforeMount: function ($el, binding) {
+                buildTouchObj($el, {
+                    touchClass: binding.value
+                });
+            }
+        });
+
+        app.directive('touch-options', {
+            beforeMount: function($el, binding) {
+                buildTouchObj($el, binding.value);
+            }
+        });
+    }
+};
+
+/*
+ * Exports
+ */
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (vueTouchEvents);
 
 /***/ }),
 

@@ -2,6 +2,17 @@
     .main-container{
         padding: 0;
         margin: 0;
+        position: relative;
+
+        .wp{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 90px;
+            z-index: 1000000;
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
 
         .section{
             position: relative;
@@ -217,6 +228,10 @@
         }
 
         @media only screen and (max-width: 1000px){
+            .wp{
+                width: 50px;
+            }
+
             .web{
                 display: none;
             }
@@ -398,6 +413,9 @@
 
 <template>
     <div class="main-container">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=8007000000">
+            <img class="wp" src="/images/nueva/icos/Recurso 81.png" alt="">
+        </a>
         <div class="web">
             <div class="menu-web">
                 <div class="btn-menu">
@@ -452,7 +470,7 @@
                     </div>
                     <div class="box">
                         <div>
-                            <img src="/images/nueva/elements/premios 2k.png" alt="">
+                            <img :src="slides[slide]" alt="">
                         </div>
                     </div>
                 </div>
@@ -575,7 +593,7 @@
                 <div class="content">
                     <div class="box">
                        <div>
-                            <img src="/images/nueva/elements/premios 2k.png" alt="">
+                            <img :src="slides[slide]" alt="">
                         </div>
                     </div>
                 </div>
@@ -659,8 +677,47 @@ export default {
 
         data(){
             return{
+                slide: 0,
                 indexSelect: null,
+                slides: [
+                    '/images/nueva/elements/premios 2k.png',
+                    '/images/nueva/elements/premios 10k.png',
+                    '/images/nueva/elements/premios 25k.png',
+                    '/images/nueva/elements/premios 5500.png',
+                ]
             }
-        }
+        },
+
+        mounted() {
+            setInterval(() => {
+                this.slide++
+                if (this.slide == 4) {
+                    this.slide = 0
+                }
+            }, 4000)
+        },
+
+        watch: {
+            
+        },
+
+        methods: {
+            left(){
+                console.log('ola');
+                if (this.slide == 0) {
+                    this.slide = this.slides.length - 1
+                }else{
+                    this.slides--
+                }
+            },
+
+            right(){
+                if (this.slide == (this.slides.length - 1)) {
+                    this.slide = 0
+                }else{
+                    this.slides++
+                }
+            }
+        },
 }
 </script>
