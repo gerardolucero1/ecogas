@@ -134,7 +134,7 @@
                                 .winner{
                                     border-radius: 10px;
                                     background-color: white;
-                                    color: blue;
+                                    color: #005295;
                                     font-weight: bold;
                                     font-size: 27px;
                                     display: flex;
@@ -335,7 +335,7 @@
                                     .winner{
                                         border-radius: 10px;
                                         background-color: white;
-                                        color: blue;
+                                        color: #005295;
                                         font-weight: bold;
                                         font-size: 23px;
                                         display: flex;
@@ -412,6 +412,19 @@
                     }
                 }
             }
+
+            .button-section{
+                justify-content: space-around;
+
+
+                a{
+                    margin-left: 2px;
+                    margin-right: 2px;
+                    line-height: 9px;
+                    height: 30px;
+                    font-size: 9px;
+                }
+            }
         }
     }
 
@@ -430,6 +443,37 @@
         border-radius: 5px;
         padding: 5px;
     }
+
+    .button-section{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10000000;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        a{
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: #76B727;
+            display: inline-block;
+            text-decoration: none;
+            color: #005295;
+            border: 1px solid white;
+            border-bottom: none;
+            padding: 2px 5px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 35px;
+        }
+    }
 </style>
 
 <template>
@@ -437,6 +481,22 @@
         <a target="_blank" href="https://api.whatsapp.com/send?phone=8007000000">
             <img class="wp" src="/images/nueva/icos/Recurso 81.png" alt="">
         </a>
+
+        <div class="button-section">
+            <jet-nav-link :href="route('faqs')" :active="route().current('faqs')">
+                FAQ's
+            </jet-nav-link>
+            <jet-nav-link :href="route('terminos')" :active="route().current('terminos')">
+                BASES LEGALES <br>
+                TERMINOS Y CONDICIONES
+            </jet-nav-link>
+            <jet-nav-link :href="route('privacidad')" :active="route().current('privacidad')">
+                AVISO DE PRIVACIDAD
+            </jet-nav-link>
+            <jet-nav-link :href="route('contacto')" :active="route().current('contacto')">
+                CONTACTO
+            </jet-nav-link>
+        </div>
         
         <div class="web">
             <div class="menu-web">
@@ -696,11 +756,13 @@
 
 <script>
 import { Head, Link } from '@inertiajs/inertia-vue3';
+import JetNavLink from '@/Jetstream/NavLink'
 
 export default {
     components: {
             Head,
             Link,
+            JetNavLink,
         },
 
         props: {

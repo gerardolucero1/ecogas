@@ -36,6 +36,26 @@ Route::get('/', function () {
     ]);
 })->name('welcome');
 
+Route::get('/faqs', function () {
+    $questions = Question::all();
+
+    return Inertia::render('Faqs', [
+        'questions' => $questions,
+    ]);
+})->name('faqs');
+
+Route::get('/terminos-condiciones', function () {
+    return Inertia::render('Terminos');
+})->name('terminos');
+
+Route::get('/privacidad', function () {
+    return Inertia::render('Privacidad');
+})->name('privacidad');
+
+Route::get('/contacto', function () {
+    return Inertia::render('Contacto');
+})->name('contacto');
+
 Route::group(['middleware' => ['auth:sanctum', 'verified']], function () {
     Route::get('/dashboard', function () {
         $winners = Winner::all();
