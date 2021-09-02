@@ -20759,6 +20759,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
+      tooltip: 0,
       slide: 0,
       indexSelect: null,
       slides: ['/images/nueva/elements/premios 2k.png', '/images/nueva/elements/premios 10k.png', '/images/nueva/elements/premios 25k.png', '/images/nueva/elements/premios 5500.png']
@@ -25969,37 +25970,136 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 var _hoisted_3 = {
   "class": "web"
 };
+var _hoisted_4 = {
+  "class": "menu-web"
+};
+var _hoisted_5 = {
+  "class": "btn-menu"
+};
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"menu-web\" data-v-d7008eee><div class=\"btn-menu\" data-v-d7008eee><a href=\"#home\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 75.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#mecanica\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 76.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#premios\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 77.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#pagos\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 78.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#preguntas\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 79.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#ganadores\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 80.png\" alt=\"\" data-v-d7008eee></a></div></div><section class=\"section\" id=\"home\" data-v-d7008eee><img src=\"/images/nueva/web/HOME.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section><section class=\"section\" id=\"mecanica\" data-v-d7008eee><img src=\"/images/nueva/web/MECANICA.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section>", 3);
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/nueva/icos/Recurso 75.png",
+  alt: ""
+}, null, -1
+/* HOISTED */
+);
 
-var _hoisted_7 = {
+var _hoisted_7 = [_hoisted_6];
+var _hoisted_8 = {
+  style: {
+    "margin-right": "-50px"
+  },
+  "class": "tooltip"
+};
+var _hoisted_9 = {
+  "class": "btn-menu"
+};
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/nueva/icos/Recurso 76.png",
+  alt: ""
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_11 = [_hoisted_10];
+var _hoisted_12 = {
+  style: {
+    "margin-right": "-80px"
+  },
+  "class": "tooltip"
+};
+
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "#premios"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/nueva/icos/Recurso 77.png",
+  alt: ""
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_14 = {
+  style: {
+    "margin-right": "-70px"
+  },
+  "class": "tooltip"
+};
+
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "#pagos"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/nueva/icos/Recurso 78.png",
+  alt: ""
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_16 = {
+  style: {
+    "margin-right": "-57px"
+  },
+  "class": "tooltip"
+};
+
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "#preguntas"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/nueva/icos/Recurso 79.png",
+  alt: ""
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_18 = {
+  style: {
+    "margin-right": "-85px"
+  },
+  "class": "tooltip"
+};
+
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "#ganadores"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/nueva/icos/Recurso 80.png",
+  alt: ""
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_20 = {
+  style: {
+    "margin-right": "-90px"
+  },
+  "class": "tooltip"
+};
+
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"section\" id=\"home\" data-v-d7008eee><img src=\"/images/nueva/web/HOME.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section><section class=\"section\" id=\"mecanica\" data-v-d7008eee><img src=\"/images/nueva/web/MECANICA.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section>", 2);
+
+var _hoisted_23 = {
   "class": "section",
   id: "premios"
 };
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/images/nueva/web/PREMIOS.png",
   alt: ""
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_9 = {
+var _hoisted_25 = {
   "class": "content"
 };
-
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "box"
-}, null, -1
-/* HOISTED */
-);
-
-var _hoisted_11 = {
+var _hoisted_26 = {
   "class": "box"
 };
-var _hoisted_12 = ["src"];
+var _hoisted_27 = {
+  "class": "carousel"
+};
+var _hoisted_28 = ["src"];
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
   "class": "section",
   id: "pagos"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -26011,46 +26111,46 @@ var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_14 = {
+var _hoisted_30 = {
   "class": "section",
   id: "preguntas"
 };
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/images/nueva/web/PREGUNTAS.png",
   alt: ""
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_16 = {
+var _hoisted_32 = {
   "class": "content"
 };
-var _hoisted_17 = {
+var _hoisted_33 = {
   "class": "box"
 };
-var _hoisted_18 = {
+var _hoisted_34 = {
   "class": "questions"
 };
-var _hoisted_19 = {
+var _hoisted_35 = {
   "class": "sec"
 };
-var _hoisted_20 = ["onClick"];
-var _hoisted_21 = {
+var _hoisted_36 = ["onClick"];
+var _hoisted_37 = {
   "class": "question-name"
 };
 
-var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+var _hoisted_38 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
   "class": "fas fa-plus"
 })], -1
 /* HOISTED */
 );
 
-var _hoisted_23 = {
+var _hoisted_39 = {
   "class": "answer"
 };
 
-var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_40 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "sec"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("iframe", {
   width: "100%",
@@ -26064,50 +26164,50 @@ var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"box\" data-v-d7008eee><a href=\"#\" data-v-d7008eee><i class=\"fab fa-facebook-square\" data-v-d7008eee></i></a><a href=\"#\" data-v-d7008eee><i class=\"fab fa-twitter\" data-v-d7008eee></i></a><a href=\"#\" data-v-d7008eee><i class=\"fab fa-instagram\" data-v-d7008eee></i></a></div>", 1);
+var _hoisted_41 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"box\" data-v-d7008eee><a href=\"#\" data-v-d7008eee><i class=\"fab fa-facebook-square\" data-v-d7008eee></i></a><a href=\"#\" data-v-d7008eee><i class=\"fab fa-twitter\" data-v-d7008eee></i></a><a href=\"#\" data-v-d7008eee><i class=\"fab fa-instagram\" data-v-d7008eee></i></a></div>", 1);
 
-var _hoisted_26 = {
+var _hoisted_42 = {
   "class": "section",
   id: "ganadores"
 };
 
-var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_43 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/images/nueva/web/GANADORES.png",
   alt: ""
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_28 = {
+var _hoisted_44 = {
   "class": "content"
 };
 
-var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "box"
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_30 = {
+var _hoisted_46 = {
   "class": "box"
 };
-var _hoisted_31 = {
+var _hoisted_47 = {
   "class": "binnie-container"
 };
-var _hoisted_32 = {
+var _hoisted_48 = {
   "class": "box-big"
 };
 
-var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_49 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "header"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "GANADORES")], -1
 /* HOISTED */
 );
 
-var _hoisted_34 = {
+var _hoisted_50 = {
   "class": "winners-container"
 };
-var _hoisted_35 = {
+var _hoisted_51 = {
   "class": "movil",
   style: {
     "background-color": "#005295",
@@ -26115,29 +26215,29 @@ var _hoisted_35 = {
   }
 };
 
-var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"menu-movil\" data-v-d7008eee><div class=\"btn-menu\" data-v-d7008eee><a href=\"#home2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 75.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#mecanica2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 76.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#premios2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 77.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#pagos2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 78.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#preguntas2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 79.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#ganadores2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 80.png\" alt=\"\" data-v-d7008eee></a></div></div><section class=\"section\" id=\"home2\" data-v-d7008eee><img src=\"/images/nueva/movil/HOME.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section><section class=\"section\" id=\"mecanica2\" data-v-d7008eee><img src=\"/images/nueva/movil/MECANICA.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section>", 3);
+var _hoisted_52 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"menu-movil\" data-v-d7008eee><div class=\"btn-menu\" data-v-d7008eee><a href=\"#home2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 75.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#mecanica2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 76.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#premios2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 77.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#pagos2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 78.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#preguntas2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 79.png\" alt=\"\" data-v-d7008eee></a></div><div class=\"btn-menu\" data-v-d7008eee><a href=\"#ganadores2\" data-v-d7008eee><img src=\"/images/nueva/icos/Recurso 80.png\" alt=\"\" data-v-d7008eee></a></div></div><section class=\"section\" id=\"home2\" data-v-d7008eee><img src=\"/images/nueva/movil/HOME.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section><section class=\"section\" id=\"mecanica2\" data-v-d7008eee><img src=\"/images/nueva/movil/MECANICA.png\" alt=\"\" data-v-d7008eee><div class=\"content\" data-v-d7008eee></div></section>", 3);
 
-var _hoisted_39 = {
+var _hoisted_55 = {
   "class": "section",
   id: "premios2"
 };
 
-var _hoisted_40 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_56 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/images/nueva/movil/PREMIOS.png",
   alt: ""
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_41 = {
+var _hoisted_57 = {
   "class": "content"
 };
-var _hoisted_42 = {
-  "class": "box"
+var _hoisted_58 = {
+  "class": "carousel-movil"
 };
-var _hoisted_43 = ["src"];
+var _hoisted_59 = ["src"];
 
-var _hoisted_44 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+var _hoisted_60 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
   "class": "section",
   id: "pagos2",
   style: {
@@ -26152,46 +26252,46 @@ var _hoisted_44 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_45 = {
+var _hoisted_61 = {
   "class": "section",
   id: "preguntas2"
 };
 
-var _hoisted_46 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_62 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/images/nueva/movil/PREGUNTAS.png",
   alt: ""
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_47 = {
+var _hoisted_63 = {
   "class": "content"
 };
-var _hoisted_48 = {
+var _hoisted_64 = {
   "class": "box"
 };
-var _hoisted_49 = {
+var _hoisted_65 = {
   "class": "questions"
 };
-var _hoisted_50 = {
+var _hoisted_66 = {
   "class": "sec"
 };
-var _hoisted_51 = ["onClick"];
-var _hoisted_52 = {
+var _hoisted_67 = ["onClick"];
+var _hoisted_68 = {
   "class": "question-name"
 };
 
-var _hoisted_53 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+var _hoisted_69 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
   "class": "fas fa-plus"
 })], -1
 /* HOISTED */
 );
 
-var _hoisted_54 = {
+var _hoisted_70 = {
   "class": "answer"
 };
 
-var _hoisted_55 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_71 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "sec"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("iframe", {
   width: "100%",
@@ -26205,7 +26305,7 @@ var _hoisted_55 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_56 = {
+var _hoisted_72 = {
   "class": "section",
   id: "ganadores2",
   style: {
@@ -26213,7 +26313,7 @@ var _hoisted_56 = {
   }
 };
 
-var _hoisted_57 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_73 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   style: {
     "margin-left": "-2px"
   },
@@ -26223,63 +26323,157 @@ var _hoisted_57 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_58 = {
+var _hoisted_74 = {
   "class": "content"
 };
 
-var _hoisted_59 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_75 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "box"
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_60 = {
+var _hoisted_76 = {
   "class": "box"
 };
-var _hoisted_61 = {
+var _hoisted_77 = {
   "class": "binnie-container"
 };
-var _hoisted_62 = {
+var _hoisted_78 = {
   "class": "box-big"
 };
 
-var _hoisted_63 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_79 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "header"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "GANADORES")], -1
 /* HOISTED */
 );
 
-var _hoisted_64 = {
+var _hoisted_80 = {
   "class": "winners-container"
 };
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    src: $data.slides[$data.slide],
-    alt: ""
-  }, null, 8
-  /* PROPS */
-  , _hoisted_12)])])])]), _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_14, [_hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.questions, function (question, index) {
+  var _component_agile = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("agile");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "#home",
+    onMouseenter: _cache[0] || (_cache[0] = function ($event) {
+      return $data.tooltip = 1;
+    }),
+    onMouseleave: _cache[1] || (_cache[1] = function ($event) {
+      return $data.tooltip = 0;
+    })
+  }, _hoisted_7, 32
+  /* HYDRATE_EVENTS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_8, "Inicio", 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.tooltip == 1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "#mecanica",
+    onMouseenter: _cache[2] || (_cache[2] = function ($event) {
+      return $data.tooltip = 2;
+    }),
+    onMouseleave: _cache[3] || (_cache[3] = function ($event) {
+      return $data.tooltip = 0;
+    })
+  }, _hoisted_11, 32
+  /* HYDRATE_EVENTS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_12, "Mecanica", 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.tooltip == 2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-menu",
+    onMouseenter: _cache[4] || (_cache[4] = function ($event) {
+      return $data.tooltip = 3;
+    }),
+    onMouseleave: _cache[5] || (_cache[5] = function ($event) {
+      return $data.tooltip = 0;
+    })
+  }, [_hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_14, "Premios", 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.tooltip == 3]])], 32
+  /* HYDRATE_EVENTS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-menu",
+    onMouseenter: _cache[6] || (_cache[6] = function ($event) {
+      return $data.tooltip = 4;
+    }),
+    onMouseleave: _cache[7] || (_cache[7] = function ($event) {
+      return $data.tooltip = 0;
+    })
+  }, [_hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_16, "Pagos", 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.tooltip == 4]])], 32
+  /* HYDRATE_EVENTS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-menu",
+    onMouseenter: _cache[8] || (_cache[8] = function ($event) {
+      return $data.tooltip = 5;
+    }),
+    onMouseleave: _cache[9] || (_cache[9] = function ($event) {
+      return $data.tooltip = 0;
+    })
+  }, [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_18, "Preguntas", 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.tooltip == 5]])], 32
+  /* HYDRATE_EVENTS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-menu",
+    onMouseenter: _cache[10] || (_cache[10] = function ($event) {
+      return $data.tooltip = 6;
+    }),
+    onMouseleave: _cache[11] || (_cache[11] = function ($event) {
+      return $data.tooltip = 0;
+    })
+  }, [_hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_20, "Ganadores", 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.tooltip == 6]])], 32
+  /* HYDRATE_EVENTS */
+  )]), _hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_23, [_hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_agile, {
+    centerMode: true,
+    autoplay: "autoplay",
+    "nav-buttons": false,
+    "autoplay-speed": 4000,
+    speed: 1000
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.slides, function (slide, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          "class": "slide",
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+          src: slide,
+          alt: ""
+        }, null, 8
+        /* PROPS */
+        , _hoisted_28)]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))];
+    }),
+    _: 1
+    /* STABLE */
+
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div>\n                            <img :src=\"slides[slide]\" alt=\"\">\n                        </div> ")])])]), _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_30, [_hoisted_31, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.questions, function (question, index) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       "class": "question-form",
       key: index,
       onClick: function onClick($event) {
         return $data.indexSelect == index ? $data.indexSelect = null : $data.indexSelect = index;
       }
-    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.name), 1
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.name), 1
     /* TEXT */
-    ), _hoisted_22]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.answer), 1
+    ), _hoisted_38]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.answer), 1
     /* TEXT */
     )], 512
     /* NEED_PATCH */
     ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.indexSelect == index]])], 8
     /* PROPS */
-    , _hoisted_20);
+    , _hoisted_36);
   }), 128
   /* KEYED_FRAGMENT */
-  ))]), _hoisted_24])]), _hoisted_25])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_26, [_hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, [_hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [_hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.winners, function (item) {
+  ))]), _hoisted_40])]), _hoisted_41])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_42, [_hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, [_hoisted_45, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_46, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_47, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_48, [_hoisted_49, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.winners, function (item) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       "class": "winner",
       key: item.id
@@ -26290,30 +26484,50 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     )]);
   }), 128
   /* KEYED_FRAGMENT */
-  ))])])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, [_hoisted_36, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_39, [_hoisted_40, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    src: $data.slides[$data.slide],
-    alt: ""
-  }, null, 8
-  /* PROPS */
-  , _hoisted_43)])])])]), _hoisted_44, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_45, [_hoisted_46, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_47, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_48, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_49, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.questions, function (question, index) {
+  ))])])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [_hoisted_52, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_55, [_hoisted_56, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_57, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_58, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_agile, {
+    centerMode: true,
+    autoplay: "autoplay",
+    "nav-buttons": false,
+    "autoplay-speed": 4000,
+    speed: 1000
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.slides, function (slide, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          "class": "slide",
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+          src: slide,
+          alt: ""
+        }, null, 8
+        /* PROPS */
+        , _hoisted_59)]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))];
+    }),
+    _: 1
+    /* STABLE */
+
+  })])])]), _hoisted_60, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_61, [_hoisted_62, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_63, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_64, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_65, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.questions, function (question, index) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       "class": "question-form",
       key: index,
       onClick: function onClick($event) {
         return $data.indexSelect == index ? $data.indexSelect = null : $data.indexSelect = index;
       }
-    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.name), 1
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_68, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.name), 1
     /* TEXT */
-    ), _hoisted_53]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_54, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.answer), 1
+    ), _hoisted_69]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_70, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.answer), 1
     /* TEXT */
     )], 512
     /* NEED_PATCH */
     ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.indexSelect == index]])], 8
     /* PROPS */
-    , _hoisted_51);
+    , _hoisted_67);
   }), 128
   /* KEYED_FRAGMENT */
-  ))]), _hoisted_55])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_56, [_hoisted_57, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_58, [_hoisted_59, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_60, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_61, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_62, [_hoisted_63, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_64, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.winners, function (item) {
+  ))]), _hoisted_71])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_72, [_hoisted_73, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_74, [_hoisted_75, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_76, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_77, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_78, [_hoisted_79, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_80, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.winners, function (item) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       "class": "winner",
       key: item.id
@@ -27662,10 +27876,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 /* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
 /* harmony import */ var _inertiajs_progress__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @inertiajs/progress */ "./node_modules/@inertiajs/progress/dist/index.js");
-/* harmony import */ var vue3_touch_events__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue3-touch-events */ "./node_modules/vue3-touch-events/index.js");
+/* harmony import */ var vue_agile__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-agile */ "./node_modules/vue-agile/src/index.js");
+/* harmony import */ var primevue_config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! primevue/config */ "./node_modules/primevue/config/config.esm.js");
+/* harmony import */ var primevue_tooltip__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! primevue/tooltip */ "./node_modules/primevue/tooltip/tooltip.esm.js");
+/* harmony import */ var primevue_checkbox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! primevue/checkbox */ "./node_modules/primevue/checkbox/checkbox.esm.js");
 var _window$document$getE;
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+
+
 
 
 
@@ -27688,7 +27908,7 @@ var appName = ((_window$document$getE = window.document.getElementsByTagName('ti
       render: function render() {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.h)(app, props);
       }
-    }).use(plugin).use(vue3_touch_events__WEBPACK_IMPORTED_MODULE_3__.default).mixin({
+    }).use(plugin).use(primevue_config__WEBPACK_IMPORTED_MODULE_4__.default).use(vue_agile__WEBPACK_IMPORTED_MODULE_3__.default).directive('tooltip', primevue_tooltip__WEBPACK_IMPORTED_MODULE_5__.default).component('Checkbox', primevue_checkbox__WEBPACK_IMPORTED_MODULE_6__.default).mixin({
       methods: {
         route: route
       }
@@ -27857,7 +28077,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-d7008eee] {\n  padding: 0;\n  margin: 0;\n  position: relative;\n}\n.main-container .wp[data-v-d7008eee] {\n  position: fixed;\n  bottom: 0;\n  right: 0;\n  width: 90px;\n  z-index: 1000000;\n  margin-bottom: 20px;\n  margin-right: 20px;\n}\n.main-container .section[data-v-d7008eee] {\n  position: relative;\n}\n.main-container .section img[data-v-d7008eee] {\n  width: 100%;\n  height: 100%;\n}\n.main-container .section .content[data-v-d7008eee] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n.main-container .web[data-v-d7008eee] {\n  display: block;\n  position: relative;\n}\n.main-container .web .menu-web[data-v-d7008eee] {\n  position: fixed;\n  display: flex;\n  left: 0;\n  top: 25%;\n  flex-direction: column;\n  z-index: 1000;\n  margin-left: 20px;\n}\n.main-container .web .menu-web .btn-menu[data-v-d7008eee] {\n  margin-top: 10px;\n}\n.main-container .web .menu-web .btn-menu img[data-v-d7008eee] {\n  width: 65px;\n}\n.main-container .web #premios .content[data-v-d7008eee] {\n  display: flex;\n}\n.main-container .web #premios .content .box[data-v-d7008eee] {\n  flex: 1;\n}\n.main-container .web #premios .content .box:nth-child(2) img[data-v-d7008eee] {\n  width: 60%;\n  margin-top: 25%;\n}\n.main-container .web #ganadores .content[data-v-d7008eee] {\n  display: flex;\n  justify-content: flex-end;\n  align-items: center;\n}\n.main-container .web #ganadores .content .box[data-v-d7008eee] {\n  flex: 1;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container[data-v-d7008eee] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .box-big[data-v-d7008eee] {\n  flex: .7;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 0 20px;\n  flex-direction: column;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .header[data-v-d7008eee] {\n  background-color: #76B727;\n  padding: 15px 15px;\n  font-size: 45px;\n  border-radius: 5px;\n  z-index: 500000;\n  box-shadow: 1px 1px 5px #2b2b2b;\n  margin-bottom: -30px;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .header p[data-v-d7008eee] {\n  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;\n  transform: rotate(-10deg);\n  color: #1D71B9;\n  letter-spacing: 2px;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .winners-container[data-v-d7008eee] {\n  width: 100%;\n  background-color: #76B727;\n  box-shadow: 1px 1px 5px gray;\n  padding: 50px 5px;\n  border-radius: 10px;\n  padding-top: 55px;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .winners-container .winner[data-v-d7008eee] {\n  border-radius: 10px;\n  background-color: white;\n  color: blue;\n  font-weight: bold;\n  font-size: 27px;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  margin-bottom: 10px;\n}\n.main-container .web #preguntas[data-v-d7008eee] {\n  z-index: 100;\n}\n.main-container .web #preguntas .content[data-v-d7008eee] {\n  display: flex;\n}\n.main-container .web #preguntas .content .box[data-v-d7008eee] {\n  flex: 1;\n}\n.main-container .web #preguntas .content .box[data-v-d7008eee]:nth-child(2) {\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n  margin-right: 7%;\n  z-index: 1000000;\n}\n.main-container .web #preguntas .content .box:nth-child(2) a[data-v-d7008eee] {\n  display: inline-block;\n  font-size: 39px;\n  padding: 10px;\n}\n.main-container .web #preguntas .content .box[data-v-d7008eee]:nth-child(1) {\n  flex: 1.5;\n  padding-right: 8%;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions[data-v-d7008eee] {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec[data-v-d7008eee] {\n  margin-top: 35%;\n  flex: 1;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec .question-form[data-v-d7008eee] {\n  padding: 0 15%;\n  margin-top: 10px;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec .question-form .question-name[data-v-d7008eee] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background-color: #76B727;\n  box-shadow: 1px 1px 5px gray;\n  border-radius: 5px;\n  color: white;\n  padding: 10px;\n  cursor: pointer;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec .question-form .answer[data-v-d7008eee] {\n  padding: 5px;\n  background-color: white;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec iframe[data-v-d7008eee] {\n  margin-top: -30%;\n  width: 70%;\n  height: 270px;\n  margin-left: 15%;\n  z-index: 10000;\n}\n.main-container .movil[data-v-d7008eee] {\n  display: none;\n}\n@media only screen and (max-width: 1000px) {\n.main-container .wp[data-v-d7008eee] {\n    width: 50px;\n}\n.main-container .web[data-v-d7008eee] {\n    display: none;\n}\n.main-container .movil[data-v-d7008eee] {\n    display: block;\n    position: relative;\n}\n.main-container .movil .menu-movil[data-v-d7008eee] {\n    position: fixed;\n    top: 170px;\n    left: 0;\n    display: flex;\n    flex-direction: column;\n    z-index: 1000;\n    margin-left: 10px;\n    margin-top: 10px;\n}\n.main-container .movil .menu-movil .btn-menu[data-v-d7008eee] {\n    margin-top: 5px;\n}\n.main-container .movil .menu-movil .btn-menu img[data-v-d7008eee] {\n    width: 33px;\n}\n.main-container .movil #premios2 .content[data-v-d7008eee] {\n    display: flex;\n    justify-content: center;\n    align-items: flex-start;\n}\n.main-container .movil #premios2 .content img[data-v-d7008eee] {\n    margin-left: 17%;\n    width: 70%;\n    margin-top: 50%;\n}\n.main-container .movil #ganadores2 .content[data-v-d7008eee] {\n    display: flex;\n    flex-direction: column-reverse;\n}\n.main-container .movil #ganadores2 .content .box[data-v-d7008eee] {\n    flex: 1;\n}\n.main-container .movil #ganadores2 .content .box[data-v-d7008eee]:nth-child(2) {\n    padding: 15%;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container[data-v-d7008eee] {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .box-big[data-v-d7008eee] {\n    flex: 1;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .header[data-v-d7008eee] {\n    background-color: #1D71B9;\n    padding: 15px 15px;\n    font-size: 35px;\n    border-radius: 5px;\n    z-index: 500000;\n    box-shadow: 1px 1px 5px gray;\n    margin-bottom: -30px;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .header p[data-v-d7008eee] {\n    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;\n    transform: rotate(-10deg);\n    color: #76B727;\n    letter-spacing: 2px;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .winners-container[data-v-d7008eee] {\n    width: 100%;\n    background-color: #76B727;\n    box-shadow: 1px 1px 5px gray;\n    padding: 50px 5px;\n    border-radius: 10px;\n    padding-top: 55px;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .winners-container .winner[data-v-d7008eee] {\n    border-radius: 10px;\n    background-color: white;\n    color: blue;\n    font-weight: bold;\n    font-size: 23px;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    margin-bottom: 10px;\n}\n.main-container .movil #preguntas2 .content[data-v-d7008eee] {\n    display: flex;\n    flex-direction: column-reverse;\n}\n.main-container .movil #preguntas2 .content .box[data-v-d7008eee] {\n    flex: 1;\n}\n.main-container .movil #preguntas2 .content .box[data-v-d7008eee]:nth-child(1) {\n    flex: 1.5;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions[data-v-d7008eee] {\n    margin-top: 50%;\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec[data-v-d7008eee] {\n    flex: 1;\n    justify-content: center;\n    align-items: center;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec .question-form[data-v-d7008eee] {\n    padding: 0 15%;\n    margin-top: 10px;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec .question-form .question-name[data-v-d7008eee] {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    background-color: #76B727;\n    box-shadow: 1px 1px 5px gray;\n    border-radius: 5px;\n    color: white;\n    padding: 10px;\n    cursor: pointer;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec .question-form .answer[data-v-d7008eee] {\n    padding: 5px;\n    background-color: white;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec iframe[data-v-d7008eee] {\n    display: none;\n    width: 70%;\n    margin-left: 15%;\n    z-index: 10000;\n}\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-d7008eee] {\n  padding: 0;\n  margin: 0;\n  position: relative;\n}\n.main-container .wp[data-v-d7008eee] {\n  position: fixed;\n  bottom: 0;\n  right: 0;\n  width: 90px;\n  z-index: 1000000;\n  margin-bottom: 20px;\n  margin-right: 20px;\n}\n.main-container .section[data-v-d7008eee] {\n  position: relative;\n}\n.main-container .section img[data-v-d7008eee] {\n  width: 100%;\n  height: 100%;\n}\n.main-container .section .content[data-v-d7008eee] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n.main-container .web[data-v-d7008eee] {\n  display: block;\n  position: relative;\n}\n.main-container .web .menu-web[data-v-d7008eee] {\n  position: fixed;\n  display: flex;\n  left: 0;\n  top: 25%;\n  flex-direction: column;\n  z-index: 1000;\n  margin-left: 20px;\n}\n.main-container .web .menu-web .btn-menu[data-v-d7008eee] {\n  margin-top: 10px;\n}\n.main-container .web .menu-web .btn-menu img[data-v-d7008eee] {\n  width: 65px;\n}\n.main-container .web #premios .content .box[data-v-d7008eee] {\n  display: flex;\n  justify-content: flex-end;\n}\n.main-container .web #premios .content .box .carousel[data-v-d7008eee] {\n  width: 60%;\n  display: block !important;\n}\n.main-container .web #premios .content .box .carousel img[data-v-d7008eee] {\n  margin-left: 10%;\n  margin-top: 15%;\n  width: 60%;\n}\n.main-container .web #ganadores .content[data-v-d7008eee] {\n  display: flex;\n  justify-content: flex-end;\n  align-items: center;\n}\n.main-container .web #ganadores .content .box[data-v-d7008eee] {\n  flex: 1;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container[data-v-d7008eee] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .box-big[data-v-d7008eee] {\n  flex: .7;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 0 20px;\n  flex-direction: column;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .header[data-v-d7008eee] {\n  background-color: #76B727;\n  padding: 15px 15px;\n  font-size: 45px;\n  border-radius: 5px;\n  z-index: 500000;\n  box-shadow: 1px 1px 5px #2b2b2b;\n  margin-bottom: -30px;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .header p[data-v-d7008eee] {\n  transform: rotate(-10deg);\n  color: white;\n  letter-spacing: 2px;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .winners-container[data-v-d7008eee] {\n  width: 100%;\n  background-color: #76B727;\n  box-shadow: 1px 1px 5px gray;\n  padding: 50px 5px;\n  border-radius: 10px;\n  padding-top: 55px;\n}\n.main-container .web #ganadores .content .box:nth-child(2) .binnie-container .winners-container .winner[data-v-d7008eee] {\n  border-radius: 10px;\n  background-color: white;\n  color: blue;\n  font-weight: bold;\n  font-size: 27px;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  margin-bottom: 10px;\n}\n.main-container .web #preguntas[data-v-d7008eee] {\n  z-index: 100;\n}\n.main-container .web #preguntas .content[data-v-d7008eee] {\n  display: flex;\n}\n.main-container .web #preguntas .content .box[data-v-d7008eee] {\n  flex: 1;\n}\n.main-container .web #preguntas .content .box[data-v-d7008eee]:nth-child(2) {\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n  margin-right: 7%;\n  z-index: 1000000;\n}\n.main-container .web #preguntas .content .box:nth-child(2) a[data-v-d7008eee] {\n  display: inline-block;\n  font-size: 39px;\n  padding: 10px;\n}\n.main-container .web #preguntas .content .box[data-v-d7008eee]:nth-child(1) {\n  flex: 1.5;\n  padding-right: 8%;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions[data-v-d7008eee] {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec[data-v-d7008eee] {\n  margin-top: 35%;\n  flex: 1;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec .question-form[data-v-d7008eee] {\n  padding: 0 15%;\n  margin-top: 10px;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec .question-form .question-name[data-v-d7008eee] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background-color: #76B727;\n  box-shadow: 1px 1px 5px gray;\n  border-radius: 5px;\n  color: white;\n  padding: 10px;\n  cursor: pointer;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec .question-form .answer[data-v-d7008eee] {\n  padding: 5px;\n  background-color: white;\n}\n.main-container .web #preguntas .content .box:nth-child(1) .questions .sec iframe[data-v-d7008eee] {\n  margin-top: -30%;\n  width: 70%;\n  height: 270px;\n  margin-left: 15%;\n  z-index: 10000;\n}\n.main-container .movil[data-v-d7008eee] {\n  display: none;\n}\n@media only screen and (max-width: 1000px) {\n.main-container .wp[data-v-d7008eee] {\n    width: 50px;\n}\n.main-container .web[data-v-d7008eee] {\n    display: none;\n}\n.main-container .movil[data-v-d7008eee] {\n    display: block;\n    position: relative;\n}\n.main-container .movil .menu-movil[data-v-d7008eee] {\n    position: fixed;\n    top: 170px;\n    left: 0;\n    display: flex;\n    flex-direction: column;\n    z-index: 1000;\n    margin-left: 10px;\n    margin-top: 10px;\n}\n.main-container .movil .menu-movil .btn-menu[data-v-d7008eee] {\n    margin-top: 5px;\n}\n.main-container .movil .menu-movil .btn-menu img[data-v-d7008eee] {\n    width: 33px;\n}\n.main-container .movil #premios2 .content[data-v-d7008eee] {\n    display: flex;\n    justify-content: center;\n    align-items: flex-start;\n    width: 100%;\n}\n.main-container .movil #premios2 .content .carousel-movil[data-v-d7008eee] {\n    margin-top: 50%;\n    width: 80%;\n}\n.main-container .movil #ganadores2 .content[data-v-d7008eee] {\n    display: flex;\n    flex-direction: column-reverse;\n}\n.main-container .movil #ganadores2 .content .box[data-v-d7008eee] {\n    flex: 1;\n}\n.main-container .movil #ganadores2 .content .box[data-v-d7008eee]:nth-child(2) {\n    padding: 15%;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container[data-v-d7008eee] {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .box-big[data-v-d7008eee] {\n    flex: 1;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .header[data-v-d7008eee] {\n    background-color: #76B727;\n    padding: 15px 15px;\n    font-size: 35px;\n    border-radius: 5px;\n    z-index: 500000;\n    box-shadow: 1px 1px 5px gray;\n    margin-bottom: -30px;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .header p[data-v-d7008eee] {\n    transform: rotate(-10deg);\n    color: white;\n    letter-spacing: 2px;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .winners-container[data-v-d7008eee] {\n    width: 100%;\n    background-color: #76B727;\n    box-shadow: 1px 1px 5px gray;\n    padding: 50px 5px;\n    border-radius: 10px;\n    padding-top: 55px;\n}\n.main-container .movil #ganadores2 .content .box:nth-child(2) .binnie-container .winners-container .winner[data-v-d7008eee] {\n    border-radius: 10px;\n    background-color: white;\n    color: blue;\n    font-weight: bold;\n    font-size: 23px;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    margin-bottom: 10px;\n}\n.main-container .movil #preguntas2 .content[data-v-d7008eee] {\n    display: flex;\n    flex-direction: column-reverse;\n}\n.main-container .movil #preguntas2 .content .box[data-v-d7008eee] {\n    flex: 1;\n}\n.main-container .movil #preguntas2 .content .box[data-v-d7008eee]:nth-child(1) {\n    flex: 1.5;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions[data-v-d7008eee] {\n    margin-top: 50%;\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec[data-v-d7008eee] {\n    flex: 1;\n    justify-content: center;\n    align-items: center;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec .question-form[data-v-d7008eee] {\n    padding: 0 15%;\n    margin-top: 10px;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec .question-form .question-name[data-v-d7008eee] {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    background-color: #76B727;\n    box-shadow: 1px 1px 5px gray;\n    border-radius: 5px;\n    color: white;\n    padding: 10px;\n    cursor: pointer;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec .question-form .answer[data-v-d7008eee] {\n    padding: 5px;\n    background-color: white;\n}\n.main-container .movil #preguntas2 .content .box:nth-child(1) .questions .sec iframe[data-v-d7008eee] {\n    display: none;\n    width: 70%;\n    margin-left: 15%;\n    z-index: 10000;\n}\n}\n.btn-menu[data-v-d7008eee] {\n  position: relative;\n}\n.tooltip[data-v-d7008eee] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  margin-top: 30%;\n  background-color: gray;\n  color: white;\n  border-radius: 5px;\n  padding: 5px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -27882,6 +28102,30 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, ".section-1[data-v-317d1a6e] {\n  position: relative;\n}\n.section-1 .bg-1[data-v-317d1a6e] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  z-index: 10;\n}\n.section-1 .menu-score[data-v-317d1a6e] {\n  z-index: 10000;\n  position: absolute;\n  top: 0;\n  right: 0;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-top: 50px;\n  margin-right: 50px;\n  border-radius: 10px;\n  padding: 10px;\n  width: 500px;\n  height: auto;\n  background-color: #76B727;\n  display: flex;\n  justify-content: center;\n  align-content: center;\n}\n.section-1 .menu-score span[data-v-317d1a6e] {\n  color: white;\n}\n.section-1 .menu-score p[data-v-317d1a6e]:nth-child(1) {\n  font-size: 22px;\n  line-height: 20px;\n  text-shadow: 1px 1px 5px gray;\n}\n.section-1 .menu-score p[data-v-317d1a6e] {\n  color: white;\n  font-weight: bold;\n  padding: 0 10px;\n}\n.section-1 .menu-float[data-v-317d1a6e] {\n  z-index: 10000;\n  position: fixed;\n  top: 0;\n  left: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  margin-top: 80px;\n  margin-left: 65px;\n}\n.section-1 .menu-float .btn-menu[data-v-317d1a6e] {\n  border-radius: 5px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-top: 10px;\n  width: 70px;\n  height: 70px;\n  background-color: #76B727;\n  color: white;\n  box-shadow: 1px 1px 5px gray;\n  font-size: 35px;\n}\n.section-1 .binnie[data-v-317d1a6e] {\n  width: 100%;\n  height: auto;\n  z-index: 10000;\n  position: absolute;\n  top: 0;\n  left: 0;\n  margin-top: 245%;\n  padding: 10px;\n}\n.section-1 #questions[data-v-317d1a6e] {\n  display: flex;\n}\n.section-1 #questions .sec[data-v-317d1a6e] {\n  flex: 1;\n}\n.section-1 .question[data-v-317d1a6e] {\n  padding-right: 10px;\n  margin-bottom: 20px;\n}\n.section-1 .question .question-name[data-v-317d1a6e] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background-color: #76B727;\n  box-shadow: 1px 1px 5px gray;\n  border-radius: 5px;\n  color: white;\n  padding: 10px;\n  cursor: pointer;\n}\n.section-1 .question .answer[data-v-317d1a6e] {\n  padding: 5px;\n  background-color: white;\n}\n.section-1 .binnie-2[data-v-317d1a6e] {\n  width: 100%;\n  height: 500px;\n  z-index: 10000;\n  position: absolute;\n  top: 0;\n  left: 0;\n  margin-top: 295%;\n  padding: 10px;\n  display: flex;\n  flex-direction: column;\n}\n.section-1 .binnie-container[data-v-317d1a6e] {\n  display: flex;\n}\n.section-1 .binnie-container .box-normal[data-v-317d1a6e] {\n  flex: 1;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 0 20px;\n  flex-direction: column;\n}\n.section-1 .binnie-container .box-big[data-v-317d1a6e] {\n  flex: 1;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 0 20px;\n  flex-direction: column;\n}\n.section-1 .binnie-container .header[data-v-317d1a6e] {\n  background-color: #1D71B9;\n  padding: 15px 15px;\n  font-size: 35px;\n  border-radius: 5px;\n  z-index: 500000;\n  box-shadow: 1px 1px 5px gray;\n  margin-bottom: -30px;\n}\n.section-1 .binnie-container .header p[data-v-317d1a6e] {\n  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;\n  transform: rotate(-10deg);\n  color: #76B727;\n  letter-spacing: 2px;\n}\n.section-1 .binnie-container .winners-container[data-v-317d1a6e] {\n  width: 100%;\n  background-color: #76B727;\n  box-shadow: 1px 1px 5px gray;\n  padding: 50px 5px;\n  border-radius: 10px;\n  padding-top: 55px;\n}\n.section-1 .binnie-container .winners-container .winner[data-v-317d1a6e] {\n  border-radius: 10px;\n  background-color: white;\n  color: blue;\n  font-weight: bold;\n  font-size: 27px;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  margin-bottom: 10px;\n}\n.section-1 .binnie-container .box-big .header[data-v-317d1a6e] {\n  font-size: 45px;\n}\n.section-1 .binnie-container .box-normal .winners-container[data-v-317d1a6e] {\n  width: 70%;\n}\n.section-1 .binnie-container .box-normal .winner[data-v-317d1a6e] {\n  font-size: 19px;\n}\n.section-1 .footer[data-v-317d1a6e] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n  margin-top: 100px;\n}\n.section-1 .footer p[data-v-317d1a6e] {\n  text-align: center;\n  border-radius: 5px;\n  font-size: 11px;\n  height: 35px;\n  line-height: 15px;\n  margin: 10px;\n  background-color: #025490;\n  color: white;\n  font-weight: bold;\n  padding: 5px 10px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.section-1 #steps[data-v-317d1a6e] {\n  width: 100%;\n  height: 500px;\n  z-index: 10000;\n  position: absolute;\n  top: 0;\n  left: 0;\n  margin-top: 80%;\n}\n.section-1 #price[data-v-317d1a6e] {\n  width: 100%;\n  height: 500px;\n  z-index: 10000;\n  position: absolute;\n  top: 0;\n  left: 0;\n  margin-top: 110%;\n}\n.section-1 #payments[data-v-317d1a6e] {\n  width: 100%;\n  height: 500px;\n  z-index: 10000;\n  position: absolute;\n  top: 0;\n  left: 0;\n  margin-top: 160%;\n}\n.section-1 .whatsapp-2[data-v-317d1a6e] {\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  z-index: 10000;\n  position: absolute;\n  top: 0;\n  left: 0;\n  margin-left: 82%;\n  margin-top: 156%;\n}\n.section-1 .whatsapp[data-v-317d1a6e] {\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  z-index: 10000;\n  position: absolute;\n  top: 0;\n  left: 0;\n  margin-left: 82%;\n  margin-top: 41%;\n}\n@media only screen and (max-width: 1000px) {\n.menu-float[data-v-317d1a6e] {\n    display: none !important;\n}\n.box-normal[data-v-317d1a6e] {\n    padding: 0;\n    margin-bottom: 50px  !important;\n}\n.box-big[data-v-317d1a6e] {\n    padding: 0;\n    margin-bottom: 50px  !important;\n}\n.binnie-container[data-v-317d1a6e] {\n    flex-direction: column;\n}\n.whatsapp[data-v-317d1a6e] {\n    width: 50px !important;\n    height: 50px !important;\n}\n.whatsapp-2[data-v-317d1a6e] {\n    width: 50px !important;\n    height: 50px !important;\n}\n.footer[data-v-317d1a6e] {\n    flex-direction: column !important;\n}\n.menu-score[data-v-317d1a6e] {\n    margin-top: 10px !important;\n    margin-right: 5% !important;\n    width: 90% !important;\n}\n.binnie[data-v-317d1a6e] {\n    flex-direction: column !important;\n}\n.binnie-2[data-v-317d1a6e] {\n    margin-top: 595% !important;\n}\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./node_modules/vue-agile/src/Agile.vue?vue&type=style&index=0&id=60be9220&lang=css":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./node_modules/vue-agile/src/Agile.vue?vue&type=style&index=0&id=60be9220&lang=css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.agile {\n\t\tposition: relative;\n}\n.agile--ssr .agile__slides--cloned {\n\t\tdisplay: none\n}\n.agile--ssr .agile__slides > * {\n\t\toverflow: hidden;\n\t\twidth: 0\n}\n.agile--ssr .agile__slides > *:first-child {\n\t\twidth: 100%\n}\n.agile--rtl .agile__track,\n\t.agile--rtl .agile__slides,\n\t.agile--rtl .agile__actions,\n\t.agile--rtl .agile__dots {\n\t\tflex-direction: row-reverse;\n}\n.agile:focus, .agile:active, .agile *:focus, .agile *:active {\n\t\toutline: none;\n}\n.agile__list {\n\t\tdisplay: block;\n\t\toverflow: hidden;\n\t\tposition: relative;\n\t\twidth: 100%;\n}\n.agile__track {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tflex-wrap: nowrap;\n}\n.agile__actions {\n\t\tdisplay: flex;\n\t\tjustify-content: space-between;\n}\n.agile--no-nav-buttons .agile__actions {\n\t\tjustify-content: center;\n}\n.agile__slides {\n\t\talign-items: center;\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tflex-grow: 1;\n\t\tflex-shrink: unset;\n\t\tflex-wrap: nowrap;\n\t\tjustify-content: flex-start;\n}\n.agile--disabled .agile__slides {\n\t\tdisplay: block;\n\t\twidth: 100%;\n}\n.agile__slide {\n\t\tdisplay: block;\n\t\tflex-grow: 1;\n\t\tflex-shrink: 0;\n}\n.agile__slide,\n\t.agile__slide * {\n\t\t-webkit-user-drag: none;\n}\n.agile--fade .agile__slide {\n\t\topacity: 0;\n\t\tposition: relative;\n\t\tz-index: 0;\n}\n.agile--fade .agile__slide--active {\n\t\topacity: 1;\n\t\tz-index: 2;\n}\n.agile--fade .agile__slide--expiring {\n\t\topacity: 1;\n\t\ttransition-duration: 0s;\n\t\tz-index: 1;\n}\n.agile__nav-button[disabled] {\n\t\tcursor: default;\n}\n.agile__dots {\n\t\talign-items: center;\n\t\tdisplay: flex;\n\t\tlist-style: none;\n\t\tpadding: 0;\n\t\twhite-space: nowrap;\n}\n.agile__dot button {\n\t\tcursor: pointer;\n\t\tdisplay: block;\n\t\tfont-size: 0;\n\t\tline-height: 0;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -32235,6 +32479,2952 @@ function stubFalse() {
 }
 
 module.exports = isEqual;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash.orderby/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/lodash.orderby/index.js ***!
+  \**********************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+/* module decorator */ module = __webpack_require__.nmd(module);
+/**
+ * lodash (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/** Used as the size to enable large array optimizations. */
+var LARGE_ARRAY_SIZE = 200;
+
+/** Used as the `TypeError` message for "Functions" methods. */
+var FUNC_ERROR_TEXT = 'Expected a function';
+
+/** Used to stand-in for `undefined` hash values. */
+var HASH_UNDEFINED = '__lodash_hash_undefined__';
+
+/** Used to compose bitmasks for comparison styles. */
+var UNORDERED_COMPARE_FLAG = 1,
+    PARTIAL_COMPARE_FLAG = 2;
+
+/** Used as references for various `Number` constants. */
+var INFINITY = 1 / 0,
+    MAX_SAFE_INTEGER = 9007199254740991;
+
+/** `Object#toString` result references. */
+var argsTag = '[object Arguments]',
+    arrayTag = '[object Array]',
+    boolTag = '[object Boolean]',
+    dateTag = '[object Date]',
+    errorTag = '[object Error]',
+    funcTag = '[object Function]',
+    genTag = '[object GeneratorFunction]',
+    mapTag = '[object Map]',
+    numberTag = '[object Number]',
+    objectTag = '[object Object]',
+    promiseTag = '[object Promise]',
+    regexpTag = '[object RegExp]',
+    setTag = '[object Set]',
+    stringTag = '[object String]',
+    symbolTag = '[object Symbol]',
+    weakMapTag = '[object WeakMap]';
+
+var arrayBufferTag = '[object ArrayBuffer]',
+    dataViewTag = '[object DataView]',
+    float32Tag = '[object Float32Array]',
+    float64Tag = '[object Float64Array]',
+    int8Tag = '[object Int8Array]',
+    int16Tag = '[object Int16Array]',
+    int32Tag = '[object Int32Array]',
+    uint8Tag = '[object Uint8Array]',
+    uint8ClampedTag = '[object Uint8ClampedArray]',
+    uint16Tag = '[object Uint16Array]',
+    uint32Tag = '[object Uint32Array]';
+
+/** Used to match property names within property paths. */
+var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,
+    reIsPlainProp = /^\w*$/,
+    reLeadingDot = /^\./,
+    rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;
+
+/**
+ * Used to match `RegExp`
+ * [syntax characters](http://ecma-international.org/ecma-262/7.0/#sec-patterns).
+ */
+var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
+
+/** Used to match backslashes in property paths. */
+var reEscapeChar = /\\(\\)?/g;
+
+/** Used to detect host constructors (Safari). */
+var reIsHostCtor = /^\[object .+?Constructor\]$/;
+
+/** Used to detect unsigned integer values. */
+var reIsUint = /^(?:0|[1-9]\d*)$/;
+
+/** Used to identify `toStringTag` values of typed arrays. */
+var typedArrayTags = {};
+typedArrayTags[float32Tag] = typedArrayTags[float64Tag] =
+typedArrayTags[int8Tag] = typedArrayTags[int16Tag] =
+typedArrayTags[int32Tag] = typedArrayTags[uint8Tag] =
+typedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] =
+typedArrayTags[uint32Tag] = true;
+typedArrayTags[argsTag] = typedArrayTags[arrayTag] =
+typedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] =
+typedArrayTags[dataViewTag] = typedArrayTags[dateTag] =
+typedArrayTags[errorTag] = typedArrayTags[funcTag] =
+typedArrayTags[mapTag] = typedArrayTags[numberTag] =
+typedArrayTags[objectTag] = typedArrayTags[regexpTag] =
+typedArrayTags[setTag] = typedArrayTags[stringTag] =
+typedArrayTags[weakMapTag] = false;
+
+/** Detect free variable `global` from Node.js. */
+var freeGlobal = typeof __webpack_require__.g == 'object' && __webpack_require__.g && __webpack_require__.g.Object === Object && __webpack_require__.g;
+
+/** Detect free variable `self`. */
+var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
+
+/** Used as a reference to the global object. */
+var root = freeGlobal || freeSelf || Function('return this')();
+
+/** Detect free variable `exports`. */
+var freeExports =  true && exports && !exports.nodeType && exports;
+
+/** Detect free variable `module`. */
+var freeModule = freeExports && "object" == 'object' && module && !module.nodeType && module;
+
+/** Detect the popular CommonJS extension `module.exports`. */
+var moduleExports = freeModule && freeModule.exports === freeExports;
+
+/** Detect free variable `process` from Node.js. */
+var freeProcess = moduleExports && freeGlobal.process;
+
+/** Used to access faster Node.js helpers. */
+var nodeUtil = (function() {
+  try {
+    return freeProcess && freeProcess.binding('util');
+  } catch (e) {}
+}());
+
+/* Node.js helper references. */
+var nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
+
+/**
+ * A specialized version of `_.map` for arrays without support for iteratee
+ * shorthands.
+ *
+ * @private
+ * @param {Array} [array] The array to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array} Returns the new mapped array.
+ */
+function arrayMap(array, iteratee) {
+  var index = -1,
+      length = array ? array.length : 0,
+      result = Array(length);
+
+  while (++index < length) {
+    result[index] = iteratee(array[index], index, array);
+  }
+  return result;
+}
+
+/**
+ * A specialized version of `_.some` for arrays without support for iteratee
+ * shorthands.
+ *
+ * @private
+ * @param {Array} [array] The array to iterate over.
+ * @param {Function} predicate The function invoked per iteration.
+ * @returns {boolean} Returns `true` if any element passes the predicate check,
+ *  else `false`.
+ */
+function arraySome(array, predicate) {
+  var index = -1,
+      length = array ? array.length : 0;
+
+  while (++index < length) {
+    if (predicate(array[index], index, array)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+/**
+ * The base implementation of `_.property` without support for deep paths.
+ *
+ * @private
+ * @param {string} key The key of the property to get.
+ * @returns {Function} Returns the new accessor function.
+ */
+function baseProperty(key) {
+  return function(object) {
+    return object == null ? undefined : object[key];
+  };
+}
+
+/**
+ * The base implementation of `_.sortBy` which uses `comparer` to define the
+ * sort order of `array` and replaces criteria objects with their corresponding
+ * values.
+ *
+ * @private
+ * @param {Array} array The array to sort.
+ * @param {Function} comparer The function to define sort order.
+ * @returns {Array} Returns `array`.
+ */
+function baseSortBy(array, comparer) {
+  var length = array.length;
+
+  array.sort(comparer);
+  while (length--) {
+    array[length] = array[length].value;
+  }
+  return array;
+}
+
+/**
+ * The base implementation of `_.times` without support for iteratee shorthands
+ * or max array length checks.
+ *
+ * @private
+ * @param {number} n The number of times to invoke `iteratee`.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array} Returns the array of results.
+ */
+function baseTimes(n, iteratee) {
+  var index = -1,
+      result = Array(n);
+
+  while (++index < n) {
+    result[index] = iteratee(index);
+  }
+  return result;
+}
+
+/**
+ * The base implementation of `_.unary` without support for storing metadata.
+ *
+ * @private
+ * @param {Function} func The function to cap arguments for.
+ * @returns {Function} Returns the new capped function.
+ */
+function baseUnary(func) {
+  return function(value) {
+    return func(value);
+  };
+}
+
+/**
+ * Gets the value at `key` of `object`.
+ *
+ * @private
+ * @param {Object} [object] The object to query.
+ * @param {string} key The key of the property to get.
+ * @returns {*} Returns the property value.
+ */
+function getValue(object, key) {
+  return object == null ? undefined : object[key];
+}
+
+/**
+ * Checks if `value` is a host object in IE < 9.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a host object, else `false`.
+ */
+function isHostObject(value) {
+  // Many host objects are `Object` objects that can coerce to strings
+  // despite having improperly defined `toString` methods.
+  var result = false;
+  if (value != null && typeof value.toString != 'function') {
+    try {
+      result = !!(value + '');
+    } catch (e) {}
+  }
+  return result;
+}
+
+/**
+ * Converts `map` to its key-value pairs.
+ *
+ * @private
+ * @param {Object} map The map to convert.
+ * @returns {Array} Returns the key-value pairs.
+ */
+function mapToArray(map) {
+  var index = -1,
+      result = Array(map.size);
+
+  map.forEach(function(value, key) {
+    result[++index] = [key, value];
+  });
+  return result;
+}
+
+/**
+ * Creates a unary function that invokes `func` with its argument transformed.
+ *
+ * @private
+ * @param {Function} func The function to wrap.
+ * @param {Function} transform The argument transform.
+ * @returns {Function} Returns the new function.
+ */
+function overArg(func, transform) {
+  return function(arg) {
+    return func(transform(arg));
+  };
+}
+
+/**
+ * Converts `set` to an array of its values.
+ *
+ * @private
+ * @param {Object} set The set to convert.
+ * @returns {Array} Returns the values.
+ */
+function setToArray(set) {
+  var index = -1,
+      result = Array(set.size);
+
+  set.forEach(function(value) {
+    result[++index] = value;
+  });
+  return result;
+}
+
+/** Used for built-in method references. */
+var arrayProto = Array.prototype,
+    funcProto = Function.prototype,
+    objectProto = Object.prototype;
+
+/** Used to detect overreaching core-js shims. */
+var coreJsData = root['__core-js_shared__'];
+
+/** Used to detect methods masquerading as native. */
+var maskSrcKey = (function() {
+  var uid = /[^.]+$/.exec(coreJsData && coreJsData.keys && coreJsData.keys.IE_PROTO || '');
+  return uid ? ('Symbol(src)_1.' + uid) : '';
+}());
+
+/** Used to resolve the decompiled source of functions. */
+var funcToString = funcProto.toString;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objectToString = objectProto.toString;
+
+/** Used to detect if a method is native. */
+var reIsNative = RegExp('^' +
+  funcToString.call(hasOwnProperty).replace(reRegExpChar, '\\$&')
+  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
+);
+
+/** Built-in value references. */
+var Symbol = root.Symbol,
+    Uint8Array = root.Uint8Array,
+    propertyIsEnumerable = objectProto.propertyIsEnumerable,
+    splice = arrayProto.splice;
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeKeys = overArg(Object.keys, Object);
+
+/* Built-in method references that are verified to be native. */
+var DataView = getNative(root, 'DataView'),
+    Map = getNative(root, 'Map'),
+    Promise = getNative(root, 'Promise'),
+    Set = getNative(root, 'Set'),
+    WeakMap = getNative(root, 'WeakMap'),
+    nativeCreate = getNative(Object, 'create');
+
+/** Used to detect maps, sets, and weakmaps. */
+var dataViewCtorString = toSource(DataView),
+    mapCtorString = toSource(Map),
+    promiseCtorString = toSource(Promise),
+    setCtorString = toSource(Set),
+    weakMapCtorString = toSource(WeakMap);
+
+/** Used to convert symbols to primitives and strings. */
+var symbolProto = Symbol ? Symbol.prototype : undefined,
+    symbolValueOf = symbolProto ? symbolProto.valueOf : undefined,
+    symbolToString = symbolProto ? symbolProto.toString : undefined;
+
+/**
+ * Creates a hash object.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function Hash(entries) {
+  var index = -1,
+      length = entries ? entries.length : 0;
+
+  this.clear();
+  while (++index < length) {
+    var entry = entries[index];
+    this.set(entry[0], entry[1]);
+  }
+}
+
+/**
+ * Removes all key-value entries from the hash.
+ *
+ * @private
+ * @name clear
+ * @memberOf Hash
+ */
+function hashClear() {
+  this.__data__ = nativeCreate ? nativeCreate(null) : {};
+}
+
+/**
+ * Removes `key` and its value from the hash.
+ *
+ * @private
+ * @name delete
+ * @memberOf Hash
+ * @param {Object} hash The hash to modify.
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function hashDelete(key) {
+  return this.has(key) && delete this.__data__[key];
+}
+
+/**
+ * Gets the hash value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf Hash
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function hashGet(key) {
+  var data = this.__data__;
+  if (nativeCreate) {
+    var result = data[key];
+    return result === HASH_UNDEFINED ? undefined : result;
+  }
+  return hasOwnProperty.call(data, key) ? data[key] : undefined;
+}
+
+/**
+ * Checks if a hash value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf Hash
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function hashHas(key) {
+  var data = this.__data__;
+  return nativeCreate ? data[key] !== undefined : hasOwnProperty.call(data, key);
+}
+
+/**
+ * Sets the hash `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf Hash
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the hash instance.
+ */
+function hashSet(key, value) {
+  var data = this.__data__;
+  data[key] = (nativeCreate && value === undefined) ? HASH_UNDEFINED : value;
+  return this;
+}
+
+// Add methods to `Hash`.
+Hash.prototype.clear = hashClear;
+Hash.prototype['delete'] = hashDelete;
+Hash.prototype.get = hashGet;
+Hash.prototype.has = hashHas;
+Hash.prototype.set = hashSet;
+
+/**
+ * Creates an list cache object.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function ListCache(entries) {
+  var index = -1,
+      length = entries ? entries.length : 0;
+
+  this.clear();
+  while (++index < length) {
+    var entry = entries[index];
+    this.set(entry[0], entry[1]);
+  }
+}
+
+/**
+ * Removes all key-value entries from the list cache.
+ *
+ * @private
+ * @name clear
+ * @memberOf ListCache
+ */
+function listCacheClear() {
+  this.__data__ = [];
+}
+
+/**
+ * Removes `key` and its value from the list cache.
+ *
+ * @private
+ * @name delete
+ * @memberOf ListCache
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function listCacheDelete(key) {
+  var data = this.__data__,
+      index = assocIndexOf(data, key);
+
+  if (index < 0) {
+    return false;
+  }
+  var lastIndex = data.length - 1;
+  if (index == lastIndex) {
+    data.pop();
+  } else {
+    splice.call(data, index, 1);
+  }
+  return true;
+}
+
+/**
+ * Gets the list cache value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf ListCache
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function listCacheGet(key) {
+  var data = this.__data__,
+      index = assocIndexOf(data, key);
+
+  return index < 0 ? undefined : data[index][1];
+}
+
+/**
+ * Checks if a list cache value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf ListCache
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function listCacheHas(key) {
+  return assocIndexOf(this.__data__, key) > -1;
+}
+
+/**
+ * Sets the list cache `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf ListCache
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the list cache instance.
+ */
+function listCacheSet(key, value) {
+  var data = this.__data__,
+      index = assocIndexOf(data, key);
+
+  if (index < 0) {
+    data.push([key, value]);
+  } else {
+    data[index][1] = value;
+  }
+  return this;
+}
+
+// Add methods to `ListCache`.
+ListCache.prototype.clear = listCacheClear;
+ListCache.prototype['delete'] = listCacheDelete;
+ListCache.prototype.get = listCacheGet;
+ListCache.prototype.has = listCacheHas;
+ListCache.prototype.set = listCacheSet;
+
+/**
+ * Creates a map cache object to store key-value pairs.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function MapCache(entries) {
+  var index = -1,
+      length = entries ? entries.length : 0;
+
+  this.clear();
+  while (++index < length) {
+    var entry = entries[index];
+    this.set(entry[0], entry[1]);
+  }
+}
+
+/**
+ * Removes all key-value entries from the map.
+ *
+ * @private
+ * @name clear
+ * @memberOf MapCache
+ */
+function mapCacheClear() {
+  this.__data__ = {
+    'hash': new Hash,
+    'map': new (Map || ListCache),
+    'string': new Hash
+  };
+}
+
+/**
+ * Removes `key` and its value from the map.
+ *
+ * @private
+ * @name delete
+ * @memberOf MapCache
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function mapCacheDelete(key) {
+  return getMapData(this, key)['delete'](key);
+}
+
+/**
+ * Gets the map value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf MapCache
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function mapCacheGet(key) {
+  return getMapData(this, key).get(key);
+}
+
+/**
+ * Checks if a map value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf MapCache
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function mapCacheHas(key) {
+  return getMapData(this, key).has(key);
+}
+
+/**
+ * Sets the map `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf MapCache
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the map cache instance.
+ */
+function mapCacheSet(key, value) {
+  getMapData(this, key).set(key, value);
+  return this;
+}
+
+// Add methods to `MapCache`.
+MapCache.prototype.clear = mapCacheClear;
+MapCache.prototype['delete'] = mapCacheDelete;
+MapCache.prototype.get = mapCacheGet;
+MapCache.prototype.has = mapCacheHas;
+MapCache.prototype.set = mapCacheSet;
+
+/**
+ *
+ * Creates an array cache object to store unique values.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [values] The values to cache.
+ */
+function SetCache(values) {
+  var index = -1,
+      length = values ? values.length : 0;
+
+  this.__data__ = new MapCache;
+  while (++index < length) {
+    this.add(values[index]);
+  }
+}
+
+/**
+ * Adds `value` to the array cache.
+ *
+ * @private
+ * @name add
+ * @memberOf SetCache
+ * @alias push
+ * @param {*} value The value to cache.
+ * @returns {Object} Returns the cache instance.
+ */
+function setCacheAdd(value) {
+  this.__data__.set(value, HASH_UNDEFINED);
+  return this;
+}
+
+/**
+ * Checks if `value` is in the array cache.
+ *
+ * @private
+ * @name has
+ * @memberOf SetCache
+ * @param {*} value The value to search for.
+ * @returns {number} Returns `true` if `value` is found, else `false`.
+ */
+function setCacheHas(value) {
+  return this.__data__.has(value);
+}
+
+// Add methods to `SetCache`.
+SetCache.prototype.add = SetCache.prototype.push = setCacheAdd;
+SetCache.prototype.has = setCacheHas;
+
+/**
+ * Creates a stack cache object to store key-value pairs.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function Stack(entries) {
+  this.__data__ = new ListCache(entries);
+}
+
+/**
+ * Removes all key-value entries from the stack.
+ *
+ * @private
+ * @name clear
+ * @memberOf Stack
+ */
+function stackClear() {
+  this.__data__ = new ListCache;
+}
+
+/**
+ * Removes `key` and its value from the stack.
+ *
+ * @private
+ * @name delete
+ * @memberOf Stack
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function stackDelete(key) {
+  return this.__data__['delete'](key);
+}
+
+/**
+ * Gets the stack value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf Stack
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function stackGet(key) {
+  return this.__data__.get(key);
+}
+
+/**
+ * Checks if a stack value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf Stack
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function stackHas(key) {
+  return this.__data__.has(key);
+}
+
+/**
+ * Sets the stack `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf Stack
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the stack cache instance.
+ */
+function stackSet(key, value) {
+  var cache = this.__data__;
+  if (cache instanceof ListCache) {
+    var pairs = cache.__data__;
+    if (!Map || (pairs.length < LARGE_ARRAY_SIZE - 1)) {
+      pairs.push([key, value]);
+      return this;
+    }
+    cache = this.__data__ = new MapCache(pairs);
+  }
+  cache.set(key, value);
+  return this;
+}
+
+// Add methods to `Stack`.
+Stack.prototype.clear = stackClear;
+Stack.prototype['delete'] = stackDelete;
+Stack.prototype.get = stackGet;
+Stack.prototype.has = stackHas;
+Stack.prototype.set = stackSet;
+
+/**
+ * Creates an array of the enumerable property names of the array-like `value`.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @param {boolean} inherited Specify returning inherited property names.
+ * @returns {Array} Returns the array of property names.
+ */
+function arrayLikeKeys(value, inherited) {
+  // Safari 8.1 makes `arguments.callee` enumerable in strict mode.
+  // Safari 9 makes `arguments.length` enumerable in strict mode.
+  var result = (isArray(value) || isArguments(value))
+    ? baseTimes(value.length, String)
+    : [];
+
+  var length = result.length,
+      skipIndexes = !!length;
+
+  for (var key in value) {
+    if ((inherited || hasOwnProperty.call(value, key)) &&
+        !(skipIndexes && (key == 'length' || isIndex(key, length)))) {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+/**
+ * Gets the index at which the `key` is found in `array` of key-value pairs.
+ *
+ * @private
+ * @param {Array} array The array to inspect.
+ * @param {*} key The key to search for.
+ * @returns {number} Returns the index of the matched value, else `-1`.
+ */
+function assocIndexOf(array, key) {
+  var length = array.length;
+  while (length--) {
+    if (eq(array[length][0], key)) {
+      return length;
+    }
+  }
+  return -1;
+}
+
+/**
+ * The base implementation of `_.forEach` without support for iteratee shorthands.
+ *
+ * @private
+ * @param {Array|Object} collection The collection to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array|Object} Returns `collection`.
+ */
+var baseEach = createBaseEach(baseForOwn);
+
+/**
+ * The base implementation of `baseForOwn` which iterates over `object`
+ * properties returned by `keysFunc` and invokes `iteratee` for each property.
+ * Iteratee functions may exit iteration early by explicitly returning `false`.
+ *
+ * @private
+ * @param {Object} object The object to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @param {Function} keysFunc The function to get the keys of `object`.
+ * @returns {Object} Returns `object`.
+ */
+var baseFor = createBaseFor();
+
+/**
+ * The base implementation of `_.forOwn` without support for iteratee shorthands.
+ *
+ * @private
+ * @param {Object} object The object to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Object} Returns `object`.
+ */
+function baseForOwn(object, iteratee) {
+  return object && baseFor(object, iteratee, keys);
+}
+
+/**
+ * The base implementation of `_.get` without support for default values.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @param {Array|string} path The path of the property to get.
+ * @returns {*} Returns the resolved value.
+ */
+function baseGet(object, path) {
+  path = isKey(path, object) ? [path] : castPath(path);
+
+  var index = 0,
+      length = path.length;
+
+  while (object != null && index < length) {
+    object = object[toKey(path[index++])];
+  }
+  return (index && index == length) ? object : undefined;
+}
+
+/**
+ * The base implementation of `getTag`.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the `toStringTag`.
+ */
+function baseGetTag(value) {
+  return objectToString.call(value);
+}
+
+/**
+ * The base implementation of `_.hasIn` without support for deep paths.
+ *
+ * @private
+ * @param {Object} [object] The object to query.
+ * @param {Array|string} key The key to check.
+ * @returns {boolean} Returns `true` if `key` exists, else `false`.
+ */
+function baseHasIn(object, key) {
+  return object != null && key in Object(object);
+}
+
+/**
+ * The base implementation of `_.isEqual` which supports partial comparisons
+ * and tracks traversed objects.
+ *
+ * @private
+ * @param {*} value The value to compare.
+ * @param {*} other The other value to compare.
+ * @param {Function} [customizer] The function to customize comparisons.
+ * @param {boolean} [bitmask] The bitmask of comparison flags.
+ *  The bitmask may be composed of the following flags:
+ *     1 - Unordered comparison
+ *     2 - Partial comparison
+ * @param {Object} [stack] Tracks traversed `value` and `other` objects.
+ * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+ */
+function baseIsEqual(value, other, customizer, bitmask, stack) {
+  if (value === other) {
+    return true;
+  }
+  if (value == null || other == null || (!isObject(value) && !isObjectLike(other))) {
+    return value !== value && other !== other;
+  }
+  return baseIsEqualDeep(value, other, baseIsEqual, customizer, bitmask, stack);
+}
+
+/**
+ * A specialized version of `baseIsEqual` for arrays and objects which performs
+ * deep comparisons and tracks traversed objects enabling objects with circular
+ * references to be compared.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Function} [customizer] The function to customize comparisons.
+ * @param {number} [bitmask] The bitmask of comparison flags. See `baseIsEqual`
+ *  for more details.
+ * @param {Object} [stack] Tracks traversed `object` and `other` objects.
+ * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
+ */
+function baseIsEqualDeep(object, other, equalFunc, customizer, bitmask, stack) {
+  var objIsArr = isArray(object),
+      othIsArr = isArray(other),
+      objTag = arrayTag,
+      othTag = arrayTag;
+
+  if (!objIsArr) {
+    objTag = getTag(object);
+    objTag = objTag == argsTag ? objectTag : objTag;
+  }
+  if (!othIsArr) {
+    othTag = getTag(other);
+    othTag = othTag == argsTag ? objectTag : othTag;
+  }
+  var objIsObj = objTag == objectTag && !isHostObject(object),
+      othIsObj = othTag == objectTag && !isHostObject(other),
+      isSameTag = objTag == othTag;
+
+  if (isSameTag && !objIsObj) {
+    stack || (stack = new Stack);
+    return (objIsArr || isTypedArray(object))
+      ? equalArrays(object, other, equalFunc, customizer, bitmask, stack)
+      : equalByTag(object, other, objTag, equalFunc, customizer, bitmask, stack);
+  }
+  if (!(bitmask & PARTIAL_COMPARE_FLAG)) {
+    var objIsWrapped = objIsObj && hasOwnProperty.call(object, '__wrapped__'),
+        othIsWrapped = othIsObj && hasOwnProperty.call(other, '__wrapped__');
+
+    if (objIsWrapped || othIsWrapped) {
+      var objUnwrapped = objIsWrapped ? object.value() : object,
+          othUnwrapped = othIsWrapped ? other.value() : other;
+
+      stack || (stack = new Stack);
+      return equalFunc(objUnwrapped, othUnwrapped, customizer, bitmask, stack);
+    }
+  }
+  if (!isSameTag) {
+    return false;
+  }
+  stack || (stack = new Stack);
+  return equalObjects(object, other, equalFunc, customizer, bitmask, stack);
+}
+
+/**
+ * The base implementation of `_.isMatch` without support for iteratee shorthands.
+ *
+ * @private
+ * @param {Object} object The object to inspect.
+ * @param {Object} source The object of property values to match.
+ * @param {Array} matchData The property names, values, and compare flags to match.
+ * @param {Function} [customizer] The function to customize comparisons.
+ * @returns {boolean} Returns `true` if `object` is a match, else `false`.
+ */
+function baseIsMatch(object, source, matchData, customizer) {
+  var index = matchData.length,
+      length = index,
+      noCustomizer = !customizer;
+
+  if (object == null) {
+    return !length;
+  }
+  object = Object(object);
+  while (index--) {
+    var data = matchData[index];
+    if ((noCustomizer && data[2])
+          ? data[1] !== object[data[0]]
+          : !(data[0] in object)
+        ) {
+      return false;
+    }
+  }
+  while (++index < length) {
+    data = matchData[index];
+    var key = data[0],
+        objValue = object[key],
+        srcValue = data[1];
+
+    if (noCustomizer && data[2]) {
+      if (objValue === undefined && !(key in object)) {
+        return false;
+      }
+    } else {
+      var stack = new Stack;
+      if (customizer) {
+        var result = customizer(objValue, srcValue, key, object, source, stack);
+      }
+      if (!(result === undefined
+            ? baseIsEqual(srcValue, objValue, customizer, UNORDERED_COMPARE_FLAG | PARTIAL_COMPARE_FLAG, stack)
+            : result
+          )) {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
+/**
+ * The base implementation of `_.isNative` without bad shim checks.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a native function,
+ *  else `false`.
+ */
+function baseIsNative(value) {
+  if (!isObject(value) || isMasked(value)) {
+    return false;
+  }
+  var pattern = (isFunction(value) || isHostObject(value)) ? reIsNative : reIsHostCtor;
+  return pattern.test(toSource(value));
+}
+
+/**
+ * The base implementation of `_.isTypedArray` without Node.js optimizations.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
+ */
+function baseIsTypedArray(value) {
+  return isObjectLike(value) &&
+    isLength(value.length) && !!typedArrayTags[objectToString.call(value)];
+}
+
+/**
+ * The base implementation of `_.iteratee`.
+ *
+ * @private
+ * @param {*} [value=_.identity] The value to convert to an iteratee.
+ * @returns {Function} Returns the iteratee.
+ */
+function baseIteratee(value) {
+  // Don't store the `typeof` result in a variable to avoid a JIT bug in Safari 9.
+  // See https://bugs.webkit.org/show_bug.cgi?id=156034 for more details.
+  if (typeof value == 'function') {
+    return value;
+  }
+  if (value == null) {
+    return identity;
+  }
+  if (typeof value == 'object') {
+    return isArray(value)
+      ? baseMatchesProperty(value[0], value[1])
+      : baseMatches(value);
+  }
+  return property(value);
+}
+
+/**
+ * The base implementation of `_.keys` which doesn't treat sparse arrays as dense.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ */
+function baseKeys(object) {
+  if (!isPrototype(object)) {
+    return nativeKeys(object);
+  }
+  var result = [];
+  for (var key in Object(object)) {
+    if (hasOwnProperty.call(object, key) && key != 'constructor') {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+/**
+ * The base implementation of `_.map` without support for iteratee shorthands.
+ *
+ * @private
+ * @param {Array|Object} collection The collection to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array} Returns the new mapped array.
+ */
+function baseMap(collection, iteratee) {
+  var index = -1,
+      result = isArrayLike(collection) ? Array(collection.length) : [];
+
+  baseEach(collection, function(value, key, collection) {
+    result[++index] = iteratee(value, key, collection);
+  });
+  return result;
+}
+
+/**
+ * The base implementation of `_.matches` which doesn't clone `source`.
+ *
+ * @private
+ * @param {Object} source The object of property values to match.
+ * @returns {Function} Returns the new spec function.
+ */
+function baseMatches(source) {
+  var matchData = getMatchData(source);
+  if (matchData.length == 1 && matchData[0][2]) {
+    return matchesStrictComparable(matchData[0][0], matchData[0][1]);
+  }
+  return function(object) {
+    return object === source || baseIsMatch(object, source, matchData);
+  };
+}
+
+/**
+ * The base implementation of `_.matchesProperty` which doesn't clone `srcValue`.
+ *
+ * @private
+ * @param {string} path The path of the property to get.
+ * @param {*} srcValue The value to match.
+ * @returns {Function} Returns the new spec function.
+ */
+function baseMatchesProperty(path, srcValue) {
+  if (isKey(path) && isStrictComparable(srcValue)) {
+    return matchesStrictComparable(toKey(path), srcValue);
+  }
+  return function(object) {
+    var objValue = get(object, path);
+    return (objValue === undefined && objValue === srcValue)
+      ? hasIn(object, path)
+      : baseIsEqual(srcValue, objValue, undefined, UNORDERED_COMPARE_FLAG | PARTIAL_COMPARE_FLAG);
+  };
+}
+
+/**
+ * The base implementation of `_.orderBy` without param guards.
+ *
+ * @private
+ * @param {Array|Object} collection The collection to iterate over.
+ * @param {Function[]|Object[]|string[]} iteratees The iteratees to sort by.
+ * @param {string[]} orders The sort orders of `iteratees`.
+ * @returns {Array} Returns the new sorted array.
+ */
+function baseOrderBy(collection, iteratees, orders) {
+  var index = -1;
+  iteratees = arrayMap(iteratees.length ? iteratees : [identity], baseUnary(baseIteratee));
+
+  var result = baseMap(collection, function(value, key, collection) {
+    var criteria = arrayMap(iteratees, function(iteratee) {
+      return iteratee(value);
+    });
+    return { 'criteria': criteria, 'index': ++index, 'value': value };
+  });
+
+  return baseSortBy(result, function(object, other) {
+    return compareMultiple(object, other, orders);
+  });
+}
+
+/**
+ * A specialized version of `baseProperty` which supports deep paths.
+ *
+ * @private
+ * @param {Array|string} path The path of the property to get.
+ * @returns {Function} Returns the new accessor function.
+ */
+function basePropertyDeep(path) {
+  return function(object) {
+    return baseGet(object, path);
+  };
+}
+
+/**
+ * The base implementation of `_.toString` which doesn't convert nullish
+ * values to empty strings.
+ *
+ * @private
+ * @param {*} value The value to process.
+ * @returns {string} Returns the string.
+ */
+function baseToString(value) {
+  // Exit early for strings to avoid a performance hit in some environments.
+  if (typeof value == 'string') {
+    return value;
+  }
+  if (isSymbol(value)) {
+    return symbolToString ? symbolToString.call(value) : '';
+  }
+  var result = (value + '');
+  return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result;
+}
+
+/**
+ * Casts `value` to a path array if it's not one.
+ *
+ * @private
+ * @param {*} value The value to inspect.
+ * @returns {Array} Returns the cast property path array.
+ */
+function castPath(value) {
+  return isArray(value) ? value : stringToPath(value);
+}
+
+/**
+ * Compares values to sort them in ascending order.
+ *
+ * @private
+ * @param {*} value The value to compare.
+ * @param {*} other The other value to compare.
+ * @returns {number} Returns the sort order indicator for `value`.
+ */
+function compareAscending(value, other) {
+  if (value !== other) {
+    var valIsDefined = value !== undefined,
+        valIsNull = value === null,
+        valIsReflexive = value === value,
+        valIsSymbol = isSymbol(value);
+
+    var othIsDefined = other !== undefined,
+        othIsNull = other === null,
+        othIsReflexive = other === other,
+        othIsSymbol = isSymbol(other);
+
+    if ((!othIsNull && !othIsSymbol && !valIsSymbol && value > other) ||
+        (valIsSymbol && othIsDefined && othIsReflexive && !othIsNull && !othIsSymbol) ||
+        (valIsNull && othIsDefined && othIsReflexive) ||
+        (!valIsDefined && othIsReflexive) ||
+        !valIsReflexive) {
+      return 1;
+    }
+    if ((!valIsNull && !valIsSymbol && !othIsSymbol && value < other) ||
+        (othIsSymbol && valIsDefined && valIsReflexive && !valIsNull && !valIsSymbol) ||
+        (othIsNull && valIsDefined && valIsReflexive) ||
+        (!othIsDefined && valIsReflexive) ||
+        !othIsReflexive) {
+      return -1;
+    }
+  }
+  return 0;
+}
+
+/**
+ * Used by `_.orderBy` to compare multiple properties of a value to another
+ * and stable sort them.
+ *
+ * If `orders` is unspecified, all values are sorted in ascending order. Otherwise,
+ * specify an order of "desc" for descending or "asc" for ascending sort order
+ * of corresponding values.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {boolean[]|string[]} orders The order to sort by for each property.
+ * @returns {number} Returns the sort order indicator for `object`.
+ */
+function compareMultiple(object, other, orders) {
+  var index = -1,
+      objCriteria = object.criteria,
+      othCriteria = other.criteria,
+      length = objCriteria.length,
+      ordersLength = orders.length;
+
+  while (++index < length) {
+    var result = compareAscending(objCriteria[index], othCriteria[index]);
+    if (result) {
+      if (index >= ordersLength) {
+        return result;
+      }
+      var order = orders[index];
+      return result * (order == 'desc' ? -1 : 1);
+    }
+  }
+  // Fixes an `Array#sort` bug in the JS engine embedded in Adobe applications
+  // that causes it, under certain circumstances, to provide the same value for
+  // `object` and `other`. See https://github.com/jashkenas/underscore/pull/1247
+  // for more details.
+  //
+  // This also ensures a stable sort in V8 and other engines.
+  // See https://bugs.chromium.org/p/v8/issues/detail?id=90 for more details.
+  return object.index - other.index;
+}
+
+/**
+ * Creates a `baseEach` or `baseEachRight` function.
+ *
+ * @private
+ * @param {Function} eachFunc The function to iterate over a collection.
+ * @param {boolean} [fromRight] Specify iterating from right to left.
+ * @returns {Function} Returns the new base function.
+ */
+function createBaseEach(eachFunc, fromRight) {
+  return function(collection, iteratee) {
+    if (collection == null) {
+      return collection;
+    }
+    if (!isArrayLike(collection)) {
+      return eachFunc(collection, iteratee);
+    }
+    var length = collection.length,
+        index = fromRight ? length : -1,
+        iterable = Object(collection);
+
+    while ((fromRight ? index-- : ++index < length)) {
+      if (iteratee(iterable[index], index, iterable) === false) {
+        break;
+      }
+    }
+    return collection;
+  };
+}
+
+/**
+ * Creates a base function for methods like `_.forIn` and `_.forOwn`.
+ *
+ * @private
+ * @param {boolean} [fromRight] Specify iterating from right to left.
+ * @returns {Function} Returns the new base function.
+ */
+function createBaseFor(fromRight) {
+  return function(object, iteratee, keysFunc) {
+    var index = -1,
+        iterable = Object(object),
+        props = keysFunc(object),
+        length = props.length;
+
+    while (length--) {
+      var key = props[fromRight ? length : ++index];
+      if (iteratee(iterable[key], key, iterable) === false) {
+        break;
+      }
+    }
+    return object;
+  };
+}
+
+/**
+ * A specialized version of `baseIsEqualDeep` for arrays with support for
+ * partial deep comparisons.
+ *
+ * @private
+ * @param {Array} array The array to compare.
+ * @param {Array} other The other array to compare.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Function} customizer The function to customize comparisons.
+ * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual`
+ *  for more details.
+ * @param {Object} stack Tracks traversed `array` and `other` objects.
+ * @returns {boolean} Returns `true` if the arrays are equivalent, else `false`.
+ */
+function equalArrays(array, other, equalFunc, customizer, bitmask, stack) {
+  var isPartial = bitmask & PARTIAL_COMPARE_FLAG,
+      arrLength = array.length,
+      othLength = other.length;
+
+  if (arrLength != othLength && !(isPartial && othLength > arrLength)) {
+    return false;
+  }
+  // Assume cyclic values are equal.
+  var stacked = stack.get(array);
+  if (stacked && stack.get(other)) {
+    return stacked == other;
+  }
+  var index = -1,
+      result = true,
+      seen = (bitmask & UNORDERED_COMPARE_FLAG) ? new SetCache : undefined;
+
+  stack.set(array, other);
+  stack.set(other, array);
+
+  // Ignore non-index properties.
+  while (++index < arrLength) {
+    var arrValue = array[index],
+        othValue = other[index];
+
+    if (customizer) {
+      var compared = isPartial
+        ? customizer(othValue, arrValue, index, other, array, stack)
+        : customizer(arrValue, othValue, index, array, other, stack);
+    }
+    if (compared !== undefined) {
+      if (compared) {
+        continue;
+      }
+      result = false;
+      break;
+    }
+    // Recursively compare arrays (susceptible to call stack limits).
+    if (seen) {
+      if (!arraySome(other, function(othValue, othIndex) {
+            if (!seen.has(othIndex) &&
+                (arrValue === othValue || equalFunc(arrValue, othValue, customizer, bitmask, stack))) {
+              return seen.add(othIndex);
+            }
+          })) {
+        result = false;
+        break;
+      }
+    } else if (!(
+          arrValue === othValue ||
+            equalFunc(arrValue, othValue, customizer, bitmask, stack)
+        )) {
+      result = false;
+      break;
+    }
+  }
+  stack['delete'](array);
+  stack['delete'](other);
+  return result;
+}
+
+/**
+ * A specialized version of `baseIsEqualDeep` for comparing objects of
+ * the same `toStringTag`.
+ *
+ * **Note:** This function only supports comparing values with tags of
+ * `Boolean`, `Date`, `Error`, `Number`, `RegExp`, or `String`.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {string} tag The `toStringTag` of the objects to compare.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Function} customizer The function to customize comparisons.
+ * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual`
+ *  for more details.
+ * @param {Object} stack Tracks traversed `object` and `other` objects.
+ * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
+ */
+function equalByTag(object, other, tag, equalFunc, customizer, bitmask, stack) {
+  switch (tag) {
+    case dataViewTag:
+      if ((object.byteLength != other.byteLength) ||
+          (object.byteOffset != other.byteOffset)) {
+        return false;
+      }
+      object = object.buffer;
+      other = other.buffer;
+
+    case arrayBufferTag:
+      if ((object.byteLength != other.byteLength) ||
+          !equalFunc(new Uint8Array(object), new Uint8Array(other))) {
+        return false;
+      }
+      return true;
+
+    case boolTag:
+    case dateTag:
+    case numberTag:
+      // Coerce booleans to `1` or `0` and dates to milliseconds.
+      // Invalid dates are coerced to `NaN`.
+      return eq(+object, +other);
+
+    case errorTag:
+      return object.name == other.name && object.message == other.message;
+
+    case regexpTag:
+    case stringTag:
+      // Coerce regexes to strings and treat strings, primitives and objects,
+      // as equal. See http://www.ecma-international.org/ecma-262/7.0/#sec-regexp.prototype.tostring
+      // for more details.
+      return object == (other + '');
+
+    case mapTag:
+      var convert = mapToArray;
+
+    case setTag:
+      var isPartial = bitmask & PARTIAL_COMPARE_FLAG;
+      convert || (convert = setToArray);
+
+      if (object.size != other.size && !isPartial) {
+        return false;
+      }
+      // Assume cyclic values are equal.
+      var stacked = stack.get(object);
+      if (stacked) {
+        return stacked == other;
+      }
+      bitmask |= UNORDERED_COMPARE_FLAG;
+
+      // Recursively compare objects (susceptible to call stack limits).
+      stack.set(object, other);
+      var result = equalArrays(convert(object), convert(other), equalFunc, customizer, bitmask, stack);
+      stack['delete'](object);
+      return result;
+
+    case symbolTag:
+      if (symbolValueOf) {
+        return symbolValueOf.call(object) == symbolValueOf.call(other);
+      }
+  }
+  return false;
+}
+
+/**
+ * A specialized version of `baseIsEqualDeep` for objects with support for
+ * partial deep comparisons.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Function} customizer The function to customize comparisons.
+ * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual`
+ *  for more details.
+ * @param {Object} stack Tracks traversed `object` and `other` objects.
+ * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
+ */
+function equalObjects(object, other, equalFunc, customizer, bitmask, stack) {
+  var isPartial = bitmask & PARTIAL_COMPARE_FLAG,
+      objProps = keys(object),
+      objLength = objProps.length,
+      othProps = keys(other),
+      othLength = othProps.length;
+
+  if (objLength != othLength && !isPartial) {
+    return false;
+  }
+  var index = objLength;
+  while (index--) {
+    var key = objProps[index];
+    if (!(isPartial ? key in other : hasOwnProperty.call(other, key))) {
+      return false;
+    }
+  }
+  // Assume cyclic values are equal.
+  var stacked = stack.get(object);
+  if (stacked && stack.get(other)) {
+    return stacked == other;
+  }
+  var result = true;
+  stack.set(object, other);
+  stack.set(other, object);
+
+  var skipCtor = isPartial;
+  while (++index < objLength) {
+    key = objProps[index];
+    var objValue = object[key],
+        othValue = other[key];
+
+    if (customizer) {
+      var compared = isPartial
+        ? customizer(othValue, objValue, key, other, object, stack)
+        : customizer(objValue, othValue, key, object, other, stack);
+    }
+    // Recursively compare objects (susceptible to call stack limits).
+    if (!(compared === undefined
+          ? (objValue === othValue || equalFunc(objValue, othValue, customizer, bitmask, stack))
+          : compared
+        )) {
+      result = false;
+      break;
+    }
+    skipCtor || (skipCtor = key == 'constructor');
+  }
+  if (result && !skipCtor) {
+    var objCtor = object.constructor,
+        othCtor = other.constructor;
+
+    // Non `Object` object instances with different constructors are not equal.
+    if (objCtor != othCtor &&
+        ('constructor' in object && 'constructor' in other) &&
+        !(typeof objCtor == 'function' && objCtor instanceof objCtor &&
+          typeof othCtor == 'function' && othCtor instanceof othCtor)) {
+      result = false;
+    }
+  }
+  stack['delete'](object);
+  stack['delete'](other);
+  return result;
+}
+
+/**
+ * Gets the data for `map`.
+ *
+ * @private
+ * @param {Object} map The map to query.
+ * @param {string} key The reference key.
+ * @returns {*} Returns the map data.
+ */
+function getMapData(map, key) {
+  var data = map.__data__;
+  return isKeyable(key)
+    ? data[typeof key == 'string' ? 'string' : 'hash']
+    : data.map;
+}
+
+/**
+ * Gets the property names, values, and compare flags of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the match data of `object`.
+ */
+function getMatchData(object) {
+  var result = keys(object),
+      length = result.length;
+
+  while (length--) {
+    var key = result[length],
+        value = object[key];
+
+    result[length] = [key, value, isStrictComparable(value)];
+  }
+  return result;
+}
+
+/**
+ * Gets the native function at `key` of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @param {string} key The key of the method to get.
+ * @returns {*} Returns the function if it's native, else `undefined`.
+ */
+function getNative(object, key) {
+  var value = getValue(object, key);
+  return baseIsNative(value) ? value : undefined;
+}
+
+/**
+ * Gets the `toStringTag` of `value`.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the `toStringTag`.
+ */
+var getTag = baseGetTag;
+
+// Fallback for data views, maps, sets, and weak maps in IE 11,
+// for data views in Edge < 14, and promises in Node.js.
+if ((DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag) ||
+    (Map && getTag(new Map) != mapTag) ||
+    (Promise && getTag(Promise.resolve()) != promiseTag) ||
+    (Set && getTag(new Set) != setTag) ||
+    (WeakMap && getTag(new WeakMap) != weakMapTag)) {
+  getTag = function(value) {
+    var result = objectToString.call(value),
+        Ctor = result == objectTag ? value.constructor : undefined,
+        ctorString = Ctor ? toSource(Ctor) : undefined;
+
+    if (ctorString) {
+      switch (ctorString) {
+        case dataViewCtorString: return dataViewTag;
+        case mapCtorString: return mapTag;
+        case promiseCtorString: return promiseTag;
+        case setCtorString: return setTag;
+        case weakMapCtorString: return weakMapTag;
+      }
+    }
+    return result;
+  };
+}
+
+/**
+ * Checks if `path` exists on `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @param {Array|string} path The path to check.
+ * @param {Function} hasFunc The function to check properties.
+ * @returns {boolean} Returns `true` if `path` exists, else `false`.
+ */
+function hasPath(object, path, hasFunc) {
+  path = isKey(path, object) ? [path] : castPath(path);
+
+  var result,
+      index = -1,
+      length = path.length;
+
+  while (++index < length) {
+    var key = toKey(path[index]);
+    if (!(result = object != null && hasFunc(object, key))) {
+      break;
+    }
+    object = object[key];
+  }
+  if (result) {
+    return result;
+  }
+  var length = object ? object.length : 0;
+  return !!length && isLength(length) && isIndex(key, length) &&
+    (isArray(object) || isArguments(object));
+}
+
+/**
+ * Checks if `value` is a valid array-like index.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
+ * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+ */
+function isIndex(value, length) {
+  length = length == null ? MAX_SAFE_INTEGER : length;
+  return !!length &&
+    (typeof value == 'number' || reIsUint.test(value)) &&
+    (value > -1 && value % 1 == 0 && value < length);
+}
+
+/**
+ * Checks if `value` is a property name and not a property path.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @param {Object} [object] The object to query keys on.
+ * @returns {boolean} Returns `true` if `value` is a property name, else `false`.
+ */
+function isKey(value, object) {
+  if (isArray(value)) {
+    return false;
+  }
+  var type = typeof value;
+  if (type == 'number' || type == 'symbol' || type == 'boolean' ||
+      value == null || isSymbol(value)) {
+    return true;
+  }
+  return reIsPlainProp.test(value) || !reIsDeepProp.test(value) ||
+    (object != null && value in Object(object));
+}
+
+/**
+ * Checks if `value` is suitable for use as unique object key.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
+ */
+function isKeyable(value) {
+  var type = typeof value;
+  return (type == 'string' || type == 'number' || type == 'symbol' || type == 'boolean')
+    ? (value !== '__proto__')
+    : (value === null);
+}
+
+/**
+ * Checks if `func` has its source masked.
+ *
+ * @private
+ * @param {Function} func The function to check.
+ * @returns {boolean} Returns `true` if `func` is masked, else `false`.
+ */
+function isMasked(func) {
+  return !!maskSrcKey && (maskSrcKey in func);
+}
+
+/**
+ * Checks if `value` is likely a prototype object.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a prototype, else `false`.
+ */
+function isPrototype(value) {
+  var Ctor = value && value.constructor,
+      proto = (typeof Ctor == 'function' && Ctor.prototype) || objectProto;
+
+  return value === proto;
+}
+
+/**
+ * Checks if `value` is suitable for strict equality comparisons, i.e. `===`.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` if suitable for strict
+ *  equality comparisons, else `false`.
+ */
+function isStrictComparable(value) {
+  return value === value && !isObject(value);
+}
+
+/**
+ * A specialized version of `matchesProperty` for source values suitable
+ * for strict equality comparisons, i.e. `===`.
+ *
+ * @private
+ * @param {string} key The key of the property to get.
+ * @param {*} srcValue The value to match.
+ * @returns {Function} Returns the new spec function.
+ */
+function matchesStrictComparable(key, srcValue) {
+  return function(object) {
+    if (object == null) {
+      return false;
+    }
+    return object[key] === srcValue &&
+      (srcValue !== undefined || (key in Object(object)));
+  };
+}
+
+/**
+ * Converts `string` to a property path array.
+ *
+ * @private
+ * @param {string} string The string to convert.
+ * @returns {Array} Returns the property path array.
+ */
+var stringToPath = memoize(function(string) {
+  string = toString(string);
+
+  var result = [];
+  if (reLeadingDot.test(string)) {
+    result.push('');
+  }
+  string.replace(rePropName, function(match, number, quote, string) {
+    result.push(quote ? string.replace(reEscapeChar, '$1') : (number || match));
+  });
+  return result;
+});
+
+/**
+ * Converts `value` to a string key if it's not a string or symbol.
+ *
+ * @private
+ * @param {*} value The value to inspect.
+ * @returns {string|symbol} Returns the key.
+ */
+function toKey(value) {
+  if (typeof value == 'string' || isSymbol(value)) {
+    return value;
+  }
+  var result = (value + '');
+  return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result;
+}
+
+/**
+ * Converts `func` to its source code.
+ *
+ * @private
+ * @param {Function} func The function to process.
+ * @returns {string} Returns the source code.
+ */
+function toSource(func) {
+  if (func != null) {
+    try {
+      return funcToString.call(func);
+    } catch (e) {}
+    try {
+      return (func + '');
+    } catch (e) {}
+  }
+  return '';
+}
+
+/**
+ * This method is like `_.sortBy` except that it allows specifying the sort
+ * orders of the iteratees to sort by. If `orders` is unspecified, all values
+ * are sorted in ascending order. Otherwise, specify an order of "desc" for
+ * descending or "asc" for ascending sort order of corresponding values.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Collection
+ * @param {Array|Object} collection The collection to iterate over.
+ * @param {Array[]|Function[]|Object[]|string[]} [iteratees=[_.identity]]
+ *  The iteratees to sort by.
+ * @param {string[]} [orders] The sort orders of `iteratees`.
+ * @param- {Object} [guard] Enables use as an iteratee for methods like `_.reduce`.
+ * @returns {Array} Returns the new sorted array.
+ * @example
+ *
+ * var users = [
+ *   { 'user': 'fred',   'age': 48 },
+ *   { 'user': 'barney', 'age': 34 },
+ *   { 'user': 'fred',   'age': 40 },
+ *   { 'user': 'barney', 'age': 36 }
+ * ];
+ *
+ * // Sort by `user` in ascending order and by `age` in descending order.
+ * _.orderBy(users, ['user', 'age'], ['asc', 'desc']);
+ * // => objects for [['barney', 36], ['barney', 34], ['fred', 48], ['fred', 40]]
+ */
+function orderBy(collection, iteratees, orders, guard) {
+  if (collection == null) {
+    return [];
+  }
+  if (!isArray(iteratees)) {
+    iteratees = iteratees == null ? [] : [iteratees];
+  }
+  orders = guard ? undefined : orders;
+  if (!isArray(orders)) {
+    orders = orders == null ? [] : [orders];
+  }
+  return baseOrderBy(collection, iteratees, orders);
+}
+
+/**
+ * Creates a function that memoizes the result of `func`. If `resolver` is
+ * provided, it determines the cache key for storing the result based on the
+ * arguments provided to the memoized function. By default, the first argument
+ * provided to the memoized function is used as the map cache key. The `func`
+ * is invoked with the `this` binding of the memoized function.
+ *
+ * **Note:** The cache is exposed as the `cache` property on the memoized
+ * function. Its creation may be customized by replacing the `_.memoize.Cache`
+ * constructor with one whose instances implement the
+ * [`Map`](http://ecma-international.org/ecma-262/7.0/#sec-properties-of-the-map-prototype-object)
+ * method interface of `delete`, `get`, `has`, and `set`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to have its output memoized.
+ * @param {Function} [resolver] The function to resolve the cache key.
+ * @returns {Function} Returns the new memoized function.
+ * @example
+ *
+ * var object = { 'a': 1, 'b': 2 };
+ * var other = { 'c': 3, 'd': 4 };
+ *
+ * var values = _.memoize(_.values);
+ * values(object);
+ * // => [1, 2]
+ *
+ * values(other);
+ * // => [3, 4]
+ *
+ * object.a = 2;
+ * values(object);
+ * // => [1, 2]
+ *
+ * // Modify the result cache.
+ * values.cache.set(object, ['a', 'b']);
+ * values(object);
+ * // => ['a', 'b']
+ *
+ * // Replace `_.memoize.Cache`.
+ * _.memoize.Cache = WeakMap;
+ */
+function memoize(func, resolver) {
+  if (typeof func != 'function' || (resolver && typeof resolver != 'function')) {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  var memoized = function() {
+    var args = arguments,
+        key = resolver ? resolver.apply(this, args) : args[0],
+        cache = memoized.cache;
+
+    if (cache.has(key)) {
+      return cache.get(key);
+    }
+    var result = func.apply(this, args);
+    memoized.cache = cache.set(key, result);
+    return result;
+  };
+  memoized.cache = new (memoize.Cache || MapCache);
+  return memoized;
+}
+
+// Assign cache to `_.memoize`.
+memoize.Cache = MapCache;
+
+/**
+ * Performs a
+ * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
+ * comparison between two values to determine if they are equivalent.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to compare.
+ * @param {*} other The other value to compare.
+ * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+ * @example
+ *
+ * var object = { 'a': 1 };
+ * var other = { 'a': 1 };
+ *
+ * _.eq(object, object);
+ * // => true
+ *
+ * _.eq(object, other);
+ * // => false
+ *
+ * _.eq('a', 'a');
+ * // => true
+ *
+ * _.eq('a', Object('a'));
+ * // => false
+ *
+ * _.eq(NaN, NaN);
+ * // => true
+ */
+function eq(value, other) {
+  return value === other || (value !== value && other !== other);
+}
+
+/**
+ * Checks if `value` is likely an `arguments` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an `arguments` object,
+ *  else `false`.
+ * @example
+ *
+ * _.isArguments(function() { return arguments; }());
+ * // => true
+ *
+ * _.isArguments([1, 2, 3]);
+ * // => false
+ */
+function isArguments(value) {
+  // Safari 8.1 makes `arguments.callee` enumerable in strict mode.
+  return isArrayLikeObject(value) && hasOwnProperty.call(value, 'callee') &&
+    (!propertyIsEnumerable.call(value, 'callee') || objectToString.call(value) == argsTag);
+}
+
+/**
+ * Checks if `value` is classified as an `Array` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an array, else `false`.
+ * @example
+ *
+ * _.isArray([1, 2, 3]);
+ * // => true
+ *
+ * _.isArray(document.body.children);
+ * // => false
+ *
+ * _.isArray('abc');
+ * // => false
+ *
+ * _.isArray(_.noop);
+ * // => false
+ */
+var isArray = Array.isArray;
+
+/**
+ * Checks if `value` is array-like. A value is considered array-like if it's
+ * not a function and has a `value.length` that's an integer greater than or
+ * equal to `0` and less than or equal to `Number.MAX_SAFE_INTEGER`.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
+ * @example
+ *
+ * _.isArrayLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isArrayLike(document.body.children);
+ * // => true
+ *
+ * _.isArrayLike('abc');
+ * // => true
+ *
+ * _.isArrayLike(_.noop);
+ * // => false
+ */
+function isArrayLike(value) {
+  return value != null && isLength(value.length) && !isFunction(value);
+}
+
+/**
+ * This method is like `_.isArrayLike` except that it also checks if `value`
+ * is an object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an array-like object,
+ *  else `false`.
+ * @example
+ *
+ * _.isArrayLikeObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isArrayLikeObject(document.body.children);
+ * // => true
+ *
+ * _.isArrayLikeObject('abc');
+ * // => false
+ *
+ * _.isArrayLikeObject(_.noop);
+ * // => false
+ */
+function isArrayLikeObject(value) {
+  return isObjectLike(value) && isArrayLike(value);
+}
+
+/**
+ * Checks if `value` is classified as a `Function` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a function, else `false`.
+ * @example
+ *
+ * _.isFunction(_);
+ * // => true
+ *
+ * _.isFunction(/abc/);
+ * // => false
+ */
+function isFunction(value) {
+  // The use of `Object#toString` avoids issues with the `typeof` operator
+  // in Safari 8-9 which returns 'object' for typed array and other constructors.
+  var tag = isObject(value) ? objectToString.call(value) : '';
+  return tag == funcTag || tag == genTag;
+}
+
+/**
+ * Checks if `value` is a valid array-like length.
+ *
+ * **Note:** This method is loosely based on
+ * [`ToLength`](http://ecma-international.org/ecma-262/7.0/#sec-tolength).
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
+ * @example
+ *
+ * _.isLength(3);
+ * // => true
+ *
+ * _.isLength(Number.MIN_VALUE);
+ * // => false
+ *
+ * _.isLength(Infinity);
+ * // => false
+ *
+ * _.isLength('3');
+ * // => false
+ */
+function isLength(value) {
+  return typeof value == 'number' &&
+    value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
+}
+
+/**
+ * Checks if `value` is the
+ * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value;
+  return !!value && (type == 'object' || type == 'function');
+}
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return !!value && typeof value == 'object';
+}
+
+/**
+ * Checks if `value` is classified as a `Symbol` primitive or object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
+ * @example
+ *
+ * _.isSymbol(Symbol.iterator);
+ * // => true
+ *
+ * _.isSymbol('abc');
+ * // => false
+ */
+function isSymbol(value) {
+  return typeof value == 'symbol' ||
+    (isObjectLike(value) && objectToString.call(value) == symbolTag);
+}
+
+/**
+ * Checks if `value` is classified as a typed array.
+ *
+ * @static
+ * @memberOf _
+ * @since 3.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
+ * @example
+ *
+ * _.isTypedArray(new Uint8Array);
+ * // => true
+ *
+ * _.isTypedArray([]);
+ * // => false
+ */
+var isTypedArray = nodeIsTypedArray ? baseUnary(nodeIsTypedArray) : baseIsTypedArray;
+
+/**
+ * Converts `value` to a string. An empty string is returned for `null`
+ * and `undefined` values. The sign of `-0` is preserved.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to process.
+ * @returns {string} Returns the string.
+ * @example
+ *
+ * _.toString(null);
+ * // => ''
+ *
+ * _.toString(-0);
+ * // => '-0'
+ *
+ * _.toString([1, 2, 3]);
+ * // => '1,2,3'
+ */
+function toString(value) {
+  return value == null ? '' : baseToString(value);
+}
+
+/**
+ * Gets the value at `path` of `object`. If the resolved value is
+ * `undefined`, the `defaultValue` is returned in its place.
+ *
+ * @static
+ * @memberOf _
+ * @since 3.7.0
+ * @category Object
+ * @param {Object} object The object to query.
+ * @param {Array|string} path The path of the property to get.
+ * @param {*} [defaultValue] The value returned for `undefined` resolved values.
+ * @returns {*} Returns the resolved value.
+ * @example
+ *
+ * var object = { 'a': [{ 'b': { 'c': 3 } }] };
+ *
+ * _.get(object, 'a[0].b.c');
+ * // => 3
+ *
+ * _.get(object, ['a', '0', 'b', 'c']);
+ * // => 3
+ *
+ * _.get(object, 'a.b.c', 'default');
+ * // => 'default'
+ */
+function get(object, path, defaultValue) {
+  var result = object == null ? undefined : baseGet(object, path);
+  return result === undefined ? defaultValue : result;
+}
+
+/**
+ * Checks if `path` is a direct or inherited property of `object`.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Object
+ * @param {Object} object The object to query.
+ * @param {Array|string} path The path to check.
+ * @returns {boolean} Returns `true` if `path` exists, else `false`.
+ * @example
+ *
+ * var object = _.create({ 'a': _.create({ 'b': 2 }) });
+ *
+ * _.hasIn(object, 'a');
+ * // => true
+ *
+ * _.hasIn(object, 'a.b');
+ * // => true
+ *
+ * _.hasIn(object, ['a', 'b']);
+ * // => true
+ *
+ * _.hasIn(object, 'b');
+ * // => false
+ */
+function hasIn(object, path) {
+  return object != null && hasPath(object, path, baseHasIn);
+}
+
+/**
+ * Creates an array of the own enumerable property names of `object`.
+ *
+ * **Note:** Non-object values are coerced to objects. See the
+ * [ES spec](http://ecma-international.org/ecma-262/7.0/#sec-object.keys)
+ * for more details.
+ *
+ * @static
+ * @since 0.1.0
+ * @memberOf _
+ * @category Object
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ * @example
+ *
+ * function Foo() {
+ *   this.a = 1;
+ *   this.b = 2;
+ * }
+ *
+ * Foo.prototype.c = 3;
+ *
+ * _.keys(new Foo);
+ * // => ['a', 'b'] (iteration order is not guaranteed)
+ *
+ * _.keys('hi');
+ * // => ['0', '1']
+ */
+function keys(object) {
+  return isArrayLike(object) ? arrayLikeKeys(object) : baseKeys(object);
+}
+
+/**
+ * This method returns the first argument it receives.
+ *
+ * @static
+ * @since 0.1.0
+ * @memberOf _
+ * @category Util
+ * @param {*} value Any value.
+ * @returns {*} Returns `value`.
+ * @example
+ *
+ * var object = { 'a': 1 };
+ *
+ * console.log(_.identity(object) === object);
+ * // => true
+ */
+function identity(value) {
+  return value;
+}
+
+/**
+ * Creates a function that returns the value at `path` of a given object.
+ *
+ * @static
+ * @memberOf _
+ * @since 2.4.0
+ * @category Util
+ * @param {Array|string} path The path of the property to get.
+ * @returns {Function} Returns the new accessor function.
+ * @example
+ *
+ * var objects = [
+ *   { 'a': { 'b': 2 } },
+ *   { 'a': { 'b': 1 } }
+ * ];
+ *
+ * _.map(objects, _.property('a.b'));
+ * // => [2, 1]
+ *
+ * _.map(_.sortBy(objects, _.property(['a', 'b'])), 'a.b');
+ * // => [1, 2]
+ */
+function property(path) {
+  return isKey(path) ? baseProperty(toKey(path)) : basePropertyDeep(path);
+}
+
+module.exports = orderBy;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash.throttle/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/lodash.throttle/index.js ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+/**
+ * lodash (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/** Used as the `TypeError` message for "Functions" methods. */
+var FUNC_ERROR_TEXT = 'Expected a function';
+
+/** Used as references for various `Number` constants. */
+var NAN = 0 / 0;
+
+/** `Object#toString` result references. */
+var symbolTag = '[object Symbol]';
+
+/** Used to match leading and trailing whitespace. */
+var reTrim = /^\s+|\s+$/g;
+
+/** Used to detect bad signed hexadecimal string values. */
+var reIsBadHex = /^[-+]0x[0-9a-f]+$/i;
+
+/** Used to detect binary string values. */
+var reIsBinary = /^0b[01]+$/i;
+
+/** Used to detect octal string values. */
+var reIsOctal = /^0o[0-7]+$/i;
+
+/** Built-in method references without a dependency on `root`. */
+var freeParseInt = parseInt;
+
+/** Detect free variable `global` from Node.js. */
+var freeGlobal = typeof __webpack_require__.g == 'object' && __webpack_require__.g && __webpack_require__.g.Object === Object && __webpack_require__.g;
+
+/** Detect free variable `self`. */
+var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
+
+/** Used as a reference to the global object. */
+var root = freeGlobal || freeSelf || Function('return this')();
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objectToString = objectProto.toString;
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMax = Math.max,
+    nativeMin = Math.min;
+
+/**
+ * Gets the timestamp of the number of milliseconds that have elapsed since
+ * the Unix epoch (1 January 1970 00:00:00 UTC).
+ *
+ * @static
+ * @memberOf _
+ * @since 2.4.0
+ * @category Date
+ * @returns {number} Returns the timestamp.
+ * @example
+ *
+ * _.defer(function(stamp) {
+ *   console.log(_.now() - stamp);
+ * }, _.now());
+ * // => Logs the number of milliseconds it took for the deferred invocation.
+ */
+var now = function() {
+  return root.Date.now();
+};
+
+/**
+ * Creates a debounced function that delays invoking `func` until after `wait`
+ * milliseconds have elapsed since the last time the debounced function was
+ * invoked. The debounced function comes with a `cancel` method to cancel
+ * delayed `func` invocations and a `flush` method to immediately invoke them.
+ * Provide `options` to indicate whether `func` should be invoked on the
+ * leading and/or trailing edge of the `wait` timeout. The `func` is invoked
+ * with the last arguments provided to the debounced function. Subsequent
+ * calls to the debounced function return the result of the last `func`
+ * invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the debounced function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.debounce` and `_.throttle`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to debounce.
+ * @param {number} [wait=0] The number of milliseconds to delay.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=false]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {number} [options.maxWait]
+ *  The maximum time `func` is allowed to be delayed before it's invoked.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new debounced function.
+ * @example
+ *
+ * // Avoid costly calculations while the window size is in flux.
+ * jQuery(window).on('resize', _.debounce(calculateLayout, 150));
+ *
+ * // Invoke `sendMail` when clicked, debouncing subsequent calls.
+ * jQuery(element).on('click', _.debounce(sendMail, 300, {
+ *   'leading': true,
+ *   'trailing': false
+ * }));
+ *
+ * // Ensure `batchLog` is invoked once after 1 second of debounced calls.
+ * var debounced = _.debounce(batchLog, 250, { 'maxWait': 1000 });
+ * var source = new EventSource('/stream');
+ * jQuery(source).on('message', debounced);
+ *
+ * // Cancel the trailing debounced invocation.
+ * jQuery(window).on('popstate', debounced.cancel);
+ */
+function debounce(func, wait, options) {
+  var lastArgs,
+      lastThis,
+      maxWait,
+      result,
+      timerId,
+      lastCallTime,
+      lastInvokeTime = 0,
+      leading = false,
+      maxing = false,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  wait = toNumber(wait) || 0;
+  if (isObject(options)) {
+    leading = !!options.leading;
+    maxing = 'maxWait' in options;
+    maxWait = maxing ? nativeMax(toNumber(options.maxWait) || 0, wait) : maxWait;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+
+  function invokeFunc(time) {
+    var args = lastArgs,
+        thisArg = lastThis;
+
+    lastArgs = lastThis = undefined;
+    lastInvokeTime = time;
+    result = func.apply(thisArg, args);
+    return result;
+  }
+
+  function leadingEdge(time) {
+    // Reset any `maxWait` timer.
+    lastInvokeTime = time;
+    // Start the timer for the trailing edge.
+    timerId = setTimeout(timerExpired, wait);
+    // Invoke the leading edge.
+    return leading ? invokeFunc(time) : result;
+  }
+
+  function remainingWait(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime,
+        result = wait - timeSinceLastCall;
+
+    return maxing ? nativeMin(result, maxWait - timeSinceLastInvoke) : result;
+  }
+
+  function shouldInvoke(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime;
+
+    // Either this is the first call, activity has stopped and we're at the
+    // trailing edge, the system time has gone backwards and we're treating
+    // it as the trailing edge, or we've hit the `maxWait` limit.
+    return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
+      (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait));
+  }
+
+  function timerExpired() {
+    var time = now();
+    if (shouldInvoke(time)) {
+      return trailingEdge(time);
+    }
+    // Restart the timer.
+    timerId = setTimeout(timerExpired, remainingWait(time));
+  }
+
+  function trailingEdge(time) {
+    timerId = undefined;
+
+    // Only invoke if we have `lastArgs` which means `func` has been
+    // debounced at least once.
+    if (trailing && lastArgs) {
+      return invokeFunc(time);
+    }
+    lastArgs = lastThis = undefined;
+    return result;
+  }
+
+  function cancel() {
+    if (timerId !== undefined) {
+      clearTimeout(timerId);
+    }
+    lastInvokeTime = 0;
+    lastArgs = lastCallTime = lastThis = timerId = undefined;
+  }
+
+  function flush() {
+    return timerId === undefined ? result : trailingEdge(now());
+  }
+
+  function debounced() {
+    var time = now(),
+        isInvoking = shouldInvoke(time);
+
+    lastArgs = arguments;
+    lastThis = this;
+    lastCallTime = time;
+
+    if (isInvoking) {
+      if (timerId === undefined) {
+        return leadingEdge(lastCallTime);
+      }
+      if (maxing) {
+        // Handle invocations in a tight loop.
+        timerId = setTimeout(timerExpired, wait);
+        return invokeFunc(lastCallTime);
+      }
+    }
+    if (timerId === undefined) {
+      timerId = setTimeout(timerExpired, wait);
+    }
+    return result;
+  }
+  debounced.cancel = cancel;
+  debounced.flush = flush;
+  return debounced;
+}
+
+/**
+ * Creates a throttled function that only invokes `func` at most once per
+ * every `wait` milliseconds. The throttled function comes with a `cancel`
+ * method to cancel delayed `func` invocations and a `flush` method to
+ * immediately invoke them. Provide `options` to indicate whether `func`
+ * should be invoked on the leading and/or trailing edge of the `wait`
+ * timeout. The `func` is invoked with the last arguments provided to the
+ * throttled function. Subsequent calls to the throttled function return the
+ * result of the last `func` invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the throttled function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.throttle` and `_.debounce`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to throttle.
+ * @param {number} [wait=0] The number of milliseconds to throttle invocations to.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=true]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new throttled function.
+ * @example
+ *
+ * // Avoid excessively updating the position while scrolling.
+ * jQuery(window).on('scroll', _.throttle(updatePosition, 100));
+ *
+ * // Invoke `renewToken` when the click event is fired, but not more than once every 5 minutes.
+ * var throttled = _.throttle(renewToken, 300000, { 'trailing': false });
+ * jQuery(element).on('click', throttled);
+ *
+ * // Cancel the trailing throttled invocation.
+ * jQuery(window).on('popstate', throttled.cancel);
+ */
+function throttle(func, wait, options) {
+  var leading = true,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  if (isObject(options)) {
+    leading = 'leading' in options ? !!options.leading : leading;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+  return debounce(func, wait, {
+    'leading': leading,
+    'maxWait': wait,
+    'trailing': trailing
+  });
+}
+
+/**
+ * Checks if `value` is the
+ * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value;
+  return !!value && (type == 'object' || type == 'function');
+}
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return !!value && typeof value == 'object';
+}
+
+/**
+ * Checks if `value` is classified as a `Symbol` primitive or object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
+ * @example
+ *
+ * _.isSymbol(Symbol.iterator);
+ * // => true
+ *
+ * _.isSymbol('abc');
+ * // => false
+ */
+function isSymbol(value) {
+  return typeof value == 'symbol' ||
+    (isObjectLike(value) && objectToString.call(value) == symbolTag);
+}
+
+/**
+ * Converts `value` to a number.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to process.
+ * @returns {number} Returns the number.
+ * @example
+ *
+ * _.toNumber(3.2);
+ * // => 3.2
+ *
+ * _.toNumber(Number.MIN_VALUE);
+ * // => 5e-324
+ *
+ * _.toNumber(Infinity);
+ * // => Infinity
+ *
+ * _.toNumber('3.2');
+ * // => 3.2
+ */
+function toNumber(value) {
+  if (typeof value == 'number') {
+    return value;
+  }
+  if (isSymbol(value)) {
+    return NAN;
+  }
+  if (isObject(value)) {
+    var other = typeof value.valueOf == 'function' ? value.valueOf() : value;
+    value = isObject(other) ? (other + '') : other;
+  }
+  if (typeof value != 'string') {
+    return value === 0 ? value : +value;
+  }
+  value = value.replace(reTrim, '');
+  var isBinary = reIsBinary.test(value);
+  return (isBinary || reIsOctal.test(value))
+    ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
+    : (reIsBadHex.test(value) ? NAN : +value);
+}
+
+module.exports = throttle;
 
 
 /***/ }),
@@ -50428,6 +53618,1895 @@ function arrObjKeys(obj, inspect) {
 
 /***/ }),
 
+/***/ "./node_modules/primevue/api/api.esm.js":
+/*!**********************************************!*\
+  !*** ./node_modules/primevue/api/api.esm.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "FilterMatchMode": () => (/* binding */ FilterMatchMode),
+/* harmony export */   "FilterOperator": () => (/* binding */ FilterOperator),
+/* harmony export */   "FilterService": () => (/* binding */ FilterService),
+/* harmony export */   "PrimeIcons": () => (/* binding */ PrimeIcons),
+/* harmony export */   "ToastSeverity": () => (/* binding */ ToastSeverities)
+/* harmony export */ });
+/* harmony import */ var primevue_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! primevue/utils */ "./node_modules/primevue/utils/utils.esm.js");
+
+
+const FilterMatchMode = {
+    STARTS_WITH : 'startsWith',
+    CONTAINS : 'contains',
+    NOT_CONTAINS : 'notContains',
+    ENDS_WITH : 'endsWith',
+    EQUALS : 'equals',
+    NOT_EQUALS : 'notEquals',
+    IN : 'in',
+    LESS_THAN : 'lt',
+    LESS_THAN_OR_EQUAL_TO : 'lte',
+    GREATER_THAN : 'gt',
+    GREATER_THAN_OR_EQUAL_TO : 'gte',
+    BETWEEN : 'between',
+    DATE_IS : 'dateIs',
+    DATE_IS_NOT : 'dateIsNot',
+    DATE_BEFORE : 'dateBefore',
+    DATE_AFTER : 'dateAfter'
+};
+
+const FilterOperator = {
+    AND: 'and',
+    OR: 'or'
+};
+
+const FilterService = {
+    filter(value, fields, filterValue, filterMatchMode, filterLocale) {
+        let filteredItems = [];
+
+        if (value) {
+            for (let item of value) {
+                for (let field of fields) {
+                    let fieldValue = primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.resolveFieldData(item, field);
+
+                    if (this.filters[filterMatchMode](fieldValue, filterValue, filterLocale)) {
+                        filteredItems.push(item);
+                        break;
+                    }
+                }
+            }
+        }
+
+        return filteredItems;
+    },
+    filters: {
+        startsWith(value, filter, filterLocale)  {
+            if (filter === undefined || filter === null || filter.trim() === '') {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+    
+            let filterValue = primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.removeAccents(filter.toString()).toLocaleLowerCase(filterLocale);
+            let stringValue = primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.removeAccents(value.toString()).toLocaleLowerCase(filterLocale);
+    
+            return stringValue.slice(0, filterValue.length) === filterValue;
+        },
+        contains(value, filter, filterLocale) {
+            if (filter === undefined || filter === null || (typeof filter === 'string' && filter.trim() === '')) {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+    
+            let filterValue = primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.removeAccents(filter.toString()).toLocaleLowerCase(filterLocale);
+            let stringValue = primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.removeAccents(value.toString()).toLocaleLowerCase(filterLocale);
+    
+            return stringValue.indexOf(filterValue) !== -1;
+        },
+        notContains(value, filter, filterLocale) {
+            if (filter === undefined || filter === null || (typeof filter === 'string' && filter.trim() === '')) {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+    
+            let filterValue = primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.removeAccents(filter.toString()).toLocaleLowerCase(filterLocale);
+            let stringValue = primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.removeAccents(value.toString()).toLocaleLowerCase(filterLocale);
+    
+            return stringValue.indexOf(filterValue) === -1;
+        },
+        endsWith(value, filter, filterLocale) {
+            if (filter === undefined || filter === null || filter.trim() === '') {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+    
+            let filterValue = primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.removeAccents(filter.toString()).toLocaleLowerCase(filterLocale);
+            let stringValue = primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.removeAccents(value.toString()).toLocaleLowerCase(filterLocale);
+    
+            return stringValue.indexOf(filterValue, stringValue.length - filterValue.length) !== -1;
+        },
+        equals(value, filter, filterLocale) {
+            if (filter === undefined || filter === null || (typeof filter === 'string' && filter.trim() === '')) {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+    
+            if (value.getTime && filter.getTime)
+                return value.getTime() === filter.getTime();
+            else
+                return primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.removeAccents(value.toString()).toLocaleLowerCase(filterLocale) == primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.removeAccents(filter.toString()).toLocaleLowerCase(filterLocale);
+        },
+        notEquals(value, filter, filterLocale) {
+            if (filter === undefined || filter === null || (typeof filter === 'string' && filter.trim() === '')) {
+                return false;
+            }
+    
+            if (value === undefined || value === null) {
+                return true;
+            }
+    
+            if (value.getTime && filter.getTime)
+                return value.getTime() !== filter.getTime();
+            else
+                return primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.removeAccents(value.toString()).toLocaleLowerCase(filterLocale) != primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.removeAccents(filter.toString()).toLocaleLowerCase(filterLocale);
+        },
+        in(value, filter) {
+            if (filter === undefined || filter === null || filter.length === 0) {
+                return true;
+            }
+    
+            for (let i = 0; i < filter.length; i++) {
+                if (primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.equals(value, filter[i])) {
+                    return true;
+                }
+            }
+    
+            return false;
+        },
+        between(value, filter) {
+            if (filter == null || filter[0] == null || filter[1] == null) {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+    
+            if (value.getTime)
+            return filter[0].getTime() <= value.getTime() && value.getTime() <= filter[1].getTime();
+            else
+                return filter[0] <= value && value <= filter[1];
+        },
+        lt(value, filter) {
+            if (filter === undefined || filter === null) {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+    
+            if (value.getTime && filter.getTime)
+                return value.getTime() < filter.getTime();
+            else
+                return value < filter;
+        },
+        lte(value, filter) {
+            if (filter === undefined || filter === null) {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+    
+            if (value.getTime && filter.getTime)
+                return value.getTime() <= filter.getTime();
+            else
+                return value <= filter;
+        },
+        gt(value, filter) {
+            if (filter === undefined || filter === null) {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+    
+            if (value.getTime && filter.getTime)
+                return value.getTime() > filter.getTime();
+            else
+                return value > filter;
+        },
+        gte(value, filter) {
+            if (filter === undefined || filter === null) {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+    
+            if (value.getTime && filter.getTime)
+                return value.getTime() >= filter.getTime();
+            else
+                return value >= filter;
+        },
+        dateIs(value, filter) {
+            if (filter === undefined || filter === null) {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+
+            return value.toDateString() === filter.toDateString();
+        },
+        dateIsNot(value, filter) {
+            if (filter === undefined || filter === null) {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+
+            return value.toDateString() !== filter.toDateString();
+        },
+        dateBefore(value, filter) {
+            if (filter === undefined || filter === null) {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+
+            return value.getTime() < filter.getTime();
+        },
+        dateAfter(value, filter) {
+            if (filter === undefined || filter === null) {
+                return true;
+            }
+    
+            if (value === undefined || value === null) {
+                return false;
+            }
+
+            return value.getTime() > filter.getTime();
+        }
+    },
+    register(rule, fn) {
+        this.filters[rule] = fn;
+    }
+};
+
+const PrimeIcons = {
+    ALIGN_CENTER:'pi pi-align-center',
+    ALIGN_JUSTIFY:'pi pi-align-justify',
+    ALIGN_LEFT:'pi pi-align-left',
+    ALIGN_RIGHT:'pi pi-align-right',
+    AMAZON:'pi pi-amazon',
+    ANDROID:'pi pi-android',
+    ANGLE_DOUBLE_DOWN:'pi pi-angle-double-down',
+    ANGLE_DOUBLE_LEFT:'pi pi-angle-double-left',
+    ANGLE_DOUBLE_RIGHT:'pi pi-angle-double-right',
+    ANGLE_DOUBLE_UP:'pi pi-angle-double-up',
+    ANGLE_DOWN:'pi pi-angle-down',
+    ANGLE_LEFT:'pi pi-angle-left',
+    ANGLE_RIGHT:'pi pi-angle-right',
+    ANGLE_UP:'pi pi-angle-up',
+    APPLE:'pi pi-apple',
+    ARROW_CIRCLE_DOWN:'pi pi-arrow-circle-down',
+    ARROW_CIRCLE_LEFT:'pi pi-arrow-circle-left',
+    ARROW_CIRCLE_RIGHT:'pi pi-arrow-circle-right',
+    ARROW_CIRCLE_UP:'pi pi-arrow-circle-up',
+    ARROW_DOWN:'pi pi-arrow-down',
+    ARROW_LEFT:'pi pi-arrow-left',
+    ARROW_RIGHT:'pi pi-arrow-right',
+    ARROW_UP:'pi pi-arrow-up',
+    BACKWARD:'pi pi-backward',
+    BAN:'pi pi-ban',
+    BARS:'pi pi-bars',
+    BELL:'pi pi-bell',
+    BOOK:'pi pi-book',
+    BOOKMARK:'pi pi-bookmark',
+    BRIEFCASE:'pi pi-briefcase',
+    CALENDAR_MINUS:'pi pi-calendar-minus',
+    CALENDAR_PLUS:'pi pi-calendar-plus',
+    CALENDAR_TIMES:'pi pi-calendar-times',
+    CALENDAR:'pi pi-calendar',
+    CAMERA:'pi pi-camera',
+    CARET_DOWN:'pi pi-caret-down',
+    CARET_LEFT:'pi pi-caret-left',
+    CARET_RIGHT:'pi pi-caret-right',
+    CARET_UP:'pi pi-caret-up',
+    CHART_BAR:'pi pi-chart-bar',
+    CHART_LINE:'pi pi-chart-line',
+    CHECK_CIRCLE:'pi pi-check-circle',
+    CHECK_SQUARE:'pi pi-check-square',
+    CHECK:'pi pi-check',
+    CHEVRON_CIRCLE_DOWN:'pi pi-chevron-circle-down',
+    CHEVRON_CIRCLE_LEFT:'pi pi-chevron-circle-left',
+    CHEVRON_CIRCLE_RIGHT:'pi pi-chevron-circle-right',
+    CHEVRON_CIRCLE_UP:'pi pi-chevron-circle-up',
+    CHEVRON_DOWN:'pi pi-chevron-down',
+    CHEVRON_LEFT:'pi pi-chevron-left',
+    CHEVRON_RIGHT:'pi pi-chevron-right',
+    CHEVRON_UP:'pi pi-chevron-up',
+    CLOCK:'pi pi-clock',
+    CLONE:'pi pi-clone',
+    CLOUD_DOWNLOAD:'pi pi-cloud-download',
+    CLOUD_UPLOAD:'pi pi-cloud-upload',
+    CLOUD:'pi pi-cloud',
+    COG:'pi pi-cog',
+    COMMENT:'pi pi-comment',
+    COMMENTS:'pi pi-comments',
+    COMPASS:'pi pi-compass',
+    COPY:'pi pi-copy',
+    CREDIT_CARD:'pi pi-credit-card',
+    DESKTOP:'pi pi-desktop',
+    DISCORD:'pi pi-discord',
+    DIRECTIONS_ALT:'pi pi-directions-alt',
+    DIRECTIONS:'pi pi-directions',
+    DOLLAR:'pi pi-dollar',
+    DOWNLOAD:'pi pi-download',
+    EJECT:'pi pi-eject',
+    ELLIPSIS_H:'pi pi-ellipsis-h',
+    ELLIPSIS_V:'pi pi-ellipsis-v',
+    ENVELOPE:'pi pi-envelope',
+    EXCLAMATION_CIRCLE:'pi pi-exclamation-circle',
+    EXCLAMATION_TRIANGLE :'pi pi-exclamation-triangle ',
+    EXTERNAL_LINK:'pi pi-external-link',
+    EYE_SLASH:'pi pi-eye-slash',
+    EYE:'pi pi-eye',
+    FACEBOOK:'pi pi-facebook',
+    FAST_BACKWARD:'pi pi-fast-backward',
+    FAST_FORWARD:'pi pi-fast-forward',
+    FILE_EXCEL:'pi pi-file-excel',
+    FILE_O:'pi pi-file-o',
+    FILE_PDF:'pi pi-file-pdf',
+    FILE:'pi pi-file',
+    FILTER:'pi pi-filter',
+    FILTER_SLASH:'pi pi-filter-slash',
+    FLAG:'pi pi-flag',
+    FOLDER_OPEN:'pi pi-folder-open',
+    FOLDER:'pi pi-folder',
+    FORWARD:'pi pi-forward',
+    GITHUB:'pi pi-github',
+    GLOBE:'pi pi-globe',
+    GOOGLE:'pi pi-google',
+    HEART:'pi pi-heart',
+    HOME:'pi pi-home',
+    ID_CARD:'pi pi-id-card',
+    IMAGE:'pi pi-image',
+    IMAGES:'pi pi-images',
+    INBOX:'pi pi-inbox',
+    INFO_CIRCLE:'pi pi-info-circle',
+    INFO:'pi pi-info',
+    KEY:'pi pi-key',
+    LINK:'pi pi-link',
+    LIST:'pi pi-list',
+    LOCK_OPEN:'pi pi-lock-open',
+    LOCK:'pi pi-lock',
+    MAP:'pi pi-map',
+    MAP_MARKER:'pi pi-map-marker',
+    MICROSOFT:'pi pi-microsoft',
+    MINUS_CIRCLE:'pi pi-minus-circle',
+    MINUS:'pi pi-minus',
+    MOBILE:'pi pi-mobile',
+    MONEY_BILL:'pi pi-money-bill',
+    MOON:'pi pi-moon',
+    PALETTE:'pi pi-palette',
+    PAPERCLIP:'pi pi-paperclip',
+    PAUSE:'pi pi-pause',
+    PAYPAL:'pi pi-paypal',
+    PENCIL:'pi pi-pencil',
+    PERCENTAGE:'pi pi-percentage',
+    PHONE:'pi pi-phone',
+    PLAY:'pi pi-play',
+    PLUS_CIRCLE:'pi pi-plus-circle',
+    PLUS:'pi pi-plus',
+    POWER_OFF:'pi pi-power-off',
+    PRINT:'pi pi-print',
+    QUESTION_CIRCLE:'pi pi-question-circle',
+    QUESTION:'pi pi-question',
+    RADIO_OFF:'pi pi-radio-off',
+    RADIO_ON:'pi pi-radio-on',
+    REFRESH:'pi pi-refresh',
+    REPLAY:'pi pi-replay',
+    REPLY:'pi pi-reply',
+    SAVE:'pi pi-save',
+    SEARCH_MINUS:'pi pi-search-minus',
+    SEARCH_PLUS:'pi pi-search-plus',
+    SEARCH:'pi pi-search',
+    SEND:'pi pi-send',
+    SHARE_ALT:'pi pi-share-alt',
+    SHIELD:'pi pi-shield',
+    SHOPPING_CART:'pi pi-shopping-cart',
+    SIGN_IN:'pi pi-sign-in',
+    SIGN_OUT:'pi pi-sign-out',
+    SITEMAP:'pi pi-sitemap',
+    SLACK:'pi pi-slack',
+    SLIDERS_H:'pi pi-sliders-h',
+    SLIDERS_V:'pi pi-sliders-v',
+    SORT_ALPHA_ALT_DOWN:'pi pi-sort-alpha-alt-down',
+    SORT_ALPHA_ALT_UP:'pi pi-sort-alpha-alt-up',
+    SORT_ALPHA_DOWN:'pi pi-sort-alpha-down',
+    SORT_ALPHA_UP:'pi pi-sort-alpha-up',
+    SORT_ALT:'pi pi-sort-alt',
+    SORT_AMOUNT_DOWN_ALT:'pi pi-sort-amount-down-alt',
+    SORT_AMOUNT_DOWN:'pi pi-sort-amount-down',
+    SORT_AMOUNT_UP_ALT:'pi pi-sort-amount-up-alt',
+    SORT_AMOUNT_UP:'pi pi-sort-amount-up',
+    SORT_DOWN:'pi pi-sort-down',
+    SORT_NUMERIC_ALT_DOWN:'pi pi-sort-numeric-alt-down',
+    SORT_NUMERIC_ALT_UP:'pi pi-sort-numeric-alt-up',
+    SORT_NUMERIC_DOWN:'pi pi-sort-numeric-down',
+    SORT_NUMERIC_UP:'pi pi-sort-numeric-up',
+    SORT_UP:'pi pi-sort-up',
+    SORT:'pi pi-sort',
+    SPINNER:'pi pi-spinner',
+    STAR_O:'pi pi-star-o',
+    STAR:'pi pi-star',
+    STEP_BACKWARD_ALT:'pi pi-step-backward-alt',
+    STEP_BACKWARD:'pi pi-step-backward',
+    STEP_FORWARD_ALT:'pi pi-step-forward-alt',
+    STEP_FORWARD:'pi pi-step-forward',
+    SUN:'pi pi-sun',
+    TABLE:'pi pi-table',
+    TABLET:'pi pi-tablet',
+    TAG:'pi pi-tag',
+    TAGS:'pi pi-tags',
+    TH_LARGE:'pi pi-th-large',
+    THUMBS_DOWN:'pi pi-thumbs-down',
+    THUMBS_UP:'pi pi-thumbs-up',
+    TICKET:'pi pi-ticket',
+    TIMES_CIRCLE:'pi pi-times-circle',
+    TIMES:'pi pi-times',
+    TRASH:'pi pi-trash',
+    TWITTER:'pi pi-twitter',
+    UNDO:'pi pi-undo',
+    UNLOCK:'pi pi-unlock',
+    UPLOAD:'pi pi-upload',
+    USER_EDIT:'pi pi-user-edit',
+    USER_MINUS:'pi pi-user-minus',
+    USER_PLUS:'pi pi-user-plus',
+    USER:'pi pi-user',
+    USERS:'pi pi-users',
+    VIDEO:'pi pi-video',
+    VIMEO:'pi pi-vimeo',
+    VOLUME_DOWN:'pi pi-volume-down',
+    VOLUME_OFF:'pi pi-volume-off',
+    VOLUME_UP:'pi pi-volume-up',
+    YOUTUBE:'pi pi-youtube',
+    WALLET:'pi pi-wallet',
+    WIFI:'pi pi-wifi',
+    WINDOW_MAXIMIZE:'pi pi-window-maximize',
+    WINDOW_MINIMIZE:'pi pi-window-minimize'
+};
+
+const ToastSeverities = {
+    INFO: 'info',
+    WARN: 'warn',
+    ERROR: 'error',
+    SUCCESS: 'success'
+};
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/primevue/checkbox/checkbox.esm.js":
+/*!********************************************************!*\
+  !*** ./node_modules/primevue/checkbox/checkbox.esm.js ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var primevue_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! primevue/utils */ "./node_modules/primevue/utils/utils.esm.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+
+var script = {
+    name: 'Checkbox',
+    inheritAttrs: false,
+    emits: ['click', 'update:modelValue', 'change', 'input'],
+    props: {
+        value: null,
+        modelValue: null,
+        binary: Boolean,
+        class: null,
+        style: null,
+        trueValue: {
+            type: null,
+            default: true
+        },
+        falseValue: {
+            type: null,
+            default: false
+        }
+    },
+    data() {
+        return {
+            focused: false
+        };
+    },
+    methods: {
+        onClick(event) {
+            if (!this.$attrs.disabled) {
+                let newModelValue;
+
+                if (this.binary) {
+                    newModelValue = this.checked ? this.falseValue : this.trueValue;
+                }
+                else {
+                    if (this.checked)
+                        newModelValue = this.modelValue.filter(val => !primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.equals(val, this.value));
+                    else
+                        newModelValue = this.modelValue ? [...this.modelValue, this.value] : [this.value];
+                }
+
+                this.$emit('click', event);
+                this.$emit('update:modelValue', newModelValue);
+                this.$emit('change', event);
+                this.$emit('input', newModelValue);
+                this.$refs.input.focus();
+            }
+        },
+        onFocus() {
+            this.focused = true;
+        },
+        onBlur() {
+            this.focused = false;
+        }
+    },
+    computed: {
+        checked() {
+            return this.binary ? this.modelValue === this.trueValue : primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ObjectUtils.contains(this.value, this.modelValue);
+        },
+        containerClass() {
+            return ['p-checkbox p-component', this.class, {'p-checkbox-checked': this.checked, 'p-checkbox-disabled': this.$attrs.disabled, 'p-checkbox-focused': this.focused}];
+        }
+    }
+};
+
+const _hoisted_1 = { class: "p-hidden-accessible" };
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return ((0,vue__WEBPACK_IMPORTED_MODULE_1__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_1__.createBlock)("div", {
+    class: $options.containerClass,
+    onClick: _cache[3] || (_cache[3] = $event => ($options.onClick($event))),
+    style: $props.style
+  }, [
+    (0,vue__WEBPACK_IMPORTED_MODULE_1__.createVNode)("div", _hoisted_1, [
+      (0,vue__WEBPACK_IMPORTED_MODULE_1__.createVNode)("input", (0,vue__WEBPACK_IMPORTED_MODULE_1__.mergeProps)({
+        ref: "input",
+        type: "checkbox",
+        checked: $options.checked,
+        value: $props.value
+      }, _ctx.$attrs, {
+        onFocus: _cache[1] || (_cache[1] = (...args) => ($options.onFocus && $options.onFocus(...args))),
+        onBlur: _cache[2] || (_cache[2] = (...args) => ($options.onBlur && $options.onBlur(...args)))
+      }), null, 16, ["checked", "value"])
+    ]),
+    (0,vue__WEBPACK_IMPORTED_MODULE_1__.createVNode)("div", {
+      ref: "box",
+      class: ['p-checkbox-box', {'p-highlight': $options.checked, 'p-disabled': _ctx.$attrs.disabled, 'p-focus': $data.focused}],
+      role: "checkbox",
+      "aria-checked": $options.checked
+    }, [
+      (0,vue__WEBPACK_IMPORTED_MODULE_1__.createVNode)("span", {
+        class: ['p-checkbox-icon', {'pi pi-check': $options.checked}]
+      }, null, 2)
+    ], 10, ["aria-checked"])
+  ], 6))
+}
+
+script.render = render;
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (script);
+
+
+/***/ }),
+
+/***/ "./node_modules/primevue/config/config.esm.js":
+/*!****************************************************!*\
+  !*** ./node_modules/primevue/config/config.esm.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "usePrimeVue": () => (/* binding */ usePrimeVue)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var primevue_api__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! primevue/api */ "./node_modules/primevue/api/api.esm.js");
+
+
+
+const defaultOptions = {
+    ripple: false,
+    inputStyle: 'outlined',
+    locale: {
+        startsWith: 'Starts with',
+        contains: 'Contains',
+        notContains: 'Not contains',
+        endsWith: 'Ends with',
+        equals: 'Equals',
+        notEquals: 'Not equals',
+        noFilter: 'No Filter',
+        lt: 'Less than',
+        lte: 'Less than or equal to',
+        gt: 'Greater than',
+        gte: 'Greater than or equal to',
+        dateIs: 'Date is',
+        dateIsNot: 'Date is not',
+        dateBefore: 'Date is before',
+        dateAfter: 'Date is after',
+        clear: 'Clear',
+        apply: 'Apply',
+        matchAll: 'Match All',
+        matchAny: 'Match Any',
+        addRule: 'Add Rule',
+        removeRule: 'Remove Rule',
+        accept: 'Yes',
+        reject: 'No',
+        choose: 'Choose',
+        upload: 'Upload',
+        cancel: 'Cancel',
+        dayNames: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        dayNamesShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+        dayNamesMin: ["Su","Mo","Tu","We","Th","Fr","Sa"],
+        monthNames: ["January","February","March","April","May","June","July","August","September","October","November","December"],
+        monthNamesShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        today: 'Today',
+        weekHeader: 'Wk',
+        firstDayOfWeek: 0,
+        dateFormat: 'mm/dd/yy',
+        weak: 'Weak',
+        medium: 'Medium',
+        strong: 'Strong',
+        passwordPrompt: 'Enter a password',
+        emptyFilterMessage: 'No results found',
+        emptyMessage: 'No available options'
+    },
+    filterMatchModeOptions: {
+        text: [
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.STARTS_WITH,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.CONTAINS,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.NOT_CONTAINS,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.ENDS_WITH,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.EQUALS,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.NOT_EQUALS
+        ],
+        numeric: [
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.EQUALS,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.NOT_EQUALS,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.LESS_THAN,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.LESS_THAN_OR_EQUAL_TO,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.GREATER_THAN,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.GREATER_THAN_OR_EQUAL_TO
+        ],
+        date: [
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.DATE_IS,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.DATE_IS_NOT,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.DATE_BEFORE,
+            primevue_api__WEBPACK_IMPORTED_MODULE_1__.FilterMatchMode.DATE_AFTER
+        ]
+    },
+    zIndex: {
+        modal: 1100,
+        overlay: 1000,
+        menu: 1000,
+        tooltip: 1100
+    }
+};
+
+const PrimeVueSymbol = Symbol();
+
+function usePrimeVue() {
+    const PrimeVue = (0,vue__WEBPACK_IMPORTED_MODULE_0__.inject)(PrimeVueSymbol);
+    if (!PrimeVue) {
+        throw new Error('PrimeVue is not installed!');
+    } 
+    
+    return PrimeVue;
+}
+
+var PrimeVue = {
+    install: (app, options) => {
+        let configOptions = options ? {...defaultOptions, ...options} : {...defaultOptions};
+        const PrimeVue = {
+            config: (0,vue__WEBPACK_IMPORTED_MODULE_0__.reactive)(configOptions)
+        };
+        app.config.globalProperties.$primevue = PrimeVue;
+        app.provide(PrimeVueSymbol, PrimeVue);
+    }
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PrimeVue);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/primevue/tooltip/tooltip.esm.js":
+/*!******************************************************!*\
+  !*** ./node_modules/primevue/tooltip/tooltip.esm.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var primevue_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! primevue/utils */ "./node_modules/primevue/utils/utils.esm.js");
+
+
+function bindEvents(el) {
+    const modifiers = el.$_ptooltipModifiers;
+    if (modifiers.focus) {
+        el.addEventListener('focus', onFocus);
+        el.addEventListener('blur', onBlur);
+    }
+    else {
+        el.addEventListener('mouseenter', onMouseEnter);
+        el.addEventListener('mouseleave', onMouseLeave);
+        el.addEventListener('click', onClick);
+    }
+}
+
+function unbindEvents(el) {
+    const modifiers = el.$_ptooltipModifiers;
+    if (modifiers.focus) {
+        el.removeEventListener('focus', onFocus);
+        el.removeEventListener('blur', onBlur);
+    }
+    else {
+        el.removeEventListener('mouseenter', onMouseEnter);
+        el.removeEventListener('mouseleave', onMouseLeave);
+        el.removeEventListener('click', onClick);
+    }
+}
+
+function bindScrollListener(el) {
+    if (!el.$_ptooltipScrollHandler) {
+        el.$_ptooltipScrollHandler = new primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ConnectedOverlayScrollHandler(el, function() {
+            hide(el);
+        });
+    }
+
+    el.$_ptooltipScrollHandler.bindScrollListener();
+}
+
+function unbindScrollListener(el) {
+    if (el.$_ptooltipScrollHandler) {
+        el.$_ptooltipScrollHandler.unbindScrollListener();
+    }
+}
+
+function onMouseEnter(event) {
+    show(event.currentTarget);
+}
+
+function onMouseLeave(event) {
+    hide(event.currentTarget);
+}
+
+function onFocus(event) {
+    show(event.currentTarget);
+}
+
+function onBlur(event) {
+    hide(event.currentTarget);
+}
+
+function onClick(event) {
+    hide(event.currentTarget);
+}
+
+function show(el) {
+    if (el.$_ptooltipDisabled) {
+        return;
+    }
+
+    let tooltipElement = create(el);
+    align(el);
+    primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.fadeIn(tooltipElement, 250);
+
+    window.addEventListener('resize', function onWindowResize() {
+        if (!primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.isAndroid()) {
+            hide(el);
+        }
+        this.removeEventListener('resize', onWindowResize);
+    });
+
+    bindScrollListener(el);
+    primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ZIndexUtils.set('tooltip', tooltipElement, el.$_ptooltipZIndex);
+}
+
+function hide(el) {
+    remove(el);
+    unbindScrollListener(el);
+    primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ZIndexUtils.clear(el);
+}
+
+function getTooltipElement(el) {
+    return document.getElementById(el.$_ptooltipId);
+}
+
+function create(el) {
+    const id = (0,primevue_utils__WEBPACK_IMPORTED_MODULE_0__.UniqueComponentId)() + '_tooltip';
+    el.$_ptooltipId = id;
+
+    let container = document.createElement('div');
+    container.id = id;
+
+    let tooltipArrow = document.createElement('div');
+    tooltipArrow.className = 'p-tooltip-arrow';
+    container.appendChild(tooltipArrow);
+
+    let tooltipText = document.createElement('div');
+    tooltipText.className = 'p-tooltip-text';
+    tooltipText.innerHTML = el.$_ptooltipValue;
+
+    container.appendChild(tooltipText);
+    document.body.appendChild(container);
+
+    container.style.display = 'inline-block';
+
+    return container;
+}
+
+function remove(el) {
+    if (el) {
+        let tooltipElement = getTooltipElement(el);
+        if (tooltipElement && tooltipElement.parentElement) {
+            document.body.removeChild(tooltipElement);
+        }
+        el.$_ptooltipId = null;
+    }
+}
+
+function align(el) {
+    const modifiers = el.$_ptooltipModifiers;
+
+    if (modifiers.top) {
+        alignTop(el);
+        if (isOutOfBounds(el)) {
+            alignBottom(el);
+        }
+    }
+    else if (modifiers.left) {
+        alignLeft(el);
+        if (isOutOfBounds(el)) {
+            alignRight(el);
+
+            if (isOutOfBounds(el)) {
+                alignTop(el);
+
+                if (isOutOfBounds(el)) {
+                    alignBottom(el);
+                }
+            }
+        }
+    }
+    else if (modifiers.bottom) {
+        alignBottom(el);
+        if (isOutOfBounds(el)) {
+            alignTop(el);
+        }
+    }
+    else {
+        alignRight(el);
+        if (isOutOfBounds(el)) {
+            alignLeft(el);
+
+            if (isOutOfBounds(el)) {
+                alignTop(el);
+
+                if (isOutOfBounds(el)) {
+                    alignBottom(el);
+                }
+            }
+        }
+    }
+}
+
+function getHostOffset(el) {
+    let offset = el.getBoundingClientRect();
+    let targetLeft = offset.left + primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getWindowScrollLeft();
+    let targetTop = offset.top + primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getWindowScrollTop();
+
+    return {left: targetLeft, top: targetTop};
+}
+
+function alignRight(el) {
+    preAlign(el, 'right');
+    let tooltipElement = getTooltipElement(el);
+    let hostOffset = getHostOffset(el);
+    let left = hostOffset.left + primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterWidth(el);
+    let top = hostOffset.top + (primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterHeight(el) - primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterHeight(tooltipElement)) / 2;
+    tooltipElement.style.left = left + 'px';
+    tooltipElement.style.top = top + 'px';
+}
+
+function alignLeft(el) {
+    preAlign(el, 'left');
+    let tooltipElement = getTooltipElement(el);
+    let hostOffset = getHostOffset(el);
+    let left = hostOffset.left - primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterWidth(tooltipElement);
+    let top = hostOffset.top + (primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterHeight(el) - primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterHeight(tooltipElement)) / 2;
+    tooltipElement.style.left = left + 'px';
+    tooltipElement.style.top = top + 'px';
+}
+
+function alignTop(el) {
+    preAlign(el, 'top');
+    let tooltipElement = getTooltipElement(el);
+    let hostOffset = getHostOffset(el);
+    let left = hostOffset.left + (primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterWidth(el) - primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterWidth(tooltipElement)) / 2;
+    let top = hostOffset.top - primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterHeight(tooltipElement);
+    tooltipElement.style.left = left + 'px';
+    tooltipElement.style.top = top + 'px';
+}
+
+function alignBottom(el) {
+    preAlign(el, 'bottom');
+    let tooltipElement = getTooltipElement(el);
+    let hostOffset = getHostOffset(el);
+    let left = hostOffset.left + (primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterWidth(el) - primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterWidth(tooltipElement)) / 2;
+    let top = hostOffset.top + primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterHeight(el);
+    tooltipElement.style.left = left + 'px';
+    tooltipElement.style.top = top + 'px';
+}
+
+function preAlign(el, position) {
+    let tooltipElement = getTooltipElement(el);
+    tooltipElement.style.left = -999 + 'px';
+    tooltipElement.style.top = -999 + 'px';
+    tooltipElement.className = 'p-tooltip p-component p-tooltip-' + position;
+}
+
+function isOutOfBounds(el) {
+    let tooltipElement = getTooltipElement(el);
+    let offset = tooltipElement.getBoundingClientRect();
+    let targetTop = offset.top;
+    let targetLeft = offset.left;
+    let width = primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterWidth(tooltipElement);
+    let height = primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getOuterHeight(tooltipElement);
+    let viewport = primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.getViewport();
+
+    return (targetLeft + width > viewport.width) || (targetLeft < 0) || (targetTop < 0) || (targetTop + height > viewport.height);
+}
+
+function getTarget(el) {
+    return primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.hasClass(el, 'p-inputwrapper') ? primevue_utils__WEBPACK_IMPORTED_MODULE_0__.DomHandler.findSingle(el, 'input'): el;
+}
+
+function getModifiers(options) {
+    // modifiers
+    if (options.modifiers && Object.keys(options.modifiers).length) {
+        return options.modifiers;
+    }
+
+    // arg
+    if (options.arg && typeof options.arg === 'object') {
+        return Object.entries(options.arg).reduce((acc, [key, val]) => {
+            if (key === 'event' || key === 'position') acc[val] = true;
+            return acc;
+        }, {});
+    }
+
+    return {};
+}
+
+const Tooltip = {
+    beforeMount(el, options) {
+        let target = getTarget(el);
+        target.$_ptooltipModifiers = getModifiers(options);
+        if (typeof options.value === 'string') {
+            target.$_ptooltipValue = options.value;
+            target.$_ptooltipDisabled = false;
+        }
+        else {
+            target.$_ptooltipValue = options.value.value;
+            target.$_ptooltipDisabled = options.value.disabled || false;
+        }
+
+        target.$_ptooltipZIndex = options.instance.$primevue && options.instance.$primevue.config && options.instance.$primevue.config.zIndex.tooltip;
+        bindEvents(target);
+    },
+    unmounted(el) {
+        let target = getTarget(el);
+        remove(target);
+        unbindEvents(target);
+
+        if (target.$_ptooltipScrollHandler) {
+            target.$_ptooltipScrollHandler.destroy();
+            target.$_ptooltipScrollHandler = null;
+        }
+
+        primevue_utils__WEBPACK_IMPORTED_MODULE_0__.ZIndexUtils.clear(el);
+    },
+    updated(el, options) {
+        let target = getTarget(el);
+        target.$_ptooltipModifiers = getModifiers(options);
+
+        if (typeof options.value === 'string') {
+            target.$_ptooltipValue = options.value;
+            target.$_ptooltipDisabled = false;
+        }
+        else {
+            target.$_ptooltipValue = options.value.value;
+            target.$_ptooltipDisabled = options.value.disabled;
+        }
+    }
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Tooltip);
+
+
+/***/ }),
+
+/***/ "./node_modules/primevue/utils/utils.esm.js":
+/*!**************************************************!*\
+  !*** ./node_modules/primevue/utils/utils.esm.js ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ConnectedOverlayScrollHandler": () => (/* binding */ ConnectedOverlayScrollHandler),
+/* harmony export */   "DomHandler": () => (/* binding */ DomHandler),
+/* harmony export */   "EventBus": () => (/* binding */ primebus),
+/* harmony export */   "ObjectUtils": () => (/* binding */ ObjectUtils),
+/* harmony export */   "UniqueComponentId": () => (/* binding */ UniqueComponentId),
+/* harmony export */   "ZIndexUtils": () => (/* binding */ ZIndexUtils)
+/* harmony export */ });
+class DomHandler {
+
+    static innerWidth(el) {
+        let width = el.offsetWidth;
+        let style = getComputedStyle(el);
+
+        width += parseFloat(style.paddingLeft) + parseFloat(style.paddingRight);
+        return width;
+    }
+
+    static width(el) {
+        let width = el.offsetWidth;
+        let style = getComputedStyle(el);
+
+        width -= parseFloat(style.paddingLeft) + parseFloat(style.paddingRight);
+        return width;
+    }
+
+    static getWindowScrollTop() {
+        let doc = document.documentElement;
+        return (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
+    }
+
+    static getWindowScrollLeft() {
+        let doc = document.documentElement;
+        return (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
+    }
+
+    static getOuterWidth(el, margin) {
+        if (el) {
+            let width = el.offsetWidth;
+
+            if (margin) {
+                let style = getComputedStyle(el);
+                width += parseFloat(style.marginLeft) + parseFloat(style.marginRight);
+            }
+
+            return width;
+        }
+        else {
+            return 0;
+        }
+    }
+
+    static getOuterHeight(el, margin) {
+        if (el) {
+            let height = el.offsetHeight;
+
+            if (margin) {
+                let style = getComputedStyle(el);
+                height += parseFloat(style.marginTop) + parseFloat(style.marginBottom);
+            }
+
+            return height;
+        }
+        else {
+            return 0;
+        }
+    }
+
+    static getClientHeight(el, margin) {
+        if (el) {
+            let height = el.clientHeight;
+
+            if (margin) {
+                let style = getComputedStyle(el);
+                height += parseFloat(style.marginTop) + parseFloat(style.marginBottom);
+            }
+
+            return height;
+        } else {
+            return 0;
+        }
+    }
+
+    static getViewport() {
+        let win = window,
+            d = document,
+            e = d.documentElement,
+            g = d.getElementsByTagName('body')[0],
+            w = win.innerWidth || e.clientWidth || g.clientWidth,
+            h = win.innerHeight || e.clientHeight || g.clientHeight;
+
+        return {width: w, height: h};
+    }
+
+    static getOffset(el) {
+        var rect = el.getBoundingClientRect();
+
+        return {
+            top: rect.top + (window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0),
+            left: rect.left + (window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0),
+        };
+    }
+
+    static index(element) {
+        let children = element.parentNode.childNodes;
+        let num = 0;
+        for (var i = 0; i < children.length; i++) {
+            if (children[i] === element) return num;
+            if (children[i].nodeType === 1) num++;
+        }
+        return -1;
+    }
+
+    static addMultipleClasses(element, className) {
+        if (element.classList) {
+            let styles = className.split(' ');
+            for (let i = 0; i < styles.length; i++) {
+                element.classList.add(styles[i]);
+            }
+
+        }
+        else {
+            let styles = className.split(' ');
+            for (let i = 0; i < styles.length; i++) {
+                element.className += ' ' + styles[i];
+            }
+        }
+    }
+
+    static addClass(element, className) {
+        if (element.classList)
+            element.classList.add(className);
+        else
+            element.className += ' ' + className;
+    }
+
+    static removeClass(element, className) {
+        if (element.classList)
+            element.classList.remove(className);
+        else
+            element.className = element.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+    }
+
+    static hasClass(element, className) {
+        if (element) {
+            if (element.classList)
+                return element.classList.contains(className);
+            else
+                return new RegExp('(^| )' + className + '( |$)', 'gi').test(element.className);
+        }
+
+        return false;
+    }
+
+    static find(element, selector) {
+        return element.querySelectorAll(selector);
+    }
+
+    static findSingle(element, selector) {
+        return element.querySelector(selector);
+    }
+
+    static getHeight(el) {
+        let height = el.offsetHeight;
+        let style = getComputedStyle(el);
+
+        height -= parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+
+        return height;
+    }
+
+    static getWidth(el) {
+        let width = el.offsetWidth;
+        let style = getComputedStyle(el);
+
+        width -= parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+
+        return width;
+    }
+
+    static absolutePosition(element, target) {
+        let elementDimensions = element.offsetParent ? { width: element.offsetWidth, height: element.offsetHeight } : this.getHiddenElementDimensions(element);
+        let elementOuterHeight = elementDimensions.height;
+        let elementOuterWidth = elementDimensions.width;
+        let targetOuterHeight = target.offsetHeight;
+        let targetOuterWidth = target.offsetWidth;
+        let targetOffset = target.getBoundingClientRect();
+        let windowScrollTop = this.getWindowScrollTop();
+        let windowScrollLeft = this.getWindowScrollLeft();
+        let viewport = this.getViewport();
+        let top, left;
+
+        if (targetOffset.top + targetOuterHeight + elementOuterHeight > viewport.height) {
+            top = targetOffset.top + windowScrollTop - elementOuterHeight;
+            element.style.transformOrigin = 'bottom';
+
+            if (top < 0) {
+                top = windowScrollTop;
+            }
+        }
+        else {
+            top = targetOuterHeight + targetOffset.top + windowScrollTop;
+            element.style.transformOrigin = 'top';
+        }
+
+        if (targetOffset.left + elementOuterWidth > viewport.width)
+            left = Math.max(0, targetOffset.left + windowScrollLeft + targetOuterWidth - elementOuterWidth);
+        else
+            left = targetOffset.left + windowScrollLeft;
+
+        element.style.top = top + 'px';
+        element.style.left = left + 'px';
+    }
+
+    static relativePosition(element, target) {
+        let elementDimensions = element.offsetParent ? { width: element.offsetWidth, height: element.offsetHeight } : this.getHiddenElementDimensions(element);
+        const targetHeight = target.offsetHeight;
+        const targetOffset = target.getBoundingClientRect();
+        const viewport = this.getViewport();
+        let top, left;
+
+        if ((targetOffset.top + targetHeight + elementDimensions.height) > viewport.height) {
+            top = -1 * (elementDimensions.height);
+            element.style.transformOrigin = 'bottom';
+            if (targetOffset.top + top < 0) {
+                top = -1 * targetOffset.top;
+            }
+        }
+        else {
+            top = targetHeight;
+            element.style.transformOrigin = 'top';
+        }
+
+        if (elementDimensions.width > viewport.width) {
+            // element wider then viewport and cannot fit on screen (align at left side of viewport)
+            left = targetOffset.left * -1;
+        }
+        else if ((targetOffset.left + elementDimensions.width) > viewport.width) {
+            // element wider then viewport but can be fit on screen (align at right side of viewport)
+            left = (targetOffset.left + elementDimensions.width - viewport.width) * -1;
+        }
+        else {
+            // element fits on screen (align with target)
+            left = 0;
+        }
+
+        element.style.top = top + 'px';
+        element.style.left = left + 'px';
+    }
+
+    static getParents(element, parents = []) {
+        return element['parentNode'] === null ? parents : this.getParents(element.parentNode, parents.concat([element.parentNode]));
+    }
+
+    static getScrollableParents(element) {
+        let scrollableParents = [];
+
+        if (element) {
+            let parents = this.getParents(element);
+            const overflowRegex = /(auto|scroll)/;
+            const overflowCheck = (node) => {
+                let styleDeclaration = window['getComputedStyle'](node, null);
+                return overflowRegex.test(styleDeclaration.getPropertyValue('overflow')) || overflowRegex.test(styleDeclaration.getPropertyValue('overflowX')) || overflowRegex.test(styleDeclaration.getPropertyValue('overflowY'));
+            };
+
+            for (let parent of parents) {
+                let scrollSelectors = parent.nodeType === 1 && parent.dataset['scrollselectors'];
+                if (scrollSelectors) {
+                    let selectors = scrollSelectors.split(',');
+                    for (let selector of selectors) {
+                        let el = this.findSingle(parent, selector);
+                        if (el && overflowCheck(el)) {
+                            scrollableParents.push(el);
+                        }
+                    }
+                }
+
+                if (parent.nodeType !== 9 && overflowCheck(parent)) {
+                    scrollableParents.push(parent);
+                }
+            }
+        }
+
+        return scrollableParents;
+    }
+
+    static getHiddenElementOuterHeight(element) {
+        element.style.visibility = 'hidden';
+        element.style.display = 'block';
+        let elementHeight = element.offsetHeight;
+        element.style.display = 'none';
+        element.style.visibility = 'visible';
+
+        return elementHeight;
+    }
+
+    static getHiddenElementOuterWidth(element) {
+        element.style.visibility = 'hidden';
+        element.style.display = 'block';
+        let elementWidth = element.offsetWidth;
+        element.style.display = 'none';
+        element.style.visibility = 'visible';
+
+        return elementWidth;
+    }
+
+    static getHiddenElementDimensions(element) {
+        var dimensions = {};
+        element.style.visibility = 'hidden';
+        element.style.display = 'block';
+        dimensions.width = element.offsetWidth;
+        dimensions.height = element.offsetHeight;
+        element.style.display = 'none';
+        element.style.visibility = 'visible';
+
+        return dimensions;
+    }
+
+    static fadeIn(element, duration) {
+        element.style.opacity = 0;
+
+        var last = +new Date();
+        var opacity = 0;
+        var tick = function () {
+            opacity = +element.style.opacity + (new Date().getTime() - last) / duration;
+            element.style.opacity = opacity;
+            last = +new Date();
+
+            if (+opacity < 1) {
+                (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+            }
+        };
+
+        tick();
+    }
+
+    static fadeOut(element, ms) {
+        var opacity = 1,
+            interval = 50,
+            duration = ms,
+            gap = interval / duration;
+
+        let fading = setInterval(() => {
+            opacity -= gap;
+
+            if (opacity <= 0) {
+                opacity = 0;
+                clearInterval(fading);
+            }
+
+            element.style.opacity = opacity;
+        }, interval);
+    }
+
+    static getUserAgent() {
+        return navigator.userAgent;
+    }
+
+    static appendChild(element, target) {
+        if(this.isElement(target))
+            target.appendChild(element);
+        else if(target.el && target.elElement)
+            target.elElement.appendChild(element);
+        else
+            throw new Error('Cannot append ' + target + ' to ' + element);
+    }
+
+    static scrollInView(container, item) {
+        let borderTopValue = getComputedStyle(container).getPropertyValue('borderTopWidth');
+        let borderTop = borderTopValue ? parseFloat(borderTopValue) : 0;
+        let paddingTopValue = getComputedStyle(container).getPropertyValue('paddingTop');
+        let paddingTop = paddingTopValue ? parseFloat(paddingTopValue) : 0;
+        let containerRect = container.getBoundingClientRect();
+        let itemRect = item.getBoundingClientRect();
+        let offset = (itemRect.top + document.body.scrollTop) - (containerRect.top + document.body.scrollTop) - borderTop - paddingTop;
+        let scroll = container.scrollTop;
+        let elementHeight = container.clientHeight;
+        let itemHeight = this.getOuterHeight(item);
+
+        if (offset < 0) {
+            container.scrollTop = scroll + offset;
+        }
+        else if ((offset + itemHeight) > elementHeight) {
+            container.scrollTop = scroll + offset - elementHeight + itemHeight;
+        }
+    }
+
+    static clearSelection() {
+        if(window.getSelection) {
+            if(window.getSelection().empty) {
+                window.getSelection().empty();
+            } else if(window.getSelection().removeAllRanges && window.getSelection().rangeCount > 0 && window.getSelection().getRangeAt(0).getClientRects().length > 0) {
+                window.getSelection().removeAllRanges();
+            }
+        }
+        else if(document['selection'] && document['selection'].empty) {
+            try {
+                document['selection'].empty();
+            } catch(error) {
+                //ignore IE bug
+            }
+        }
+    }
+
+    static calculateScrollbarWidth() {
+        if(this.calculatedScrollbarWidth != null)
+            return this.calculatedScrollbarWidth;
+
+        let scrollDiv = document.createElement("div");
+        scrollDiv.className = "p-scrollbar-measure";
+        document.body.appendChild(scrollDiv);
+
+        let scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+        document.body.removeChild(scrollDiv);
+
+        this.calculatedScrollbarWidth = scrollbarWidth;
+
+        return scrollbarWidth;
+    }
+
+    static getBrowser() {
+        if(!this.browser) {
+            let matched = this.resolveUserAgent();
+            this.browser = {};
+
+            if (matched.browser) {
+                this.browser[matched.browser] = true;
+                this.browser['version'] = matched.version;
+            }
+
+            if (this.browser['chrome']) {
+                this.browser['webkit'] = true;
+            } else if (this.browser['webkit']) {
+                this.browser['safari'] = true;
+            }
+        }
+
+        return this.browser;
+    }
+
+    static resolveUserAgent() {
+        let ua = navigator.userAgent.toLowerCase();
+        let match = /(chrome)[ ]([\w.]+)/.exec(ua) ||
+            /(webkit)[ ]([\w.]+)/.exec(ua) ||
+            /(opera)(?:.*version|)[ ]([\w.]+)/.exec(ua) ||
+            /(msie) ([\w.]+)/.exec(ua) ||
+            (ua.indexOf("compatible") < 0 && /(mozilla)(?:.*? rv:([\w.]+)|)/.exec(ua)) ||
+            [];
+
+        return {
+            browser: match[1] || "",
+            version: match[2] || "0"
+        };
+    }
+
+    static isVisible(element) {
+        return element.offsetParent != null;
+    }
+
+    static invokeElementMethod(element, methodName, args) {
+        (element)[methodName].apply(element, args);
+    }
+
+    static getFocusableElements(element) {
+        let focusableElements = DomHandler.find(element, `button:not([tabindex = "-1"]):not([disabled]):not([style*="display:none"]):not([hidden]),
+                [href][clientHeight][clientWidth]:not([tabindex = "-1"]):not([disabled]):not([style*="display:none"]):not([hidden]),
+                input:not([tabindex = "-1"]):not([disabled]):not([style*="display:none"]):not([hidden]), select:not([tabindex = "-1"]):not([disabled]):not([style*="display:none"]):not([hidden]),
+                textarea:not([tabindex = "-1"]):not([disabled]):not([style*="display:none"]):not([hidden]), [tabIndex]:not([tabIndex = "-1"]):not([disabled]):not([style*="display:none"]):not([hidden]),
+                [contenteditable]:not([tabIndex = "-1"]):not([disabled]):not([style*="display:none"]):not([hidden])`
+            );
+
+        let visibleFocusableElements = [];
+        for (let focusableElement of focusableElements) {
+            if (getComputedStyle(focusableElement).display != "none" && getComputedStyle(focusableElement).visibility != "hidden")
+                visibleFocusableElements.push(focusableElement);
+        }
+
+        return visibleFocusableElements;
+    }
+
+    static isClickable(element) {
+        const targetNode = element.nodeName;
+        const parentNode = element.parentElement && element.parentElement.nodeName;
+
+        return (targetNode == 'INPUT' || targetNode == 'BUTTON' || targetNode == 'A' ||
+                parentNode == 'INPUT' || parentNode == 'BUTTON' || parentNode == 'A' ||
+                this.hasClass(element, 'p-button') || this.hasClass(element.parentElement, 'p-button') ||
+                this.hasClass(element.parentElement, 'p-checkbox') || this.hasClass(element.parentElement, 'p-radiobutton')
+        );
+    }
+
+    static applyStyle(element, style) {
+        if (typeof style === 'string') {
+            element.style.cssText = this.style;
+        }
+        else {
+            for (let prop in this.style) {
+                element.style[prop] = style[prop];
+            }
+        }
+    }
+
+    static isIOS() {
+        return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window['MSStream'];
+    }
+
+    static isAndroid() {
+        return /(android)/i.test(navigator.userAgent);
+    }
+
+    static isTouchDevice() {
+        return (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0));
+    }
+}
+
+class ConnectedOverlayScrollHandler {
+
+    constructor(element, listener = () => {}) {
+        this.element = element;
+        this.listener = listener;
+    }
+
+    bindScrollListener() {
+        this.scrollableParents = DomHandler.getScrollableParents(this.element);
+        for (let i = 0; i < this.scrollableParents.length; i++) {
+            this.scrollableParents[i].addEventListener('scroll', this.listener);
+        }
+    }
+
+    unbindScrollListener() {
+        if (this.scrollableParents) {
+            for (let i = 0; i < this.scrollableParents.length; i++) {
+                this.scrollableParents[i].removeEventListener('scroll', this.listener);
+            }
+        }
+    }
+
+    destroy() {
+        this.unbindScrollListener();
+        this.element = null;
+        this.listener = null;
+        this.scrollableParents = null;
+    }
+}
+
+class ObjectUtils {
+
+    static equals(obj1, obj2, field) {
+        if (field)
+            return (this.resolveFieldData(obj1, field) === this.resolveFieldData(obj2, field));
+        else
+            return this.deepEquals(obj1, obj2);
+    }
+
+    static deepEquals(a, b) {
+        if (a === b) return true;
+
+        if (a && b && typeof a == 'object' && typeof b == 'object') {
+            var arrA = Array.isArray(a)
+                , arrB = Array.isArray(b)
+                , i
+                , length
+                , key;
+
+            if (arrA && arrB) {
+                length = a.length;
+                if (length != b.length) return false;
+                for (i = length; i-- !== 0;)
+                    if (!this.deepEquals(a[i], b[i])) return false;
+                return true;
+            }
+
+            if (arrA != arrB) return false;
+
+            var dateA = a instanceof Date
+                , dateB = b instanceof Date;
+            if (dateA != dateB) return false;
+            if (dateA && dateB) return a.getTime() == b.getTime();
+
+            var regexpA = a instanceof RegExp
+                , regexpB = b instanceof RegExp;
+            if (regexpA != regexpB) return false;
+            if (regexpA && regexpB) return a.toString() == b.toString();
+
+            var keys = Object.keys(a);
+            length = keys.length;
+
+            if (length !== Object.keys(b).length)
+                return false;
+
+            for (i = length; i-- !== 0;)
+                if (!Object.prototype.hasOwnProperty.call(b, keys[i])) return false;
+
+            for (i = length; i-- !== 0;) {
+                key = keys[i];
+                if (!this.deepEquals(a[key], b[key])) return false;
+            }
+
+            return true;
+        }
+
+        return a !== a && b !== b;
+    }
+
+    static resolveFieldData(data, field) {
+        if (data && Object.keys(data).length && field) {
+            if (this.isFunction(field)) {
+                return field(data);
+            }
+            else if(field.indexOf('.') === -1) {
+                return data[field];
+            }
+            else {
+                let fields = field.split('.');
+                let value = data;
+                for(var i = 0, len = fields.length; i < len; ++i) {
+                    if (value == null) {
+                        return null;
+                    }
+                    value = value[fields[i]];
+                }
+                return value;
+            }
+        }
+        else {
+            return null;
+        }
+    }
+
+    static isFunction(obj) {
+        return !!(obj && obj.constructor && obj.call && obj.apply);
+    }
+
+    static filter(value, fields, filterValue) {
+        var filteredItems = [];
+
+        if (value) {
+            for (let item of value) {
+                for (let field of fields) {
+                    if (String(this.resolveFieldData(item, field)).toLowerCase().indexOf(filterValue.toLowerCase()) > -1) {
+                        filteredItems.push(item);
+                        break;
+                    }
+                }
+            }
+        }
+
+        return filteredItems;
+    }
+
+    static reorderArray(value, from, to) {
+        let target;
+        if (value && (from !== to)) {
+            if (to >= value.length) {
+                target = to - value.length;
+                while ((target--) + 1) {
+                    value.push(undefined);
+                }
+            }
+            value.splice(to, 0, value.splice(from, 1)[0]);
+        }
+    }
+
+    static findIndexInList(value, list) {
+        let index = -1;
+
+        if (list) {
+            for (let i = 0; i < list.length; i++) {
+                if (list[i] === value) {
+                    index = i;
+                    break;
+                }
+            }
+        }
+
+        return index;
+    }
+
+    static contains(value, list) {
+        if (value != null && list && list.length) {
+            for (let val of list) {
+                if (this.equals(value, val))
+                    return true;
+            }
+        }
+
+        return false;
+    }
+
+    static insertIntoOrderedArray(item, index, arr, sourceArr) {
+        if (arr.length > 0) {
+            let injected = false;
+            for (let i = 0; i < arr.length; i++) {
+                let currentItemIndex = this.findIndexInList(arr[i], sourceArr);
+                if (currentItemIndex > index) {
+                    arr.splice(i, 0, item);
+                    injected = true;
+                    break;
+                }
+            }
+
+            if (!injected) {
+                arr.push(item);
+            }
+        }
+        else {
+            arr.push(item);
+        }
+    }
+
+    static removeAccents(str) {
+        if (str && str.search(/[\xC0-\xFF]/g) > -1) {
+            str = str
+                    .replace(/[\xC0-\xC5]/g, "A")
+                    .replace(/[\xC6]/g, "AE")
+                    .replace(/[\xC7]/g, "C")
+                    .replace(/[\xC8-\xCB]/g, "E")
+                    .replace(/[\xCC-\xCF]/g, "I")
+                    .replace(/[\xD0]/g, "D")
+                    .replace(/[\xD1]/g, "N")
+                    .replace(/[\xD2-\xD6\xD8]/g, "O")
+                    .replace(/[\xD9-\xDC]/g, "U")
+                    .replace(/[\xDD]/g, "Y")
+                    .replace(/[\xDE]/g, "P")
+                    .replace(/[\xE0-\xE5]/g, "a")
+                    .replace(/[\xE6]/g, "ae")
+                    .replace(/[\xE7]/g, "c")
+                    .replace(/[\xE8-\xEB]/g, "e")
+                    .replace(/[\xEC-\xEF]/g, "i")
+                    .replace(/[\xF1]/g, "n")
+                    .replace(/[\xF2-\xF6\xF8]/g, "o")
+                    .replace(/[\xF9-\xFC]/g, "u")
+                    .replace(/[\xFE]/g, "p")
+                    .replace(/[\xFD\xFF]/g, "y");
+        }
+
+        return str;
+    }
+}
+
+function handler() {
+    let zIndexes = [];
+
+    const generateZIndex = (key, baseZIndex) => {
+        let lastZIndex = zIndexes.length > 0 ? zIndexes[zIndexes.length - 1] : { key, value: baseZIndex };
+        let newZIndex = lastZIndex.value + (lastZIndex.key === key ? 0 : baseZIndex) + 1;
+
+        zIndexes.push({ key, value: newZIndex });
+        return newZIndex;
+    };
+
+    const revertZIndex = (zIndex) => {
+        zIndexes = zIndexes.filter(obj => obj.value !== zIndex);
+    };
+
+    const getCurrentZIndex = () => {
+        return zIndexes.length > 0 ? zIndexes[zIndexes.length - 1].value : 0;
+    };
+
+    const getZIndex = (el) => {
+        return el ? parseInt(el.style.zIndex, 10) || 0 : 0
+    };
+
+    return {
+        get: getZIndex,
+        set: (key, el, baseZIndex) => {
+            if (el) {
+                el.style.zIndex = String(generateZIndex(key, baseZIndex));
+            }
+        },
+        clear: (el) => {
+            if (el) {
+                revertZIndex(getZIndex(el));
+                el.style.zIndex = '';
+            }
+        },
+        getCurrent: () => getCurrentZIndex()
+    };
+}
+
+var ZIndexUtils = handler();
+
+var lastId = 0;
+
+function UniqueComponentId (prefix = 'pv_id_') {
+    lastId++;
+    return `${prefix}${lastId}`;
+}
+
+function primebus() {
+	const allHandlers = new Map();
+
+	return {
+		on(type, handler) {
+			let handlers = allHandlers.get(type);
+            if (!handlers)
+                handlers = [handler];
+            else
+                handlers.push(handler);
+
+            allHandlers.set(type, handlers);
+		},
+
+		off(type, handler) {
+			let handlers = allHandlers.get(type);
+			if (handlers) {
+				handlers.splice(handlers.indexOf(handler) >>> 0, 1);
+			}
+		},
+
+		emit(type, evt) {
+            let handlers = allHandlers.get(type);
+            if (handlers) {
+                handlers.slice().map((handler) => { handler(evt);});
+            }
+		}
+	};
+}
+
+
+
+
+/***/ }),
+
 /***/ "./node_modules/process/browser.js":
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
@@ -51740,6 +56819,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./node_modules/vue-agile/src/Agile.vue?vue&type=style&index=0&id=60be9220&lang=css":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./node_modules/vue-agile/src/Agile.vue?vue&type=style&index=0&id=60be9220&lang=css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_loader_dist_cjs_js_clonedRuleSet_9_use_1_vue_loader_dist_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_vue_loader_dist_index_js_ruleSet_0_use_0_Agile_vue_vue_type_style_index_0_id_60be9220_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../vue-loader/dist/stylePostLoader.js!../../postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../vue-loader/dist/index.js??ruleSet[0].use[0]!./Agile.vue?vue&type=style&index=0&id=60be9220&lang=css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./node_modules/vue-agile/src/Agile.vue?vue&type=style&index=0&id=60be9220&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_vue_loader_dist_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_vue_loader_dist_index_js_ruleSet_0_use_0_Agile_vue_vue_type_style_index_0_id_60be9220_lang_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_vue_loader_dist_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_vue_loader_dist_index_js_ruleSet_0_use_0_Agile_vue_vue_type_style_index_0_id_60be9220_lang_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
@@ -52016,6 +57125,970 @@ module.exports = function (list, options) {
     lastIdentifiers = newLastIdentifiers;
   };
 };
+
+/***/ }),
+
+/***/ "./node_modules/vue-agile/src/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/vue-agile/src/index.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "VueAgile": () => (/* reexport safe */ _Agile_vue__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _Agile_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Agile.vue */ "./node_modules/vue-agile/src/Agile.vue");
+
+
+const install = (Vue) => {
+	Vue.component('agile', _Agile_vue__WEBPACK_IMPORTED_MODULE_0__.default)
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+	install
+});
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-agile/src/mixins/handlers.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/vue-agile/src/mixins/handlers.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/**
+ * Handlers methods for mouse/touch events
+ */
+const mixin = {
+	methods: {
+		handleMouseDown (e) {
+			this.isMouseDown = true
+
+			if (e.type.indexOf('touch') !== -1) {
+				this.dragStartX = e.touches[0].clientX
+				this.dragStartY = e.touches[0].clientY
+			}
+			if (e.type.indexOf('mouse') !== -1) {
+				this.dragStartX = e.clientX
+				this.dragStartY = e.clientY
+			}
+		},
+
+		handleMouseMove (e) {
+			let positionX
+			let positionY
+			if (e.type.indexOf('touch') !== -1) {
+				positionX = e.touches[0].clientX
+				positionY = e.touches[0].clientY
+			}
+			if (e.type.indexOf('mouse') !== -1) {
+				positionX = e.clientX
+				positionY = e.clientY
+			}
+			let dragDistanceX = Math.abs(positionX - this.dragStartX)
+			let dragDistanceY = Math.abs(positionY - this.dragStartY)
+			if (dragDistanceX > 3 * dragDistanceY) {
+				this.disableScroll()
+				this.dragDistance = positionX - this.dragStartX
+			}
+		},
+
+		handleMouseUp () {
+			this.isMouseDown = false
+			this.enableScroll()
+		},
+
+		handleMouseOver (element) {
+			if (this.settings.autoplay) {
+				if ((element === 'dot' && this.settings.pauseOnDotsHover) || (element === 'track' && this.settings.pauseOnHover)) {
+					this.isAutoplayPaused = true
+				}
+			}
+		},
+
+		handleMouseOut (element) {
+			if (this.settings.autoplay) {
+				if ((element === 'dot' && this.settings.pauseOnDotsHover) || (element === 'track' && this.settings.pauseOnHover)) {
+					this.isAutoplayPaused = false
+				}
+			}
+		}
+	}
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mixin);
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-agile/src/mixins/helpers.js":
+/*!******************************************************!*\
+  !*** ./node_modules/vue-agile/src/mixins/helpers.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/**
+ * Helpers methods
+ */
+const mixin = {
+	methods: {
+		/**
+		 * Set window & container width
+		 */
+		getWidth () {
+			if (this.isSSR) {
+				return false
+			}
+
+			this.widthWindow = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+			this.widthContainer = this.$refs.list.clientWidth
+		},
+
+		/**
+		 * Convert HTML Collection to JS Array
+		 */
+		htmlCollectionToArray (collection) {
+			return Array.prototype.slice.call(collection, 0)
+		}
+	}
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mixin);
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-agile/src/mixins/methods.js":
+/*!******************************************************!*\
+  !*** ./node_modules/vue-agile/src/mixins/methods.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/**
+ * All not public methods doesn't classified elsewhere
+ */
+const mixin = {
+	methods: {
+		clearAutoPlayPause () {
+			clearTimeout(this.autoplayTimeout)
+			this.autoplayRemaining = null
+		},
+
+		disableAutoPlay () {
+			clearInterval(this.autoplayInterval)
+			this.autoplayInterval = null
+		},
+
+		disableScroll () {
+			document.ontouchmove = (e) => e.preventDefault()
+		},
+
+		enableScroll () {
+			document.ontouchmove = () => true
+		},
+
+		restartAutoPlay () {
+			this.disableAutoPlay()
+			this.toggleAutoPlay()
+		},
+
+		toggleAutoPlay () {
+			let enabled = (!this.settings.unagile && this.settings.autoplay)
+
+			if (!this.autoplayInterval && enabled) {
+				this.autoplayInterval = setInterval(() => {
+					if (!document.hidden) {
+						if (!this.canGoToNext) {
+							this.disableAutoPlay()
+						} else {
+							this.goToNext()
+						}
+					}
+				}, this.settings.autoplaySpeed)
+			} else {
+				this.disableAutoPlay()
+			}
+		},
+
+		toggleFade () {
+			let enabled = (!this.settings.unagile && this.settings.fade)
+
+			for (let i = 0; i < this.countSlides; i++) {
+				this.slides[i].style.transition = (enabled) ? 'opacity ' + this.settings.timing + ' ' + this.settings.speed + 'ms' : 'none'
+				this.slides[i].style.transform = (enabled) ? `translate(-${i * this.widthSlide}px)` : 'none'
+			}
+		}
+	}
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mixin);
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-agile/src/mixins/preparations.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/vue-agile/src/mixins/preparations.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/**
+ * Carousel preparation methods
+ */
+const mixin = {
+	methods: {
+		/**
+		 * Prepare slides classes and styles
+		 */
+		prepareSlides () {
+			this.slides = this.htmlCollectionToArray(this.$refs.slides.children)
+
+			// Probably timeout needed
+			if (this.slidesCloned) {
+				this.slidesClonedBefore = this.htmlCollectionToArray(this.$refs.slidesClonedBefore.children)
+				this.slidesClonedAfter = this.htmlCollectionToArray(this.$refs.slidesClonedAfter.children)
+			}
+
+			for (let slide of this.slidesAll) {
+				slide.classList.add('agile__slide')
+			}
+		},
+
+		/**
+		 *  Prepare slides active/current classes
+		 */
+		prepareSlidesClasses () {
+			if (this.currentSlide === null) {
+				return false
+			}
+
+			// Remove active & current classes
+			for (let i = 0; i < this.countSlides; i++) {
+				this.slides[i].classList.remove('agile__slide--active')
+				this.slides[i].classList.remove('agile__slide--current')
+			}
+
+			// Add active & current class for current slide
+			setTimeout(() => this.slides[this.currentSlide].classList.add('agile__slide--active'), this.changeDelay)
+
+			let start = (this.slidesCloned) ? this.countSlides + this.currentSlide : this.currentSlide
+
+			if (this.centerMode) {
+				start -= (Math.floor(this.settings.slidesToShow / 2) - +(this.settings.slidesToShow % 2 === 0))
+			}
+
+			// To account for the combination of infinite = false and centerMode = true, ensure we don't overrun the bounds of the slide count.
+			for (let i = Math.max(start, 0); i < Math.min(start + this.settings.slidesToShow, this.countSlides); i++) {
+				this.slidesAll[i].classList.add('agile__slide--current')
+			}
+		},
+
+		/**
+		 * Prepare carousel styles
+		 */
+		prepareCarousel () {
+			// Prepare track
+			if (this.settings.unagile) {
+				this.translateX = 0
+			} else {
+				if (this.currentSlide === null && this.countSlides) {
+					this.currentSlide = this.settings.initialSlide
+				}
+
+				if (this.currentSlide > this.countSlides) {
+					this.currentSlide = this.countSlides - 1
+				}
+
+				this.goTo(this.currentSlide, false, false)
+			}
+		}
+	}
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mixin);
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-agile/src/mixins/settings.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/vue-agile/src/mixins/settings.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var lodash_orderby__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash.orderby */ "./node_modules/lodash.orderby/index.js");
+/* harmony import */ var lodash_orderby__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_orderby__WEBPACK_IMPORTED_MODULE_0__);
+/**
+ * Component settings
+ */
+
+
+
+const mixin = {
+	props: {
+		/**
+		 * Set the carousel to be the navigation of other carousels
+		 */
+		asNavFor: {
+			type: Array,
+			default: function () {
+				return []
+			}
+		},
+
+		/**
+		 * Enable autoplay
+		 */
+		autoplay: {
+			type: Boolean,
+			default: false
+		},
+
+		/**
+		 * Autoplay interval in milliseconds
+		 */
+		autoplaySpeed: {
+			type: Number,
+			default: 3000
+		},
+
+		/**
+		 * Enable centered view when slidesToShow > 1
+		 */
+		centerMode: {
+			type: Boolean,
+			default: false
+		},
+
+		/**
+		 * Slides padding in center mode
+		 */
+		centerPadding: {
+			type: String,
+			default: '15%'
+		},
+
+		/**
+		 * Slide change delay in milliseconds
+		 */
+		changeDelay: {
+			type: Number,
+			default: 0
+		},
+
+		/**
+		 * Enable dot indicators/pagination
+		 */
+		dots: {
+			type: Boolean,
+			default: true
+		},
+
+		/**
+		 * Enable fade effect
+		 */
+		fade: {
+			type: Boolean,
+			default: false
+		},
+
+		/**
+		 * Infinite loop sliding
+		 */
+		infinite: {
+			type: Boolean,
+			default: true
+		},
+
+		/**
+		 * Index of slide to start on
+		 */
+		initialSlide: {
+			type: Number,
+			default: 0
+		},
+
+		/**
+		 * Enable mobile first calculation for responsive settings
+		 */
+		mobileFirst: {
+			type: Boolean,
+			default: true
+		},
+
+		/**
+		 * Enable prev/next navigation buttons
+		 */
+		navButtons: {
+			type: Boolean,
+			default: true
+		},
+
+		/**
+		 * All settings as one object
+		 */
+		options: {
+			type: Object,
+			default: () => null
+		},
+
+		/**
+		 * Pause autoplay when a dot is hovered
+		 */
+		pauseOnDotsHover: {
+			type: Boolean,
+			default: false
+		},
+
+		/**
+		 * Pause autoplay when a slide is hovered
+		 */
+		pauseOnHover: {
+			type: Boolean,
+			default: true
+		},
+
+		/**
+		 * Object containing breakpoints and settings objects
+		 */
+		responsive: {
+			type: Array,
+			default: () => null
+		},
+
+		/**
+		 * Enable right-to-left mode
+		 */
+		rtl: {
+			type: Boolean,
+			default: false
+		},
+
+		/**
+		 * Number of slides to scroll
+		 */
+		slidesToScroll: {
+			type: Number,
+			default: 1
+		},
+
+		/**
+		 * Number of slides to show
+		 */
+		slidesToShow: {
+			type: Number,
+			default: 1
+		},
+
+		/**
+		 * Slide animation speed in milliseconds
+		 */
+		speed: {
+			type: Number,
+			default: 300
+		},
+
+    /**
+		 * Swipe distance
+		 */
+		swipeDistance: {
+			type: Number,
+			default: 50
+		},
+
+		/**
+		 * Throttle delay in milliseconds
+		 */
+		throttleDelay: {
+			type: Number,
+			default: 500
+		},
+
+		/**
+		 * Transition timing function
+		 * Available: ease, linear, ease-in, ease-out, ease-in-out
+		 */
+		timing: {
+			type: String,
+			default: 'ease',
+			validator: (value) => {
+				return ['ease', 'linear', 'ease-in', 'ease-out', 'ease-in-out'].indexOf(value) !== -1
+			}
+		},
+
+		/**
+		 * Disable Agile carousel
+		 */
+		unagile: {
+			type: Boolean,
+			default: false
+		}
+	},
+
+	computed: {
+		// Initial settings based on props and options object
+		initialSettings: function () {
+			// options prop is excluded
+			let { options, ...initialSettings } = this.$props
+
+			// Join settings from options
+			if (options) {
+				initialSettings = {...initialSettings, ...options}
+			}
+
+			// Sort breakpoints
+			if (initialSettings.responsive) {
+				initialSettings.responsive = lodash_orderby__WEBPACK_IMPORTED_MODULE_0___default()(initialSettings.responsive, 'breakpoint')
+			}
+
+			return initialSettings
+		},
+
+		// Settings for current breakpoint
+		settings: function () {
+			const { responsive, ...settings } = this.initialSettings
+
+			if (responsive) {
+				responsive.forEach(option => {
+					if (settings.mobileFirst ? option.breakpoint < this.widthWindow : option.breakpoint > this.widthWindow) {
+						for (let key in option.settings) {
+							settings[key] = option.settings[key]
+						}
+					}
+				})
+			}
+
+			return settings
+		}
+	}
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mixin);
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-agile/src/mixins/throttle.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/vue-agile/src/mixins/throttle.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var lodash_throttle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash.throttle */ "./node_modules/lodash.throttle/index.js");
+/* harmony import */ var lodash_throttle__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_throttle__WEBPACK_IMPORTED_MODULE_0__);
+/**
+ * Throttle methods by lodash
+ */
+
+
+
+const mixin = {
+	created () {
+		this.goTo = lodash_throttle__WEBPACK_IMPORTED_MODULE_0___default()(this.goTo, this.throttleDelay)
+		this.getWidth = lodash_throttle__WEBPACK_IMPORTED_MODULE_0___default()(this.getWidth, 500)
+	}
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mixin);
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-agile/src/mixins/watchers.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/vue-agile/src/mixins/watchers.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/**
+ * Component watchers
+ */
+const mixin = {
+	watch: {
+		// Recalculate settings
+		currentBreakpoint () {
+			// this.prepareSettings()
+			this.$emit('breakpoint', { breakpoint: this.currentBreakpoint })
+		},
+
+		// Watch current slide change
+		currentSlide () {
+			this.prepareSlidesClasses()
+
+			// Set start time of slide
+			this.autoplayStartTimestamp = (this.settings.autoplay) ? +new Date() : null
+
+			this.$emit('after-change', { currentSlide: this.currentSlide })
+		},
+
+		// Watch drag distance change
+		dragDistance () {
+			if (this.isMouseDown) {
+				const { rtl } = this.settings
+				const dragDistance = this.dragDistance * (rtl ? -1 : 1)
+
+				if (dragDistance > this.swipeDistance && this.canGoToPrev) {
+					this.goToPrev()
+					this.handleMouseUp()
+				}
+
+				if (dragDistance < -1 * this.swipeDistance && this.canGoToNext) {
+					this.goToNext()
+					this.handleMouseUp()
+				}
+			}
+		},
+
+		isAutoplayPaused (nevValue) {
+			if (nevValue) {
+				// Store current slide remaining time and disable auto play mode
+				this.remaining = this.settings.autoplaySpeed - (+new Date() - this.autoplayStartTimestamp)
+				this.disableAutoPlay()
+				this.clearAutoPlayPause()
+			} else {
+				// Go to next after remaining time and rerun auto play mode
+				this.autoplayTimeout = setTimeout(() => {
+					this.clearAutoPlayPause()
+					this.goToNext()
+					this.toggleAutoPlay()
+				}, this.remaining)
+			}
+		},
+
+		'settings.autoplay' () {
+			this.toggleAutoPlay()
+		},
+
+		'settings.fade' () {
+			this.toggleFade()
+		},
+
+		'settings.unagile' () {
+			// this.prepareSlides()
+			// this.prepareCarousel()
+		},
+
+		widthSlide () {
+			for (let i = 0; i < this.countSlidesAll; i++) {
+				// console.log(this.widthSlide)
+				// console.log(this.settings)
+				this.slidesAll[i].style.width = `${this.widthSlide}${(this.widthSlide !== 'auto') ? 'px' : ''}`
+			}
+		},
+
+		// Watch window width change
+		widthWindow (newValue, oldValue) {
+			if (oldValue) {
+				this.prepareCarousel()
+				this.toggleFade()
+			}
+		}
+	}
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mixin);
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-agile/src/Agile.vue":
+/*!**********************************************!*\
+  !*** ./node_modules/vue-agile/src/Agile.vue ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Agile_vue_vue_type_template_id_60be9220__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Agile.vue?vue&type=template&id=60be9220 */ "./node_modules/vue-agile/src/Agile.vue?vue&type=template&id=60be9220");
+/* harmony import */ var _Agile_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Agile.vue?vue&type=script&lang=js */ "./node_modules/vue-agile/src/Agile.vue?vue&type=script&lang=js");
+/* harmony import */ var _Agile_vue_vue_type_style_index_0_id_60be9220_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Agile.vue?vue&type=style&index=0&id=60be9220&lang=css */ "./node_modules/vue-agile/src/Agile.vue?vue&type=style&index=0&id=60be9220&lang=css");
+
+
+
+
+;
+_Agile_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.render = _Agile_vue_vue_type_template_id_60be9220__WEBPACK_IMPORTED_MODULE_0__.render
+/* hot reload */
+if (false) {}
+
+_Agile_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__file = "node_modules/vue-agile/src/Agile.vue"
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_Agile_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./node_modules/vue-agile/src/Agile.vue?vue&type=script&lang=js":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./node_modules/vue-agile/src/Agile.vue?vue&type=script&lang=js ***!
+  \*********************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _mixins_handlers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mixins/handlers */ "./node_modules/vue-agile/src/mixins/handlers.js");
+/* harmony import */ var _mixins_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mixins/helpers */ "./node_modules/vue-agile/src/mixins/helpers.js");
+/* harmony import */ var _mixins_methods__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mixins/methods */ "./node_modules/vue-agile/src/mixins/methods.js");
+/* harmony import */ var _mixins_preparations__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./mixins/preparations */ "./node_modules/vue-agile/src/mixins/preparations.js");
+/* harmony import */ var _mixins_settings__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mixins/settings */ "./node_modules/vue-agile/src/mixins/settings.js");
+/* harmony import */ var _mixins_throttle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./mixins/throttle */ "./node_modules/vue-agile/src/mixins/throttle.js");
+/* harmony import */ var _mixins_watchers__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./mixins/watchers */ "./node_modules/vue-agile/src/mixins/watchers.js");
+
+	
+	
+	
+	
+	
+	
+	
+
+	/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+		name: 'Agile',
+
+		mixins: [_mixins_handlers__WEBPACK_IMPORTED_MODULE_0__.default, _mixins_helpers__WEBPACK_IMPORTED_MODULE_1__.default, _mixins_methods__WEBPACK_IMPORTED_MODULE_2__.default, _mixins_preparations__WEBPACK_IMPORTED_MODULE_3__.default, _mixins_settings__WEBPACK_IMPORTED_MODULE_4__.default, _mixins_throttle__WEBPACK_IMPORTED_MODULE_5__.default, _mixins_watchers__WEBPACK_IMPORTED_MODULE_6__.default],
+
+		data () {
+			return {
+				autoplayInterval: null,
+				autoplayRemaining: null,
+				autoplayStartTimestamp: null,
+				autoplayTimeout: null,
+				currentSlide: null,
+				dragDistance: 0,
+				dragStartX: 0,
+				dragStartY: 0,
+				isAutoplayPaused: false,
+				isMouseDown: false,
+				slides: [],
+				slidesClonedAfter: [],
+				slidesClonedBefore: [],
+				isSSR: (typeof window === 'undefined'),
+				transitionDelay: 0,
+				translateX: 0,
+				widthWindow: 0,
+				widthContainer: 0
+			}
+		},
+
+		computed: {
+			breakpoints: function () {
+				return (!this.initialSettings.responsive) ? [] : this.initialSettings.responsive.map(item => item.breakpoint)
+			},
+
+			canGoToPrev: function () {
+				return (this.settings.infinite || this.currentSlide > 0)
+			},
+
+			canGoToNext: function () {
+				return (this.settings.infinite || this.currentSlide < this.countSlides - 1)
+			},
+
+			countSlides: function () {
+				return (this.isSSR) ? this.htmlCollectionToArray(this.$slots.default).length : this.slides.length
+			},
+
+			countSlidesAll: function () {
+				return this.slidesAll.length
+			},
+
+			currentBreakpoint: function () {
+				let breakpoints = this.breakpoints.map(item => item).reverse()
+				return (this.initialSettings.mobileFirst) ? breakpoints.find(item => item < this.widthWindow) || 0 : breakpoints.find(item => item > this.widthWindow) || null
+			},
+
+			marginX: function () {
+				if (this.settings.unagile) {
+					return 0
+				}
+
+				let marginX = (this.slidesCloned) ? this.countSlides * this.widthSlide : 0
+
+				// Center mode margin
+				if (this.settings.centerMode) {
+					marginX -= (Math.floor(this.settings.slidesToShow / 2) - +(this.settings.slidesToShow % 2 === 0)) * this.widthSlide
+				}
+
+				return (this.settings.rtl) ? marginX : -1 * marginX
+			},
+
+			slidesCloned: function () {
+				return (!this.settings.unagile && !this.settings.fade && this.settings.infinite)
+			},
+
+			slidesAll: function () {
+				return (this.slidesCloned) ? [...this.slidesClonedBefore, ...this.slides, ...this.slidesClonedAfter] : this.slides
+			},
+
+			widthSlide: function () {
+				return (!this.settings.unagile) ? this.widthContainer / this.settings.slidesToShow : 'auto'
+			}
+		},
+
+		mounted () {
+			// Windows resize listener
+			window.addEventListener('resize', this.getWidth)
+
+			// Mouse and touch events
+			this.$refs.track.addEventListener('touchstart', this.handleMouseDown)
+			this.$refs.track.addEventListener('touchend', this.handleMouseUp)
+			this.$refs.track.addEventListener('touchmove', this.handleMouseMove)
+			this.$refs.track.addEventListener('mousedown', this.handleMouseDown)
+			this.$refs.track.addEventListener('mouseup', this.handleMouseUp)
+			this.$refs.track.addEventListener('mousemove', this.handleMouseMove)
+
+			// Init
+			this.isSSR = false
+			this.reload()
+		},
+
+		beforeDestroy () {
+			window.removeEventListener('resize', this.getWidth)
+
+			this.$refs.track.removeEventListener('touchstart', this.handleMouseDown)
+			this.$refs.track.removeEventListener('touchend', this.handleMouseUp)
+			this.$refs.track.removeEventListener('touchmove', this.handleMouseMove)
+			this.$refs.track.removeEventListener('mousedown', this.handleMouseDown)
+			this.$refs.track.removeEventListener('mouseup', this.handleMouseUp)
+			this.$refs.track.removeEventListener('mousemove', this.handleMouseMove)
+
+			this.disableAutoPlay()
+		},
+
+		methods: {
+			// Return current breakpoint
+			getCurrentBreakpoint () {
+				return this.currentBreakpoint
+			},
+
+			// Return settings for current breakpoint
+			getCurrentSettings () {
+				return this.settings
+			},
+
+			// Return current slide index
+			getCurrentSlide () {
+				return this.currentSlide
+			},
+
+			// Return initial settings
+			getInitialSettings () {
+				return this.initialSettings
+			},
+
+			// Go to slide
+			goTo (n, transition = true, asNav = false) {
+				// Break goTo() if unagile is active
+				if (this.settings.unagile) {
+					return false
+				}
+
+				if (!asNav) {
+					this.settings.asNavFor.forEach(carousel => {
+						if (carousel) {
+							carousel.goTo(n, transition, true)
+						}
+					})
+				}
+
+				let slideNextReal = n
+
+				if (transition) {
+					if (this.settings.infinite && n < 0) {
+						slideNextReal = this.countSlides - 1
+					} else if (n >= this.countSlides) {
+						slideNextReal = 0
+					}
+
+					this.$emit('before-change', { currentSlide: this.currentSlide, nextSlide: slideNextReal })
+
+					this.currentSlide = slideNextReal
+
+					if (n !== slideNextReal) {
+						setTimeout(() => {
+							this.goTo(slideNextReal, false)
+						}, this.settings.speed)
+					}
+				}
+
+				let translateX = (!this.settings.fade) ? n * this.widthSlide * this.settings.slidesToScroll : 0
+				this.transitionDelay = (transition) ? this.speed : 0
+
+				if (this.infinite || (this.currentSlide + this.slidesToShow <= this.countSlides)) {
+					this.translateX = (this.settings.rtl) ? translateX : -1 * translateX
+				}
+			},
+
+			// Go to next slide
+			goToNext () {
+				if (this.canGoToNext) {
+					this.goTo(this.currentSlide + 1)
+				}
+			},
+
+			// Go to previous slide
+			goToPrev () {
+				if (this.canGoToPrev) {
+					this.goTo(this.currentSlide - 1)
+				}
+			},
+
+			// Reload carousel
+			reload () {
+				this.getWidth()
+				this.prepareSlides()
+				this.prepareCarousel()
+				this.toggleFade()
+				this.toggleAutoPlay()
+			}
+		}
+	});
+
 
 /***/ }),
 
@@ -55170,433 +61243,184 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/vue3-touch-events/index.js":
-/*!*************************************************!*\
-  !*** ./node_modules/vue3-touch-events/index.js ***!
-  \*************************************************/
+/***/ "./node_modules/vue-agile/src/Agile.vue?vue&type=style&index=0&id=60be9220&lang=css":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/vue-agile/src/Agile.vue?vue&type=style&index=0&id=60be9220&lang=css ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _style_loader_dist_cjs_js_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_vue_loader_dist_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_vue_loader_dist_index_js_ruleSet_0_use_0_Agile_vue_vue_type_style_index_0_id_60be9220_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../style-loader/dist/cjs.js!../../css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../vue-loader/dist/stylePostLoader.js!../../postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../vue-loader/dist/index.js??ruleSet[0].use[0]!./Agile.vue?vue&type=style&index=0&id=60be9220&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./node_modules/vue-agile/src/Agile.vue?vue&type=style&index=0&id=60be9220&lang=css");
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-agile/src/Agile.vue?vue&type=script&lang=js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/vue-agile/src/Agile.vue?vue&type=script&lang=js ***!
+  \**********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "default": () => (/* reexport safe */ _vue_loader_dist_index_js_ruleSet_0_use_0_Agile_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__.default)
 /* harmony export */ });
-/**
- * @project   vue3-touch-events
- * @author    Robin Rodricks, Xavier Julien, Jerry Bendy
- * @since     30/4/2021
- * @url       https://github.com/robinrodricks/vue3-touch-events
- */
+/* harmony import */ var _vue_loader_dist_index_js_ruleSet_0_use_0_Agile_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../vue-loader/dist/index.js??ruleSet[0].use[0]!./Agile.vue?vue&type=script&lang=js */ "./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./node_modules/vue-agile/src/Agile.vue?vue&type=script&lang=js");
+ 
 
-function touchX(event) {
-    if(event.type.indexOf('mouse') !== -1){
-        return event.clientX;
-    }
-    return event.touches[0].clientX;
+/***/ }),
+
+/***/ "./node_modules/vue-agile/src/Agile.vue?vue&type=template&id=60be9220":
+/*!****************************************************************************!*\
+  !*** ./node_modules/vue-agile/src/Agile.vue?vue&type=template&id=60be9220 ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_vue_loader_dist_index_js_ruleSet_0_use_0_Agile_vue_vue_type_template_id_60be9220__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_vue_loader_dist_index_js_ruleSet_0_use_0_Agile_vue_vue_type_template_id_60be9220__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../vue-loader/dist/index.js??ruleSet[0].use[0]!./Agile.vue?vue&type=template&id=60be9220 */ "./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./node_modules/vue-agile/src/Agile.vue?vue&type=template&id=60be9220");
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./node_modules/vue-agile/src/Agile.vue?vue&type=template&id=60be9220":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./node_modules/vue-agile/src/Agile.vue?vue&type=template&id=60be9220 ***!
+  \*************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+const _hoisted_1 = {
+  ref: "list",
+  class: "agile__list"
 }
-
-function touchY(event) {
-    if(event.type.indexOf('mouse') !== -1){
-        return event.clientY;
-    }
-    return event.touches[0].clientY;
+const _hoisted_2 = {
+  ref: "slidesClonedBefore",
+  class: "agile__slides agile__slides--cloned"
 }
+const _hoisted_3 = {
+  ref: "slides",
+  class: "agile__slides agile__slides--regular"
+}
+const _hoisted_4 = {
+  ref: "slidesClonedAfter",
+  class: "agile__slides agile__slides--cloned"
+}
+const _hoisted_5 = {
+  key: 0,
+  class: "agile__caption"
+}
+const _hoisted_6 = {
+  key: 1,
+  class: "agile__actions"
+}
+const _hoisted_7 = ["disabled"]
+const _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" ← ")
+const _hoisted_9 = {
+  key: 1,
+  ref: "dots",
+  class: "agile__dots"
+}
+const _hoisted_10 = ["onClick"]
+const _hoisted_11 = ["disabled"]
+const _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" → ")
 
-var isPassiveSupported = (function() {
-    var supportsPassive = false;
-    try {
-        var opts = Object.defineProperty({}, 'passive', {
-            get: function() {
-                supportsPassive = true;
-            }
-        });
-        window.addEventListener('test', null, opts);
-    } catch (e) {}
-    return supportsPassive;
-})();
-
-var vueTouchEvents = {
-    install: function (app, constructorOptions) {
-		
-        var globalOptions = Object.assign({}, {
-            disableClick: false,
-            tapTolerance: 10,  // px
-            swipeTolerance: 30,  // px
-            touchHoldTolerance: 400,  // ms
-            longTapTimeInterval: 400,  // ms
-            touchClass: '',
-			dragFrequency: 100, // ms
-			rollOverFrequency: 100, // ms
-        }, constructorOptions);
-
-        function touchStartEvent(event) {
-            var $this = this.$$touchObj,
-                isTouchEvent = event.type.indexOf('touch') >= 0,
-                isMouseEvent = event.type.indexOf('mouse') >= 0,
-                $el = this;
-
-            if (isTouchEvent) {
-                $this.lastTouchStartTime = event.timeStamp;
-            }
-
-            if (isMouseEvent && $this.lastTouchStartTime && event.timeStamp - $this.lastTouchStartTime < 350) {
-                return;
-            }
-
-            if ($this.touchStarted) {
-                return;
-            }
-
-            addTouchClass(this);
-
-            $this.touchStarted = true; // always true while the element is being PRESSED
-
-            $this.touchMoved = false; // true only when the element is PRESSED and DRAGGED a bit
-            $this.swipeOutBounded = false;
-
-            $this.startX = touchX(event);
-            $this.startY = touchY(event);
-
-            $this.currentX = 0; // always updated with the last mouse X/Y while over the element
-            $this.currentY = 0;
-
-            $this.touchStartTime = event.timeStamp;
-			
-			// performance: only process swipe events if `swipe.*` event is registered on this element
-			$this.hasSwipe = hasEvent(this, 'swipe')
-				|| hasEvent(this, 'swipe.left') || hasEvent(this, 'swipe.right')
-				|| hasEvent(this, 'swipe.top') || hasEvent(this, 'swipe.bottom');
-
-			// performance: only start hold timer if the `hold` event is registered on this element
-			if (hasEvent(this, 'hold')){
-				
-				// Trigger touchhold event after `touchHoldTolerance` MS
-				$this.touchHoldTimer = setTimeout(function() {
-					$this.touchHoldTimer = null;
-					triggerEvent(event, $el, 'hold');
-				}, $this.options.touchHoldTolerance);
-			}
-			
-            triggerEvent(event, this, 'press');
-        }
-
-        function touchMoveEvent(event) {
-            var $this = this.$$touchObj;
-			
-			var curX = touchX(event);
-			var curY = touchY(event);
-
-			var movedAgain = ($this.currentX != curX) || ($this.currentY != curY);
-			
-            $this.currentX = curX;
-            $this.currentY = curY;
-
-            if (!$this.touchMoved) {
-                var tapTolerance = $this.options.tapTolerance;
-
-                $this.touchMoved = Math.abs($this.startX - $this.currentX) > tapTolerance ||
-								   Math.abs($this.startY - $this.currentY) > tapTolerance;
-
-				// trigger `drag.once` only once after mouse FIRST moved while dragging the element
-				// (`touchMoved` is the flag that indicates we no longer need to trigger this)
-                if($this.touchMoved){
-                    cancelTouchHoldTimer($this);
-                    triggerEvent(event, this, 'drag.once');
-                }
-
-			// performance: only process swipe events if `swipe.*` event is registered on this element
-            } else if ($this.hasSwipe && !$this.swipeOutBounded) {
-				var swipeOutBounded = $this.options.swipeTolerance;
-
-				$this.swipeOutBounded = Math.abs($this.startX - $this.currentX) > swipeOutBounded &&
-					Math.abs($this.startY - $this.currentY) > swipeOutBounded;
-            }
-
-			// only trigger `rollover` event if cursor actually moved over this element
-            if(hasEvent(this, 'rollover') && movedAgain){
-				
-				// throttle the `rollover` event based on `rollOverFrequency`
-				var now = event.timeStamp;
-				var throttle = $this.options.rollOverFrequency;
-				if ($this.touchRollTime == null || now > ($this.touchRollTime + throttle)){
-					$this.touchRollTime = now;
-					
-					triggerEvent(event, this, 'rollover');
-				}
-            }
-
-			// only trigger `drag` event if cursor actually moved and if we are still dragging this element
-            if(hasEvent(this, 'drag') && $this.touchStarted && $this.touchMoved && movedAgain){
-				
-				// throttle the `drag` event based on `dragFrequency`
-				var now = event.timeStamp;
-				var throttle = $this.options.dragFrequency;
-				if ($this.touchDragTime == null || now > ($this.touchDragTime + throttle)){
-					$this.touchDragTime = now;
-					
-					triggerEvent(event, this, 'drag');
-				}
-            }
-        }
-
-        function touchCancelEvent() {
-            var $this = this.$$touchObj;
-
-            cancelTouchHoldTimer($this);
-            removeTouchClass(this);
-
-            $this.touchStarted = $this.touchMoved = false;
-            $this.startX = $this.startY = 0;
-        }
-
-        function touchEndEvent(event) {
-            var $this = this.$$touchObj,
-                isTouchEvent = event.type.indexOf('touch') >= 0,
-                isMouseEvent = event.type.indexOf('mouse') >= 0;
-
-            if (isTouchEvent) {
-                $this.lastTouchEndTime = event.timeStamp;
-            }
-
-            var touchholdEnd = isTouchEvent && !$this.touchHoldTimer;
-            cancelTouchHoldTimer($this);
-
-            $this.touchStarted = false;
-
-            removeTouchClass(this);
-
-            if (isMouseEvent && $this.lastTouchEndTime && event.timeStamp - $this.lastTouchEndTime < 350) {
-                return;
-            }
-
-            // trigger `end` event when touch stopped
-            triggerEvent(event, this, 'release');
-
-            if (!$this.touchMoved) {
-                // detect if this is a longTap event or not
-                if (hasEvent(this, 'longtap') && event.timeStamp - $this.touchStartTime > $this.options.longTapTimeInterval) {
-                    if (event.cancelable) {
-                        event.preventDefault();
-                    }
-                    triggerEvent(event, this, 'longtap');
-
-                } else if (hasEvent(this, 'hold') && touchholdEnd) {
-                    if (event.cancelable) {
-                        event.preventDefault();
-                    }
-                    return;
-                } else {
-                    // emit tap event
-                    triggerEvent(event, this, 'tap');
-                }
-
-			// performance: only process swipe events if `swipe.*` event is registered on this element
-            } else if ($this.hasSwipe && !$this.swipeOutBounded) {
-                var swipeOutBounded = $this.options.swipeTolerance,
-                    direction,
-                    distanceY = Math.abs($this.startY - $this.currentY),
-                    distanceX = Math.abs($this.startX - $this.currentX);
-
-                if (distanceY > swipeOutBounded || distanceX > swipeOutBounded) {
-                    if (distanceY > swipeOutBounded) {
-                        direction = $this.startY > $this.currentY ? 'top' : 'bottom';
-                    } else {
-                        direction = $this.startX > $this.currentX ? 'left' : 'right';
-                    }
-
-                    // Only emit the specified event when it has modifiers
-                    if (hasEvent(this, 'swipe.' + direction)) {
-                        triggerEvent(event, this, 'swipe.' + direction, direction);
-                    } else {
-                        // Emit a common event when it has no any modifier
-                        triggerEvent(event, this, 'swipe', direction);
-                    }
-                }
-            }
-        }
-
-        function mouseEnterEvent() {
-            addTouchClass(this);
-        }
-
-        function mouseLeaveEvent() {
-            removeTouchClass(this);
-        }
-
-        function hasEvent($el, eventType) {
-            var callbacks = $el.$$touchObj.callbacks[eventType];
-			return (callbacks != null && callbacks.length > 0);
-		}
-		
-        function triggerEvent(e, $el, eventType, param) {
-            var $this = $el.$$touchObj;
-
-            // get the subscribers for this event
-            var callbacks = $this.callbacks[eventType];
-			
-			// exit if no subscribers to this particular event
-            if (callbacks == null || callbacks.length === 0) {
-                return null;
-            }
-
-			// per callback
-            for (var i = 0; i < callbacks.length; i++) {
-                var binding = callbacks[i];
-
-                if (binding.modifiers.stop) {
-                    e.stopPropagation();
-                }
-
-                if (binding.modifiers.prevent) {
-                    e.preventDefault();
-                }
-
-                // handle `self` modifier`
-                if (binding.modifiers.self && e.target !== e.currentTarget) {
-                    continue;
-                }
-
-                if (typeof binding.value === 'function') {
-                    if (param) {
-                        binding.value(param, e);
-                    } else {
-                        binding.value(e);
-                    }
-                }
-            }
-        }
-
-        function addTouchClass($el) {
-            var className = $el.$$touchObj.options.touchClass;
-            className && $el.classList.add(className);
-        }
-
-        function removeTouchClass($el) {
-            var className = $el.$$touchObj.options.touchClass;
-            className && $el.classList.remove(className);
-        }
-
-        function cancelTouchHoldTimer($this) {
-            if ($this.touchHoldTimer) {
-                clearTimeout($this.touchHoldTimer);
-                $this.touchHoldTimer = null;
-            }
-        }
-
-        function buildTouchObj($el, extraOptions) {
-            var touchObj = $el.$$touchObj || {
-                // an object contains all callbacks registered,
-                // key is event name, value is an array
-                callbacks: {},
-                // prevent bind twice, set to true when event bound
-                hasBindTouchEvents: false,
-                // default options, would be override by v-touch-options
-                options: globalOptions
-            };
-            if (extraOptions) {
-                touchObj.options = Object.assign({}, touchObj.options, extraOptions);
-            }
-            $el.$$touchObj = touchObj;
-            return $el.$$touchObj;
-        }
-
-        app.directive('touch', {
-            beforeMount: function ($el, binding) {
-                // build a touch configuration object
-                var $this = buildTouchObj($el);
-                // declare passive option for the event listener. Defaults to { passive: true } if supported
-                var passiveOpt = isPassiveSupported ? { passive: true } : false;
-                // register callback
-                var eventType = binding.arg || 'tap';
-                switch (eventType) {
-                    case 'swipe':
-                        var _m = binding.modifiers;
-                        if (_m.left || _m.right || _m.top || _m.bottom) {
-                            for (var i in binding.modifiers) {
-                                if (['left', 'right', 'top', 'bottom'].indexOf(i) >= 0) {
-                                    var _e = 'swipe.' + i;
-                                    $this.callbacks[_e] = $this.callbacks[_e] || [];
-                                    $this.callbacks[_e].push(binding);
-                                }
-                            }
-                        } else {
-                            $this.callbacks.swipe = $this.callbacks.swipe || [];
-                            $this.callbacks.swipe.push(binding);
-                        }
-                        break;
-
-                    case 'press':
-                    case 'drag':
-                        if (binding.modifiers.disablePassive) {
-                            // change the passive option for the `drag` event if disablePassive modifier exists
-                            passiveOpt = false;
-                        }
-                    default:
-                        $this.callbacks[eventType] = $this.callbacks[eventType] || [];
-                        $this.callbacks[eventType].push(binding);
-                }
-
-                // prevent bind twice
-                if ($this.hasBindTouchEvents) {
-                    return;
-                }
-
-                $el.addEventListener('touchstart', touchStartEvent, passiveOpt);
-                $el.addEventListener('touchmove', touchMoveEvent, passiveOpt);
-                $el.addEventListener('touchcancel', touchCancelEvent);
-                $el.addEventListener('touchend', touchEndEvent);
-
-                if (!$this.options.disableClick) {
-                    $el.addEventListener('mousedown', touchStartEvent);
-                    $el.addEventListener('mousemove', touchMoveEvent);
-                    $el.addEventListener('mouseup', touchEndEvent);
-                    $el.addEventListener('mouseenter', mouseEnterEvent);
-                    $el.addEventListener('mouseleave', mouseLeaveEvent);
-                }
-
-                // set bind mark to true
-                $this.hasBindTouchEvents = true;
-            },
-
-            unmounted: function ($el) {
-                $el.removeEventListener('touchstart', touchStartEvent);
-                $el.removeEventListener('touchmove', touchMoveEvent);
-                $el.removeEventListener('touchcancel', touchCancelEvent);
-                $el.removeEventListener('touchend', touchEndEvent);
-
-                if ($el.$$touchObj && !$el.$$touchObj.options.disableClick) {
-                    $el.removeEventListener('mousedown', touchStartEvent);
-                    $el.removeEventListener('mousemove', touchMoveEvent);
-                    $el.removeEventListener('mouseup', touchEndEvent);
-                    $el.removeEventListener('mouseenter', mouseEnterEvent);
-                    $el.removeEventListener('mouseleave', mouseLeaveEvent);
-                }
-
-                // remove vars
-                delete $el.$$touchObj;
-            }
-        });
-
-        app.directive('touch-class', {
-            beforeMount: function ($el, binding) {
-                buildTouchObj($el, {
-                    touchClass: binding.value
-                });
-            }
-        });
-
-        app.directive('touch-options', {
-            beforeMount: function($el, binding) {
-                buildTouchObj($el, binding.value);
-            }
-        });
-    }
-};
-
-/*
- * Exports
- */
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (vueTouchEvents);
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+    class: (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["agile", {'agile--ssr': $data.isSSR, 'agile--auto-play': _ctx.settings.autoplay, 'agile--disabled': _ctx.settings.unagile, 'agile--fade': _ctx.settings.fade && !_ctx.settings.unagile, 'agile--rtl': _ctx.settings.rtl, 'agile--no-nav-buttons': !_ctx.settings.navButtons}]),
+    onTouchstart: _cache[6] || (_cache[6] = () => {})
+  }, [
+    (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [
+      (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+        ref: "track",
+        class: "agile__track",
+        style: (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeStyle)({transform: `translate(${$data.translateX + $options.marginX}px)`, transition: `transform ${_ctx.settings.timing} ${$data.transitionDelay}ms`}),
+        onMouseover: _cache[0] || (_cache[0] = $event => (_ctx.handleMouseOver('track'))),
+        onMouseout: _cache[1] || (_cache[1] = $event => (_ctx.handleMouseOut('track')))
+      }, [
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [
+          (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")
+        ], 512 /* NEED_PATCH */), [
+          [vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $options.slidesCloned]
+        ]),
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [
+          (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")
+        ], 512 /* NEED_PATCH */),
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [
+          (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")
+        ], 512 /* NEED_PATCH */), [
+          [vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $options.slidesCloned]
+        ])
+      ], 36 /* STYLE, HYDRATE_EVENTS */)
+    ], 512 /* NEED_PATCH */),
+    (_ctx.$slots.caption)
+      ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_5, [
+          (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "caption")
+        ]))
+      : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true),
+    (!_ctx.settings.unagile && (_ctx.settings.navButtons || _ctx.settings.dots))
+      ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_6, [
+          (_ctx.settings.navButtons && !_ctx.settings.unagile)
+            ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("button", {
+                key: 0,
+                ref: "prevButton",
+                class: "agile__nav-button agile__nav-button--prev",
+                disabled: !$options.canGoToPrev,
+                type: "button",
+                onClick: _cache[2] || (_cache[2] = $event => ($options.goToPrev(), _ctx.restartAutoPlay()))
+              }, [
+                (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "prevButton", {}, () => [
+                  _hoisted_8
+                ])
+              ], 8 /* PROPS */, _hoisted_7))
+            : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true),
+          (_ctx.settings.dots && !_ctx.settings.unagile)
+            ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("ul", _hoisted_9, [
+                ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.countSlides, (n) => {
+                  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("li", {
+                    key: n,
+                    class: (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["agile__dot", {'agile__dot--current': n - 1 === $data.currentSlide}]),
+                    onMouseover: _cache[3] || (_cache[3] = $event => (_ctx.handleMouseOver('dot'))),
+                    onMouseout: _cache[4] || (_cache[4] = $event => (_ctx.handleMouseOut('dot')))
+                  }, [
+                    (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+                      type: "button",
+                      onClick: $event => ($options.goTo(n - 1), _ctx.restartAutoPlay())
+                    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(n), 9 /* TEXT, PROPS */, _hoisted_10)
+                  ], 34 /* CLASS, HYDRATE_EVENTS */))
+                }), 128 /* KEYED_FRAGMENT */))
+              ], 512 /* NEED_PATCH */))
+            : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true),
+          (_ctx.settings.navButtons && !_ctx.settings.unagile)
+            ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("button", {
+                key: 2,
+                ref: "nextButton",
+                class: "agile__nav-button agile__nav-button--next",
+                disabled: !$options.canGoToNext,
+                type: "button",
+                onClick: _cache[5] || (_cache[5] = $event => ($options.goToNext(), _ctx.restartAutoPlay()))
+              }, [
+                (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "nextButton", {}, () => [
+                  _hoisted_12
+                ])
+              ], 8 /* PROPS */, _hoisted_11))
+            : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)
+        ]))
+      : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)
+  ], 34 /* CLASS, HYDRATE_EVENTS */))
+}
 
 /***/ }),
 

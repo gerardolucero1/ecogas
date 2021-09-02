@@ -57,20 +57,23 @@
 
             #premios{
                 .content{
-                    display: flex;
 
                     .box{
-                        flex: 1;
-                        
-                    }
-
-                    & .box:nth-child(2){
-                        
-                        img{
+                        display: flex;
+                        justify-content: flex-end;
+                    
+                        .carousel{
                             width: 60%;
-                            margin-top: 25%;
+                            display: block !important;
+
+                            img{
+                                margin-left: 10%;
+                                margin-top: 15%;
+                                width: 60%;
+                            }
                         }
                     }
+                    
                 }
             }
 
@@ -113,9 +116,9 @@
                                     margin-bottom: -30px;
 
                                     p{
-                                        text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+                                       
                                         transform: rotate(-10deg);
-                                        color: #1D71B9;
+                                        color: white;
                                         letter-spacing: 2px;
                                     }
                                 }
@@ -266,11 +269,13 @@
                         display: flex;
                         justify-content: center;
                         align-items: flex-start;
-                        img{
-                            margin-left: 17%;
-                            width: 70%;
+                        width: 100%;
+
+                        .carousel-movil{
                             margin-top: 50%;
+                            width: 80%;
                         }
+                        
                     }
                 }
 
@@ -303,7 +308,7 @@
                                 }
 
                                 .header{
-                                        background-color: #1D71B9;
+                                        background-color: #76B727;
                                         padding: 15px 15px;
                                         font-size: 35px;
                                         border-radius: 5px;
@@ -312,9 +317,9 @@
                                         margin-bottom: -30px;
 
                                         p{
-                                            text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+                                            
                                             transform: rotate(-10deg);
-                                            color: #76B727;
+                                            color: white;
                                             letter-spacing: 2px;
                                         }
                                     }
@@ -409,6 +414,22 @@
             }
         }
     }
+
+    .btn-menu{
+        position: relative;
+    }
+
+    .tooltip{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 30%;
+        
+        background-color: gray;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+    }
 </style>
 
 <template>
@@ -416,40 +437,51 @@
         <a target="_blank" href="https://api.whatsapp.com/send?phone=8007000000">
             <img class="wp" src="/images/nueva/icos/Recurso 81.png" alt="">
         </a>
+        
         <div class="web">
             <div class="menu-web">
                 <div class="btn-menu">
-                    <a href="#home">
+                    <a href="#home" @mouseenter="tooltip = 1" @mouseleave="tooltip = 0">
                         <img src="/images/nueva/icos/Recurso 75.png" alt="">
                     </a>
+
+                    <span style="margin-right: -50px;" v-show="tooltip == 1" class="tooltip">Inicio</span>
                 </div>
                 <div class="btn-menu">
-                    <a href="#mecanica">
+                    <a href="#mecanica" @mouseenter="tooltip = 2" @mouseleave="tooltip = 0">
                         <img src="/images/nueva/icos/Recurso 76.png" alt="">
                     </a>
+                    <span style="margin-right: -80px;" v-show="tooltip == 2" class="tooltip">Mecanica</span>
                 </div>
-                <div class="btn-menu">
+                <div class="btn-menu" @mouseenter="tooltip = 3" @mouseleave="tooltip = 0">
                     <a href="#premios">
                         <img src="/images/nueva/icos/Recurso 77.png" alt="">
                     </a>
+
+                    <span style="margin-right: -70px;" v-show="tooltip == 3" class="tooltip">Premios</span>
                 </div>
-                <div class="btn-menu">
+                <div class="btn-menu" @mouseenter="tooltip = 4" @mouseleave="tooltip = 0">
                     <a href="#pagos">
                         <img src="/images/nueva/icos/Recurso 78.png" alt="">
                     </a>
+
+                    <span style="margin-right: -57px;" v-show="tooltip == 4" class="tooltip">Pagos</span>
                 </div>
-                <div class="btn-menu">
+                <div class="btn-menu" @mouseenter="tooltip = 5" @mouseleave="tooltip = 0">
                     <a href="#preguntas">
                         <img src="/images/nueva/icos/Recurso 79.png" alt="">
                     </a>
+
+                    <span style="margin-right: -85px;" v-show="tooltip == 5" class="tooltip">Preguntas</span>
                 </div>
-                <div class="btn-menu">
+                <div class="btn-menu" @mouseenter="tooltip = 6" @mouseleave="tooltip = 0">
                     <a href="#ganadores">
                         <img src="/images/nueva/icos/Recurso 80.png" alt="">
                     </a>
+
+                    <span style="margin-right: -90px;" v-show="tooltip == 6" class="tooltip">Ganadores</span>
                 </div>
             </div>
-
             <section class="section" id="home">
                 <img src="/images/nueva/web/HOME.png" alt="">
                 <div class="content">
@@ -466,12 +498,16 @@
                 <img src="/images/nueva/web/PREMIOS.png" alt="">
                 <div class="content">
                     <div class="box">
-                       
-                    </div>
-                    <div class="box">
-                        <div>
-                            <img :src="slides[slide]" alt="">
+                        <div class="carousel">
+                            <agile :centerMode="true" autoplay="autoplay" :nav-buttons="false" :autoplay-speed="4000" :speed="1000">
+                                <div class="slide" v-for="(slide, index) in slides" :key="index">
+                                    <img :src="slide" alt="">
+                                </div>
+                            </agile>
                         </div>
+                        <!-- <div>
+                            <img :src="slides[slide]" alt="">
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -591,10 +627,12 @@
             <section class="section" id="premios2">
                 <img src="/images/nueva/movil/PREMIOS.png" alt="">
                 <div class="content">
-                    <div class="box">
-                       <div>
-                            <img :src="slides[slide]" alt="">
-                        </div>
+                    <div class="carousel-movil">
+                        <agile :centerMode="true" autoplay="autoplay" :nav-buttons="false" :autoplay-speed="4000" :speed="1000">
+                            <div class="slide" v-for="(slide, index) in slides" :key="index">
+                                <img :src="slide" alt="">
+                            </div>
+                        </agile>
                     </div>
                 </div>
             </section>
@@ -677,6 +715,7 @@ export default {
 
         data(){
             return{
+                tooltip: 0,
                 slide: 0,
                 indexSelect: null,
                 slides: [
