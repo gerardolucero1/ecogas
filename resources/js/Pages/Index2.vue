@@ -239,6 +239,10 @@
                 display: none;
             }
 
+            .wp{
+                margin-bottom: 50px;
+            }
+
             .movil{
                 display: block;
                 position: relative;
@@ -414,7 +418,7 @@
             }
 
             .button-section{
-                justify-content: space-around;
+                justify-content: center;
 
 
                 a{
