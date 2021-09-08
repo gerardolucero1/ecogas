@@ -7485,7 +7485,7 @@ function normalizeEmitsOptions(comp, appContext, asMixin = false) {
     let normalized = {};
     // apply mixin/extends props
     let hasExtends = false;
-    if (__VUE_OPTIONS_API__ && !(0,_vue_shared__WEBPACK_IMPORTED_MODULE_1__.isFunction)(comp)) {
+    if ( true && !(0,_vue_shared__WEBPACK_IMPORTED_MODULE_1__.isFunction)(comp)) {
         const extendEmits = (raw) => {
             const normalizedFromExtend = normalizeEmitsOptions(raw, appContext, true);
             if (normalizedFromExtend) {
@@ -9811,7 +9811,7 @@ function normalizePropsOptions(comp, appContext, asMixin = false) {
     const needCastKeys = [];
     // apply mixin/extends props
     let hasExtends = false;
-    if (__VUE_OPTIONS_API__ && !(0,_vue_shared__WEBPACK_IMPORTED_MODULE_1__.isFunction)(comp)) {
+    if ( true && !(0,_vue_shared__WEBPACK_IMPORTED_MODULE_1__.isFunction)(comp)) {
         const extendProps = (raw) => {
             hasExtends = true;
             const [props, keys] = normalizePropsOptions(raw, appContext, true);
@@ -10290,7 +10290,7 @@ function createAppAPI(render, hydrate) {
                 return app;
             },
             mixin(mixin) {
-                if (__VUE_OPTIONS_API__) {
+                if (true) {
                     if (!context.mixins.includes(mixin)) {
                         context.mixins.push(mixin);
                     }
@@ -10299,9 +10299,7 @@ function createAppAPI(render, hydrate) {
                             (mixin.name ? `: ${mixin.name}` : ''));
                     }
                 }
-                else if ((true)) {
-                    warn('Mixins are only available in builds supporting Options API');
-                }
+                else {}
                 return app;
             },
             component(name, component) {
@@ -10766,14 +10764,8 @@ function isSupported() {
  */
 function initFeatureFlags() {
     let needWarn = false;
-    if (typeof __VUE_OPTIONS_API__ !== 'boolean') {
-        needWarn = true;
-        (0,_vue_shared__WEBPACK_IMPORTED_MODULE_1__.getGlobalThis)().__VUE_OPTIONS_API__ = true;
-    }
-    if (typeof __VUE_PROD_DEVTOOLS__ !== 'boolean') {
-        needWarn = true;
-        (0,_vue_shared__WEBPACK_IMPORTED_MODULE_1__.getGlobalThis)().__VUE_PROD_DEVTOOLS__ = false;
-    }
+    if (false) {}
+    if (false) {}
     if (( true) && needWarn) {
         console.warn(`You are running the esm-bundler build of Vue. It is recommended to ` +
             `configure your bundler to explicitly replace feature flag globals ` +
@@ -13069,10 +13061,10 @@ const publicPropertiesMap = (0,_vue_shared__WEBPACK_IMPORTED_MODULE_1__.extend)(
     $parent: i => getPublicInstance(i.parent),
     $root: i => getPublicInstance(i.root),
     $emit: i => i.emit,
-    $options: i => (__VUE_OPTIONS_API__ ? resolveMergedOptions(i) : i.type),
+    $options: i => ( true ? resolveMergedOptions(i) : 0),
     $forceUpdate: i => () => queueJob(i.update),
     $nextTick: i => nextTick.bind(i.proxy),
-    $watch: i => (__VUE_OPTIONS_API__ ? instanceWatch.bind(i) : _vue_shared__WEBPACK_IMPORTED_MODULE_1__.NOOP)
+    $watch: i => ( true ? instanceWatch.bind(i) : 0)
 });
 const PublicInstanceProxyHandlers = {
     get({ _: instance }, key) {
@@ -13133,7 +13125,7 @@ const PublicInstanceProxyHandlers = {
                 accessCache[key] = 3 /* CONTEXT */;
                 return ctx[key];
             }
-            else if (!__VUE_OPTIONS_API__ || shouldCacheAccess) {
+            else if ( false || shouldCacheAccess) {
                 accessCache[key] = 4 /* OTHER */;
             }
         }
@@ -13568,7 +13560,7 @@ function finishComponentSetup(instance, isSSR, skipOptions) {
         }
     }
     // support for 2.x options
-    if (__VUE_OPTIONS_API__ && !(false )) {
+    if (true) {
         setCurrentInstance(instance);
         (0,_vue_reactivity__WEBPACK_IMPORTED_MODULE_0__.pauseTracking)();
         applyOptions(instance);
@@ -25396,25 +25388,12 @@ __webpack_require__.r(__webpack_exports__);
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-56d66778");
 
 var _hoisted_1 = {
-  "class": "container"
+  "class": "main-container"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "header"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/nueva/pages/contacto.png",
-  alt: ""
-})], -1
-/* HOISTED */
-);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"header\" data-v-56d66778><img src=\"/images/nueva/pages/contacto.png\" alt=\"\" data-v-56d66778></div><div class=\"content\" data-v-56d66778><p data-v-56d66778>Comunícate a nuestra línea de atención para recibir <br data-v-56d66778> asesoria sobre como avanzar con tu participación al <br data-v-56d66778> teléfono xxx-xxx-xxx en un horario de: </p><br data-v-56d66778><p data-v-56d66778>L-V 9:00 a 18:00 hrs</p><p data-v-56d66778>Sab. 9:00 a 16:00 hrs</p><div style=\"margin-top:20px;\" data-v-56d66778><a href=\"#\" style=\"font-size:25px !important;\" data-v-56d66778><i class=\"fab fa-facebook-square\" data-v-56d66778></i></a><a style=\"margin-left:10px;font-size:25px !important;\" href=\"#\" data-v-56d66778><i class=\"fab fa-twitter\" data-v-56d66778></i></a><a style=\"margin-left:10px;font-size:25px !important;\" href=\"#\" data-v-56d66778><i class=\"fab fa-instagram\" data-v-56d66778></i></a></div></div>", 2);
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "content"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Comunícate a nuestra línea de atención para recibir "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" asesoria sobre como avanzar con tu participación al "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" teléfono xxx-xxx-xxx en un horario de: ")])], -1
-/* HOISTED */
-);
-
-var _hoisted_4 = [_hoisted_2, _hoisted_3];
+var _hoisted_4 = [_hoisted_2];
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
@@ -25712,7 +25691,7 @@ __webpack_require__.r(__webpack_exports__);
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-84ba0e74");
 
 var _hoisted_1 = {
-  "class": "container"
+  "class": "main-container"
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -26811,7 +26790,7 @@ __webpack_require__.r(__webpack_exports__);
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-49601810");
 
 var _hoisted_1 = {
-  "class": "container"
+  "class": "main-container"
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -27932,7 +27911,7 @@ __webpack_require__.r(__webpack_exports__);
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-4898385e");
 
 var _hoisted_1 = {
-  "class": "container"
+  "class": "main-container"
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -28394,7 +28373,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".container[data-v-56d66778] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.container .header[data-v-56d66778] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.container .content[data-v-56d66778] {\n  padding: 20px;\n  color: white;\n  font-size: 19px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-56d66778] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.main-container .header[data-v-56d66778] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-56d66778] {\n  padding: 20px;\n  color: white;\n  font-size: 19px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28418,7 +28397,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".container[data-v-84ba0e74] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.container .header[data-v-84ba0e74] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.container .content[data-v-84ba0e74] {\n  padding: 20px;\n  color: white;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-84ba0e74] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.main-container .header[data-v-84ba0e74] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-84ba0e74] {\n  padding: 20px;\n  color: white;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28490,7 +28469,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".container[data-v-49601810] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.container .header[data-v-49601810] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.container .content[data-v-49601810] {\n  padding: 20px;\n  color: white;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-49601810] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.main-container .header[data-v-49601810] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-49601810] {\n  padding: 20px;\n  color: white;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28514,7 +28493,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".container[data-v-4898385e] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.container .header[data-v-4898385e] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.container .content[data-v-4898385e] {\n  padding: 20px;\n  color: white;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-4898385e] {\n  padding: 0;\n  margin: 0;\n  background-color: #005295;\n  min-height: 100vh;\n}\n.main-container .header[data-v-4898385e] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-4898385e] {\n  padding: 20px;\n  color: white;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

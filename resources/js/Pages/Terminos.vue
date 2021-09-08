@@ -1,8 +1,10 @@
 <style scoped lang="scss">
-    .container{
+
+    .main-container{
+        padding: 0;
+        margin: 0;
         background-color: #005295;
         min-height: 100vh;
-        padding: 10px;
 
         .header{
             width: 100%;
@@ -16,10 +18,11 @@
             color: white;
         }
     }
+
 </style>
 
 <template>
-    <div class="container">
+    <div class="main-container">
         <div class="header">
             <img src="/images/nueva/pages/terminos.png" alt="">
         </div>
