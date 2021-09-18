@@ -786,9 +786,8 @@ export default {
                 indexSelect: null,
                 slides: [
                     '/images/nueva/elements/premios 2k.png',
-                    '/images/nueva/elements/premios 10k.png',
+                    '/images/nueva/elements/premios 5k.png',
                     '/images/nueva/elements/premios 25k.png',
-                    '/images/nueva/elements/premios 5500.png',
                 ]
             }
         },
