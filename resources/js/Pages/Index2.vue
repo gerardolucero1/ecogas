@@ -482,7 +482,7 @@
 
 <template>
     <div class="main-container">
-        <a target="_blank" href="https://api.whatsapp.com/send?phone=8007000000">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=+528007000000">
             <img class="wp" src="/images/nueva/icos/Recurso 81.png" alt="">
         </a>
 
