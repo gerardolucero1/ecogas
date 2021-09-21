@@ -20,18 +20,20 @@
 
 <template>
     <div class="main-container">
-        <div class="header">
-            <img src="/images/nueva/pages/faqs.png" alt="">
-        </div>
-
         <div class="content">
-            <ul>
+            <div class="web">
+                <img class="" src="/images/nueva/web/PREGUNTAS_FRECUENTES.png" alt="">
+            </div>
+            <div class="movil">
+                <img class="" src="/images/nueva/movil/PAGINAS_FRECUENTES_MOVIL.png" alt="">
+            </div>
+            <!-- <ul>
                 <li v-for="(question, index) in questions" :key="index" style="margin-top: 20px;">
                     <span style="font-size: 22px; font-weight: bold;">{{ index + 1 }} - {{ question.name }}</span>
 
                     <p style="font-size: 19px;">{{ question.answer }}</p>
                 </li>
-            </ul>
+            </ul> -->
         </div>
     </div>
 </template>

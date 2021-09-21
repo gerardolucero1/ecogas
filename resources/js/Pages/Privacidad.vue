@@ -15,17 +15,36 @@
             padding: 20px;
             color: white;
         }
+
+        .web{
+            display: block;
+        }
+
+        .movil{
+            display: none;
+        }
+
+        @media only screen and (max-width: 1000px){
+            .web{
+                display: none;
+            }
+
+            .movil{
+                display: block;
+            }
+        }
     }
 </style>
 
 <template>
     <div class="main-container">
-        <div class="header">
-            <img src="/images/nueva/pages/privacidad.png" alt="">
-        </div>
-
         <div class="content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis esse quas repudiandae dignissimos cupiditate corporis fuga ipsa cum fugiat soluta, suscipit autem est, voluptatibus quisquam eos eum culpa? Voluptates.</p>
+            <div class="web">
+                <img class="" src="/images/nueva/web/AVISO DE PRIVACIDAD.png" alt="">
+            </div>
+            <div class="movil">
+                <img class="" src="/images/nueva/movil/AVISO DE PRIVACIDAD.png" alt="">
+            </div>
         </div>
     </div>
 </template>

@@ -25694,47 +25694,14 @@ var _hoisted_1 = {
   "class": "main-container"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "header"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/nueva/pages/faqs.png",
-  alt: ""
-})], -1
-/* HOISTED */
-);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"content\" data-v-84ba0e74><div class=\"web\" data-v-84ba0e74><img class=\"\" src=\"/images/nueva/web/PREGUNTAS_FRECUENTES.png\" alt=\"\" data-v-84ba0e74></div><div class=\"movil\" data-v-84ba0e74><img class=\"\" src=\"/images/nueva/movil/PAGINAS_FRECUENTES_MOVIL.png\" alt=\"\" data-v-84ba0e74></div><!-- &lt;ul&gt;\n                &lt;li v-for=&quot;(question, index) in questions&quot; :key=&quot;index&quot; style=&quot;margin-top: 20px;&quot;&gt;\n                    &lt;span style=&quot;font-size: 22px; font-weight: bold;&quot;&gt;{{ index + 1 }} - {{ question.name }}&lt;/span&gt;\n\n                    &lt;p style=&quot;font-size: 19px;&quot;&gt;{{ question.answer }}&lt;/p&gt;\n                &lt;/li&gt;\n            &lt;/ul&gt; --></div>", 1);
 
-var _hoisted_3 = {
-  "class": "content"
-};
-var _hoisted_4 = {
-  style: {
-    "font-size": "22px",
-    "font-weight": "bold"
-  }
-};
-var _hoisted_5 = {
-  style: {
-    "font-size": "19px"
-  }
-};
+var _hoisted_3 = [_hoisted_2];
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.questions, function (question, index) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("li", {
-      key: index,
-      style: {
-        "margin-top": "20px"
-      }
-    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(index + 1) + " - " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.name), 1
-    /* TEXT */
-    ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.answer), 1
-    /* TEXT */
-    )]);
-  }), 128
-  /* KEYED_FRAGMENT */
-  ))])])]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
 }
 
 /***/ }),
@@ -26793,27 +26760,14 @@ var _hoisted_1 = {
   "class": "main-container"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "header"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/nueva/pages/privacidad.png",
-  alt: ""
-})], -1
-/* HOISTED */
-);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"content\" data-v-49601810><div class=\"web\" data-v-49601810><img class=\"\" src=\"/images/nueva/web/AVISO DE PRIVACIDAD.png\" alt=\"\" data-v-49601810></div><div class=\"movil\" data-v-49601810><img class=\"\" src=\"/images/nueva/movil/AVISO DE PRIVACIDAD.png\" alt=\"\" data-v-49601810></div></div>", 1);
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "content"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis esse quas repudiandae dignissimos cupiditate corporis fuga ipsa cum fugiat soluta, suscipit autem est, voluptatibus quisquam eos eum culpa? Voluptates.")], -1
-/* HOISTED */
-);
-
-var _hoisted_4 = [_hoisted_2, _hoisted_3];
+var _hoisted_3 = [_hoisted_2];
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_4);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
 }
 
 /***/ }),
@@ -28469,7 +28423,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-49601810] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.main-container .header[data-v-49601810] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-49601810] {\n  padding: 20px;\n  color: white;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-49601810] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.main-container .header[data-v-49601810] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-49601810] {\n  padding: 20px;\n  color: white;\n}\n.main-container .web[data-v-49601810] {\n  display: block;\n}\n.main-container .movil[data-v-49601810] {\n  display: none;\n}\n@media only screen and (max-width: 1000px) {\n.main-container .web[data-v-49601810] {\n    display: none;\n}\n.main-container .movil[data-v-49601810] {\n    display: block;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
