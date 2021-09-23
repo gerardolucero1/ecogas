@@ -606,13 +606,13 @@
                         </div>
                     </div>
                     <div class="box">
-                        <a href="#">
+                        <a target="_blank" href="https://es-la.facebook.com/ECOGASMexico/">
                             <i class="fab fa-facebook-square"></i>
                         </a>
-                        <a href="#">
+                        <a target="_blank" href="https://twitter.com/ecogasmexico?lang=en">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="#">
+                        <a target="_blank" href="https://www.instagram.com/ecogasmexico/?hl=en">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>
