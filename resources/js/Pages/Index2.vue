@@ -601,7 +601,7 @@
                                 </div>
                             </div>
                             <div class="sec">
-                                <iframe width="100%" height="415" src="https://www.youtube.com/embed/1s-3WH9oFIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="100%" height="415" src="https://www.youtube.com/embed/mP8veNRFS98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -725,7 +725,7 @@
                                 </div>
                             </div>
                             <div class="sec">
-                                <iframe width="100%" height="415" src="https://www.youtube.com/embed/1s-3WH9oFIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="100%" height="415" src="https://www.youtube.com/embed/mP8veNRFS98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>

@@ -26474,7 +26474,7 @@ var _hoisted_47 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("iframe", {
   width: "100%",
   height: "415",
-  src: "https://www.youtube.com/embed/1s-3WH9oFIs",
+  src: "https://www.youtube.com/embed/mP8veNRFS98",
   title: "YouTube video player",
   frameborder: "0",
   allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
@@ -26615,7 +26615,7 @@ var _hoisted_78 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("iframe", {
   width: "100%",
   height: "415",
-  src: "https://www.youtube.com/embed/1s-3WH9oFIs",
+  src: "https://www.youtube.com/embed/mP8veNRFS98",
   title: "YouTube video player",
   frameborder: "0",
   allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
