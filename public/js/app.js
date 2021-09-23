@@ -20659,8 +20659,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _Jetstream_NavLink__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/NavLink */ "./resources/js/Jetstream/NavLink.vue");
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: {}
+  components: {
+    JetNavLink: _Jetstream_NavLink__WEBPACK_IMPORTED_MODULE_0__.default
+  }
 });
 
 /***/ }),
@@ -20714,9 +20718,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _Jetstream_NavLink__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/NavLink */ "./resources/js/Jetstream/NavLink.vue");
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: {
-    questions: Array
+  components: {
+    JetNavLink: _Jetstream_NavLink__WEBPACK_IMPORTED_MODULE_0__.default
   }
 });
 
@@ -20841,8 +20847,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _Jetstream_NavLink__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/NavLink */ "./resources/js/Jetstream/NavLink.vue");
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: {}
+  components: {
+    JetNavLink: _Jetstream_NavLink__WEBPACK_IMPORTED_MODULE_0__.default
+  }
 });
 
 /***/ }),
@@ -21343,8 +21353,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _Jetstream_NavLink__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/NavLink */ "./resources/js/Jetstream/NavLink.vue");
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: {}
+  components: {
+    JetNavLink: _Jetstream_NavLink__WEBPACK_IMPORTED_MODULE_0__.default
+  }
 });
 
 /***/ }),
@@ -25390,15 +25404,94 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   "class": "main-container"
 };
+var _hoisted_2 = {
+  "class": "button-section"
+};
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"header\" data-v-56d66778><img src=\"/images/nueva/pages/contacto.png\" alt=\"\" data-v-56d66778></div><div class=\"content\" data-v-56d66778><p data-v-56d66778>Comunícate a nuestra línea de atención para recibir <br data-v-56d66778> asesoria sobre como avanzar con tu participación al <br data-v-56d66778> teléfono xxx-xxx-xxx en un horario de: </p><br data-v-56d66778><p data-v-56d66778>L-V 9:00 a 18:00 hrs</p><p data-v-56d66778>Sab. 9:00 a 16:00 hrs</p><div style=\"margin-top:20px;\" data-v-56d66778><a href=\"#\" style=\"font-size:25px !important;\" data-v-56d66778><i class=\"fab fa-facebook-square\" data-v-56d66778></i></a><a style=\"margin-left:10px;font-size:25px !important;\" href=\"#\" data-v-56d66778><i class=\"fab fa-twitter\" data-v-56d66778></i></a><a style=\"margin-left:10px;font-size:25px !important;\" href=\"#\" data-v-56d66778><i class=\"fab fa-instagram\" data-v-56d66778></i></a></div></div>", 2);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" INICIO ");
 
-var _hoisted_4 = [_hoisted_2];
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" FAQ's ");
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" BASES LEGALES ");
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br", null, null, -1
+/* HOISTED */
+);
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" TERMINOS Y CONDICIONES ");
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" AVISO DE PRIVACIDAD ");
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" CONTACTO ");
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"header\" data-v-56d66778><img src=\"/images/nueva/pages/contacto.png\" alt=\"\" data-v-56d66778></div><div class=\"content\" data-v-56d66778><p data-v-56d66778>Comunícate en nuestro chat en <strong data-v-56d66778>www.ecogas.com.mx</strong> <br data-v-56d66778> para recibir asesoría sobre nuestra promoción de <br data-v-56d66778><strong data-v-56d66778>25 aniversario</strong> en un horario de: </p><br data-v-56d66778><p data-v-56d66778>L-V 9:00 a 18:00 hrs y Sab. de 09:00 a 13:00 hrs. Tiempo del centro.</p><div style=\"margin-top:20px;\" data-v-56d66778><a target=\"_blank\" href=\"https://es-la.facebook.com/ECOGASMexico/\" style=\"font-size:25px !important;\" data-v-56d66778><i class=\"fab fa-facebook-square\" data-v-56d66778></i></a><a target=\"_blank\" style=\"margin-left:10px;font-size:25px !important;\" href=\"https://twitter.com/ecogasmexico?lang=en\" data-v-56d66778><i class=\"fab fa-twitter\" data-v-56d66778></i></a><a target=\"_blank\" style=\"margin-left:10px;font-size:25px !important;\" href=\"https://www.instagram.com/ecogasmexico/?hl=en\" data-v-56d66778><i class=\"fab fa-instagram\" data-v-56d66778></i></a></div></div>", 2);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_4);
+  var _component_jet_nav_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-nav-link");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('welcome'),
+    active: _ctx.route().current('welcome')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_3];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('faqs'),
+    active: _ctx.route().current('faqs')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_4];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('terminos'),
+    active: _ctx.route().current('terminos')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_5, _hoisted_6, _hoisted_7];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('privacidad'),
+    active: _ctx.route().current('privacidad')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_8];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('contacto'),
+    active: _ctx.route().current('contacto')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_9];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"])]), _hoisted_10]);
 }
 
 /***/ }),
@@ -25693,15 +25786,94 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   "class": "main-container"
 };
+var _hoisted_2 = {
+  "class": "button-section"
+};
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"content\" data-v-84ba0e74><div class=\"web\" data-v-84ba0e74><img class=\"\" src=\"/images/nueva/web/PREGUNTAS_FRECUENTES.png\" alt=\"\" data-v-84ba0e74></div><div class=\"movil\" data-v-84ba0e74><img class=\"\" src=\"/images/nueva/movil/PAGINAS_FRECUENTES_MOVIL.png\" alt=\"\" data-v-84ba0e74></div><!-- &lt;ul&gt;\n                &lt;li v-for=&quot;(question, index) in questions&quot; :key=&quot;index&quot; style=&quot;margin-top: 20px;&quot;&gt;\n                    &lt;span style=&quot;font-size: 22px; font-weight: bold;&quot;&gt;{{ index + 1 }} - {{ question.name }}&lt;/span&gt;\n\n                    &lt;p style=&quot;font-size: 19px;&quot;&gt;{{ question.answer }}&lt;/p&gt;\n                &lt;/li&gt;\n            &lt;/ul&gt; --></div>", 1);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" INICIO ");
 
-var _hoisted_3 = [_hoisted_2];
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" FAQ's ");
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" BASES LEGALES ");
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br", null, null, -1
+/* HOISTED */
+);
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" TERMINOS Y CONDICIONES ");
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" AVISO DE PRIVACIDAD ");
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" CONTACTO ");
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"content\" data-v-84ba0e74><div class=\"web\" data-v-84ba0e74><img class=\"\" src=\"/images/nueva/web/PREGUNTAS_FRECUENTES.png\" alt=\"\" data-v-84ba0e74></div><div class=\"movil\" data-v-84ba0e74><img class=\"\" src=\"/images/nueva/movil/PAGINAS_FRECUENTES_MOVIL.png\" alt=\"\" data-v-84ba0e74></div><!-- &lt;ul&gt;\n                &lt;li v-for=&quot;(question, index) in questions&quot; :key=&quot;index&quot; style=&quot;margin-top: 20px;&quot;&gt;\n                    &lt;span style=&quot;font-size: 22px; font-weight: bold;&quot;&gt;{{ index + 1 }} - {{ question.name }}&lt;/span&gt;\n\n                    &lt;p style=&quot;font-size: 19px;&quot;&gt;{{ question.answer }}&lt;/p&gt;\n                &lt;/li&gt;\n            &lt;/ul&gt; --></div>", 1);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
+  var _component_jet_nav_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-nav-link");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('welcome'),
+    active: _ctx.route().current('welcome')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_3];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('faqs'),
+    active: _ctx.route().current('faqs')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_4];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('terminos'),
+    active: _ctx.route().current('terminos')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_5, _hoisted_6, _hoisted_7];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('privacidad'),
+    active: _ctx.route().current('privacidad')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_8];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('contacto'),
+    active: _ctx.route().current('contacto')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_9];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"])]), _hoisted_10]);
 }
 
 /***/ }),
@@ -26759,15 +26931,94 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   "class": "main-container"
 };
+var _hoisted_2 = {
+  "class": "button-section"
+};
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"content\" data-v-49601810><div class=\"web\" data-v-49601810><img class=\"\" src=\"/images/nueva/web/AVISO DE PRIVACIDAD.png\" alt=\"\" data-v-49601810></div><div class=\"movil\" data-v-49601810><img class=\"\" src=\"/images/nueva/movil/AVISO DE PRIVACIDAD.png\" alt=\"\" data-v-49601810></div></div>", 1);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" INICIO ");
 
-var _hoisted_3 = [_hoisted_2];
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" FAQ's ");
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" BASES LEGALES ");
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br", null, null, -1
+/* HOISTED */
+);
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" TERMINOS Y CONDICIONES ");
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" AVISO DE PRIVACIDAD ");
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" CONTACTO ");
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"content\" data-v-49601810><div class=\"web\" data-v-49601810><img class=\"\" src=\"/images/nueva/web/AVISO DE PRIVACIDAD.png\" alt=\"\" data-v-49601810></div><div class=\"movil\" data-v-49601810><img class=\"\" src=\"/images/nueva/movil/AVISO DE PRIVACIDAD.png\" alt=\"\" data-v-49601810></div></div>", 1);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
+  var _component_jet_nav_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-nav-link");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('welcome'),
+    active: _ctx.route().current('welcome')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_3];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('faqs'),
+    active: _ctx.route().current('faqs')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_4];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('terminos'),
+    active: _ctx.route().current('terminos')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_5, _hoisted_6, _hoisted_7];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('privacidad'),
+    active: _ctx.route().current('privacidad')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_8];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('contacto'),
+    active: _ctx.route().current('contacto')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_9];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"])]), _hoisted_10]);
 }
 
 /***/ }),
@@ -27867,8 +28118,27 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   "class": "main-container"
 };
+var _hoisted_2 = {
+  "class": "button-section"
+};
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" INICIO ");
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" FAQ's ");
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" BASES LEGALES ");
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br", null, null, -1
+/* HOISTED */
+);
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" TERMINOS Y CONDICIONES ");
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" AVISO DE PRIVACIDAD ");
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" CONTACTO ");
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "header"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/images/nueva/pages/terminos.png",
@@ -27877,18 +28147,78 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "content"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis esse quas repudiandae dignissimos cupiditate corporis fuga ipsa cum fugiat soluta, suscipit autem est, voluptatibus quisquam eos eum culpa? Voluptates.")], -1
 /* HOISTED */
 );
 
-var _hoisted_4 = [_hoisted_2, _hoisted_3];
-
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_4);
+  var _component_jet_nav_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-nav-link");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('welcome'),
+    active: _ctx.route().current('welcome')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_3];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('faqs'),
+    active: _ctx.route().current('faqs')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_4];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('terminos'),
+    active: _ctx.route().current('terminos')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_5, _hoisted_6, _hoisted_7];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('privacidad'),
+    active: _ctx.route().current('privacidad')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_8];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('contacto'),
+    active: _ctx.route().current('contacto')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_9];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"])]), _hoisted_10, _hoisted_11]);
 }
 
 /***/ }),
@@ -28327,7 +28657,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-56d66778] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.main-container .header[data-v-56d66778] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-56d66778] {\n  padding: 20px;\n  color: white;\n  font-size: 19px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-56d66778] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.main-container .header[data-v-56d66778] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-56d66778] {\n  padding: 20px;\n  color: white;\n  font-size: 19px;\n}\n.main-container .button-section[data-v-56d66778] {\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  z-index: 10000000;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n}\n.main-container .button-section a[data-v-56d66778] {\n  margin-left: 10px;\n  margin-right: 10px;\n  background-color: #76B727 !important;\n  display: inline-block;\n  text-decoration: none;\n  color: #005295;\n  border: 1px solid white;\n  border-bottom: none;\n  padding: 2px 5px;\n  border-top-left-radius: 5px;\n  border-top-right-radius: 5px;\n  font-weight: bold;\n  text-align: center;\n  line-height: 15px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 35px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28351,7 +28681,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-84ba0e74] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.main-container .header[data-v-84ba0e74] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-84ba0e74] {\n  padding: 20px;\n  color: white;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-84ba0e74] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.main-container .header[data-v-84ba0e74] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-84ba0e74] {\n  padding: 20px;\n  color: white;\n}\n.main-container .button-section[data-v-84ba0e74] {\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  z-index: 10000000;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n}\n.main-container .button-section a[data-v-84ba0e74] {\n  margin-left: 10px;\n  margin-right: 10px;\n  background-color: #76B727 !important;\n  display: inline-block;\n  text-decoration: none;\n  color: #005295;\n  border: 1px solid white;\n  border-bottom: none;\n  padding: 2px 5px;\n  border-top-left-radius: 5px;\n  border-top-right-radius: 5px;\n  font-weight: bold;\n  text-align: center;\n  line-height: 15px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 35px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28423,7 +28753,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-49601810] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.main-container .header[data-v-49601810] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-49601810] {\n  padding: 20px;\n  color: white;\n}\n.main-container .web[data-v-49601810] {\n  display: block;\n}\n.main-container .movil[data-v-49601810] {\n  display: none;\n}\n@media only screen and (max-width: 1000px) {\n.main-container .web[data-v-49601810] {\n    display: none;\n}\n.main-container .movil[data-v-49601810] {\n    display: block;\n}\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-49601810] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.main-container .header[data-v-49601810] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-49601810] {\n  padding: 20px;\n  color: white;\n}\n.main-container .web[data-v-49601810] {\n  display: block;\n}\n.main-container .movil[data-v-49601810] {\n  display: none;\n}\n.main-container .button-section[data-v-49601810] {\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  z-index: 10000000;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n}\n.main-container .button-section a[data-v-49601810] {\n  margin-left: 10px;\n  margin-right: 10px;\n  background-color: #76B727 !important;\n  display: inline-block;\n  text-decoration: none;\n  color: #005295;\n  border: 1px solid white;\n  border-bottom: none;\n  padding: 2px 5px;\n  border-top-left-radius: 5px;\n  border-top-right-radius: 5px;\n  font-weight: bold;\n  text-align: center;\n  line-height: 15px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 35px;\n}\n@media only screen and (max-width: 1000px) {\n.main-container .web[data-v-49601810] {\n    display: none;\n}\n.main-container .movil[data-v-49601810] {\n    display: block;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28447,7 +28777,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-4898385e] {\n  padding: 0;\n  margin: 0;\n  background-color: #005295;\n  min-height: 100vh;\n}\n.main-container .header[data-v-4898385e] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-4898385e] {\n  padding: 20px;\n  color: white;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-4898385e] {\n  padding: 0;\n  margin: 0;\n  background-color: #005295;\n  min-height: 100vh;\n}\n.main-container .header[data-v-4898385e] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-4898385e] {\n  padding: 20px;\n  color: white;\n}\n.main-container .button-section[data-v-4898385e] {\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  z-index: 10000000;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n}\n.main-container .button-section a[data-v-4898385e] {\n  margin-left: 10px;\n  margin-right: 10px;\n  background-color: #76B727 !important;\n  display: inline-block;\n  text-decoration: none;\n  color: #005295;\n  border: 1px solid white;\n  border-bottom: none;\n  padding: 2px 5px;\n  border-top-left-radius: 5px;\n  border-top-right-radius: 5px;\n  font-weight: bold;\n  text-align: center;\n  line-height: 15px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 35px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
