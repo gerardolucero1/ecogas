@@ -46,6 +46,21 @@
                 height: 35px;
             }
         }
+
+        @media only screen and (max-width: 1000px){
+            .button-section{
+                justify-content: center;
+
+
+                a{
+                    margin-left: 2px;
+                    margin-right: 2px;
+                    line-height: 9px;
+                    height: 30px;
+                    font-size: 9px;
+                }
+            }
+        }
     }
 </style>
 

@@ -63,6 +63,19 @@
             .movil{
                 display: block;
             }
+
+            .button-section{
+                justify-content: center;
+
+
+                a{
+                    margin-left: 2px;
+                    margin-right: 2px;
+                    line-height: 9px;
+                    height: 30px;
+                    font-size: 9px;
+                }
+            }
         }
     }
 </style>
