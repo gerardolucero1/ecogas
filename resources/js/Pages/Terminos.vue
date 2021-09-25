@@ -1,10 +1,8 @@
 <style scoped lang="scss">
-
     .main-container{
-        padding: 0;
-        margin: 0;
         background-color: #005295;
         min-height: 100vh;
+        padding: 10px;
 
         .header{
             width: 100%;
@@ -64,7 +62,6 @@
             }
         }
     }
-
 </style>
 
 <template>
@@ -88,13 +85,21 @@
                 CONTACTO
             </jet-nav-link>
         </div>
-        
-        <div class="header">
-            <img src="/images/nueva/pages/terminos.png" alt="">
-        </div>
 
         <div class="content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis esse quas repudiandae dignissimos cupiditate corporis fuga ipsa cum fugiat soluta, suscipit autem est, voluptatibus quisquam eos eum culpa? Voluptates.</p>
+            <div class="web">
+                <img class="" src="/images/nueva/web/BASES Y CONDICIONES.png" alt="">
+            </div>
+            <div class="movil">
+                <img class="" src="/images/nueva/movil/BASES Y CONDICIONES.png" alt="">
+            </div>
+            <!-- <ul>
+                <li v-for="(question, index) in questions" :key="index" style="margin-top: 20px;">
+                    <span style="font-size: 22px; font-weight: bold;">{{ index + 1 }} - {{ question.name }}</span>
+
+                    <p style="font-size: 19px;">{{ question.answer }}</p>
+                </li>
+            </ul> -->
         </div>
     </div>
 </template>

@@ -25806,7 +25806,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNod
 
 var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" CONTACTO ");
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"content\" data-v-84ba0e74><div class=\"web\" data-v-84ba0e74><img class=\"\" src=\"/images/nueva/web/PREGUNTAS_FRECUENTES.png\" alt=\"\" data-v-84ba0e74></div><div class=\"movil\" data-v-84ba0e74><img class=\"\" src=\"/images/nueva/movil/PAGINAS_FRECUENTES_MOVIL.png\" alt=\"\" data-v-84ba0e74></div><!-- &lt;ul&gt;\n                &lt;li v-for=&quot;(question, index) in questions&quot; :key=&quot;index&quot; style=&quot;margin-top: 20px;&quot;&gt;\n                    &lt;span style=&quot;font-size: 22px; font-weight: bold;&quot;&gt;{{ index + 1 }} - {{ question.name }}&lt;/span&gt;\n\n                    &lt;p style=&quot;font-size: 19px;&quot;&gt;{{ question.answer }}&lt;/p&gt;\n                &lt;/li&gt;\n            &lt;/ul&gt; --></div>", 1);
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"content\" data-v-84ba0e74><div class=\"web\" data-v-84ba0e74><img class=\"\" src=\"/images/nueva/web/PREGUNTAS_FRECUENTES.png\" alt=\"\" data-v-84ba0e74></div><div class=\"movil\" data-v-84ba0e74><img class=\"\" src=\"/images/nueva/movil/PAGINAS_FRECUENTES_MOVIL.png\" alt=\"\" data-v-84ba0e74></div><!-- &lt;ul&gt;\r\n                &lt;li v-for=&quot;(question, index) in questions&quot; :key=&quot;index&quot; style=&quot;margin-top: 20px;&quot;&gt;\r\n                    &lt;span style=&quot;font-size: 22px; font-weight: bold;&quot;&gt;{{ index + 1 }} - {{ question.name }}&lt;/span&gt;\r\n\r\n                    &lt;p style=&quot;font-size: 19px;&quot;&gt;{{ question.answer }}&lt;/p&gt;\r\n                &lt;/li&gt;\r\n            &lt;/ul&gt; --></div>", 1);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
@@ -26824,7 +26824,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div>\n                            <img :src=\"slides[slide]\" alt=\"\">\n                        </div> ")])])]), _hoisted_36, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_37, [_hoisted_38, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.questions, function (question, index) {
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div>\r\n                            <img :src=\"slides[slide]\" alt=\"\">\r\n                        </div> ")])])]), _hoisted_36, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_37, [_hoisted_38, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.questions, function (question, index) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       "class": "question-form",
       key: index,
@@ -28138,20 +28138,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNod
 
 var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" CONTACTO ");
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "header"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/nueva/pages/terminos.png",
-  alt: ""
-})], -1
-/* HOISTED */
-);
-
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "content"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis esse quas repudiandae dignissimos cupiditate corporis fuga ipsa cum fugiat soluta, suscipit autem est, voluptatibus quisquam eos eum culpa? Voluptates.")], -1
-/* HOISTED */
-);
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"content\" data-v-4898385e><div class=\"web\" data-v-4898385e><img class=\"\" src=\"/images/nueva/web/BASES Y CONDICIONES.png\" alt=\"\" data-v-4898385e></div><div class=\"movil\" data-v-4898385e><img class=\"\" src=\"/images/nueva/movil/BASES Y CONDICIONES.png\" alt=\"\" data-v-4898385e></div><!-- &lt;ul&gt;\r\n                &lt;li v-for=&quot;(question, index) in questions&quot; :key=&quot;index&quot; style=&quot;margin-top: 20px;&quot;&gt;\r\n                    &lt;span style=&quot;font-size: 22px; font-weight: bold;&quot;&gt;{{ index + 1 }} - {{ question.name }}&lt;/span&gt;\r\n\r\n                    &lt;p style=&quot;font-size: 19px;&quot;&gt;{{ question.answer }}&lt;/p&gt;\r\n                &lt;/li&gt;\r\n            &lt;/ul&gt; --></div>", 1);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
@@ -28218,7 +28205,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["href", "active"])]), _hoisted_10, _hoisted_11]);
+  , ["href", "active"])]), _hoisted_10]);
 }
 
 /***/ }),
@@ -28777,7 +28764,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-4898385e] {\n  padding: 0;\n  margin: 0;\n  background-color: #005295;\n  min-height: 100vh;\n}\n.main-container .header[data-v-4898385e] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-4898385e] {\n  padding: 20px;\n  color: white;\n}\n.main-container .button-section[data-v-4898385e] {\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  z-index: 10000000;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n}\n.main-container .button-section a[data-v-4898385e] {\n  margin-left: 10px;\n  margin-right: 10px;\n  background-color: #76B727 !important;\n  display: inline-block;\n  text-decoration: none;\n  color: #005295;\n  border: 1px solid white;\n  border-bottom: none;\n  padding: 2px 5px;\n  border-top-left-radius: 5px;\n  border-top-right-radius: 5px;\n  font-weight: bold;\n  text-align: center;\n  line-height: 15px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 35px;\n}\n@media only screen and (max-width: 1000px) {\n.main-container .button-section[data-v-4898385e] {\n    justify-content: center;\n}\n.main-container .button-section a[data-v-4898385e] {\n    margin-left: 2px;\n    margin-right: 2px;\n    line-height: 9px;\n    height: 30px;\n    font-size: 9px;\n}\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-container[data-v-4898385e] {\n  background-color: #005295;\n  min-height: 100vh;\n  padding: 10px;\n}\n.main-container .header[data-v-4898385e] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.main-container .content[data-v-4898385e] {\n  padding: 20px;\n  color: white;\n}\n.main-container .button-section[data-v-4898385e] {\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  z-index: 10000000;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n}\n.main-container .button-section a[data-v-4898385e] {\n  margin-left: 10px;\n  margin-right: 10px;\n  background-color: #76B727 !important;\n  display: inline-block;\n  text-decoration: none;\n  color: #005295;\n  border: 1px solid white;\n  border-bottom: none;\n  padding: 2px 5px;\n  border-top-left-radius: 5px;\n  border-top-right-radius: 5px;\n  font-weight: bold;\n  text-align: center;\n  line-height: 15px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 35px;\n}\n@media only screen and (max-width: 1000px) {\n.main-container .button-section[data-v-4898385e] {\n    justify-content: center;\n}\n.main-container .button-section a[data-v-4898385e] {\n    margin-left: 2px;\n    margin-right: 2px;\n    line-height: 9px;\n    height: 30px;\n    font-size: 9px;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
