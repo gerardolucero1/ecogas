@@ -14,7 +14,14 @@
         .content{
             padding: 20px;
             color: white;
-            font-size: 19px;
+        }
+
+        .web{
+            display: block;
+        }
+
+        .movil{
+            display: none;
         }
 
         .button-section{
@@ -49,6 +56,14 @@
         }
 
         @media only screen and (max-width: 1000px){
+            .web{
+                display: none;
+            }
+
+            .movil{
+                display: block;
+            }
+
             .button-section{
                 justify-content: center;
 
@@ -87,30 +102,12 @@
             </jet-nav-link>
         </div>
 
-        <div class="header">
-            <img src="/images/nueva/pages/contacto.png" alt="">
-        </div>
-
         <div class="content">
-            <p>Comunícate en nuestro chat en <strong>www.ecogas.com.mx</strong> <br> 
-                para recibir asesoría sobre nuestra promoción de <br> 
-                <strong>25 aniversario</strong> en un horario de: 
-            </p>
-            
-            <br>
-            <p>L-V 9:00 a 18:00 hrs y Sab. de 09:00 a 13:00 hrs. Tiempo del centro.</p>
-            
-
-            <div style="margin-top: 20px;">
-                <a target="_blank" href="https://es-la.facebook.com/ECOGASMexico/" style="font-size: 25px !important;">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-                <a target="_blank" style="margin-left: 10px; font-size: 25px !important;" href="https://twitter.com/ecogasmexico?lang=en">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a target="_blank" style="margin-left: 10px; font-size: 25px !important;" href="https://www.instagram.com/ecogasmexico/?hl=en">
-                    <i class="fab fa-instagram"></i>
-                </a>
+            <div class="web">
+                <img class="" src="/images/nueva/web/CONTACTO.png" alt="">
+            </div>
+            <div class="movil">
+                <img class="" src="/images/nueva/movil/CONTACTO.png" alt="">
             </div>
         </div>
     </div>

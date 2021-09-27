@@ -16,6 +16,14 @@
             color: white;
         }
 
+        .web{
+            display: block;
+        }
+
+        .movil{
+            display: none;
+        }
+
         .button-section{
             position: fixed;
             bottom: 0;
@@ -48,6 +56,14 @@
         }
 
         @media only screen and (max-width: 1000px){
+            .web{
+                display: none;
+            }
+
+            .movil{
+                display: block;
+            }
+
             .button-section{
                 justify-content: center;
 
@@ -93,13 +109,6 @@
             <div class="movil">
                 <img class="" src="/images/nueva/movil/BASES Y CONDICIONES.png" alt="">
             </div>
-            <!-- <ul>
-                <li v-for="(question, index) in questions" :key="index" style="margin-top: 20px;">
-                    <span style="font-size: 22px; font-weight: bold;">{{ index + 1 }} - {{ question.name }}</span>
-
-                    <p style="font-size: 19px;">{{ question.answer }}</p>
-                </li>
-            </ul> -->
         </div>
     </div>
 </template>
