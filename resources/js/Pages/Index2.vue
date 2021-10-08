@@ -633,7 +633,7 @@
                                 <div class="winners-container">
                                     <div class="winner" v-for="item in winners" :key="item.id">
                                         <span>{{ item.name }}</span>
-                                        <span>{{ item.points }}</span>
+                                        <!-- <span>{{ item.points }}</span> -->
                                     </div>
                                 </div>
                             </div>
@@ -746,7 +746,7 @@
                                 <div class="winners-container">
                                     <div class="winner" v-for="item in winners" :key="item.id">
                                         <span>{{ item.name }}</span>
-                                        <span>{{ item.points }}</span>
+                                        <!-- <span>{{ item.points }}</span> -->
                                     </div>
                                 </div>
                             </div>

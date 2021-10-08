@@ -21,7 +21,7 @@
                                 <thead>
                                     <tr class="text-md font-semibold tracking-wide text-left text-gray-900 bg-gray-100 uppercase border-b border-gray-600">
                                         <th class="px-4 py-3">Nombre</th>
-                                        <th class="px-4 py-3">Puntos</th>
+                                        <!-- <th class="px-4 py-3">Puntos</th> -->
                                         <th class="px-4 py-3">Opciones</th>
                                     </tr>
                                 </thead>
@@ -30,7 +30,7 @@
                                         <td class="px-4 py-3 border">
                                             <div class="flex items-center text-sm">
                                                 <div class="relative w-8 h-8 mr-3 rounded-full md:block">
-                                                <img class="object-cover w-full h-full rounded-full" src="https://images.pexels.com/photos/5212324/pexels-photo-5212324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" loading="lazy" />
+                                                <img class="object-cover w-full h-full rounded-full" src="https://i0.wp.com/cms.ironk12.org/wp-content/uploads/2020/02/no-person-profile-pic.png?fit=225%2C225&ssl=1" alt="" loading="lazy" />
                                                 <div class="absolute inset-0 rounded-full shadow-inner" aria-hidden="true"></div>
                                                 </div>
                                                 <div>
@@ -39,7 +39,7 @@
                                                 </div>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-ms font-semibold border">{{ winner.points }}</td>
+                                        <!-- <td class="px-4 py-3 text-ms font-semibold border">{{ winner.points }}</td> -->
                                         <td class="px-4 py-3 text-sm border">
                                             <a class="inline-flex items-center justify-center px-4 py-2 text-base leading-5 rounded-md border font-medium shadow-sm transition ease-in-out duration-150 focus:outline-none focus:shadow-outline bg-blue-600 border-blue-600 text-gray-100 hover:bg-blue-500 hover:border-blue-500 hover:text-gray-100" :href="route('winners.edit', [winner.id])">Editar</a>
                                             <button class="inline-flex items-center justify-center px-4 py-2 text-base leading-5 rounded-md border font-medium shadow-sm transition ease-in-out duration-150 focus:outline-none focus:shadow-outline bg-red-600 border-red-600 text-gray-100 hover:bg-red-500 hover:border-red-500 hover:text-gray-100" @click="deleteWinner(winner, index)">Eliminar</button>

@@ -38,7 +38,9 @@ class WinnerController extends Controller
     public function store(Request $request)
     {
         $user = new Winner();
-        $user->create($request->all());
+        $user->name = $request->name;
+        $user->points = 0;
+        $user->save();
         return;
     }
 
