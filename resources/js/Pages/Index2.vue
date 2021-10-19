@@ -91,12 +91,12 @@
 
                                     .s-name{
                                         text-align: center;
-                                        font-size: 2.5em;
+                                        font-size: 3em;
                                     }
 
                                     .s-quote{
                                         text-align: center;
-                                        font-size: 15px;
+                                        font-size: 19px;
                                         width: 80%;
                                     }
                                 }
