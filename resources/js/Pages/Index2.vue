@@ -74,16 +74,11 @@
                             display: block !important;
 
                             .winner-name-container{
-                                width: 80%;
+                                width: 60%;
 
                                 .winner-name-box{
                                     width: 100%;
-                                    position: absolute;
-                                    top: 0;
-                                    left: 0;
-                                    width: 100%;
                                     height: 100%;
-                                    background-color: rgba(0, 0, 0, 0.1);
                                     margin-left: 10%;
                                     display: flex;
                                     justify-content: center;
@@ -91,25 +86,18 @@
                                     flex-direction: column;
                                     color: white;
                                     font-family: Avenir;
-                                    padding-right: 25%;
                                     text-align: center;
+                                    margin-top: -30px;
 
                                     .s-name{
                                         text-align: center;
-                                        line-height: 25px;
-                                        font-size: 1.6em;
-                                    }
-
-                                    .s-state{
-                                        font-size: 1em;
-                                        text-align: center;
-                                        line-height: 25px;
+                                        font-size: 2.5em;
                                     }
 
                                     .s-quote{
                                         text-align: center;
-                                        font-size: 10px;
-                                        width: 40%;
+                                        font-size: 15px;
+                                        width: 80%;
                                     }
                                 }
 
@@ -338,43 +326,30 @@
                             width: 80%;
 
                             .winner-name-container{
-                                width: 90%;
+                                width: 80%;
 
                                 .winner-name-box{
                                     width: 100%;
-                                    position: absolute;
-                                    top: 0;
-                                    left: 0;
-                                    width: 100%;
+                                    width: 80%;
                                     height: 100%;
-                                    margin-left: 10%;
-                                    background-color: rgba(0, 0, 0, 0.1);
+                                    margin-left: 20%;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
                                     flex-direction: column;
                                     color: white;
                                     font-family: Avenir;
-                                    padding-right: 25%;
                                     text-align: center;
 
                                     .s-name{
                                         text-align: center;
-                                        line-height: 15px;
                                         font-size: 13px;
-                                    }
-
-                                    .s-state{
-                                        font-size: 11px;
-                                        text-align: center;
-                                        line-height: 15px;
                                     }
 
                                     .s-quote{
                                         text-align: center;
                                         font-size: 8px;
-                                        width: 40%;
-                                        display: none;
+                                        width: 80%;
                                     }
                                 }
 
@@ -674,10 +649,9 @@
                             <agile :centerMode="true" autoplay="autoplay" :nav-buttons="false" :autoplay-speed="4000" :speed="1000">
                                 <div class="slide" v-for="(slide, index) in filteredWinners" :key="index">
                                     <div v-if="slide.id" class="winner-name-container" style="position: relative;">
-                                        <img src="/images/nueva/web/SLIDER.png" alt="">
+                                        <img src="/images/nueva/elements/SLIDE_FELIZ.png" alt="">
                                         <div class="winner-name-box">
                                             <p class="s-name">{{ slide.name }}</p>
-                                            <p class="s-state">{{ slide.state }}</p>
                                             <p class="s-quote">{{ slide.quote }}</p>
                                         </div>
                                     </div>
@@ -811,10 +785,9 @@
                         <agile :centerMode="true" autoplay="autoplay" :nav-buttons="false" :autoplay-speed="4000" :speed="1000">
                             <div class="slide" v-for="(slide, index) in filteredWinners" :key="index">
                                 <div v-if="slide.id" class="winner-name-container" style="position: relative;">
-                                    <img src="/images/nueva/web/SLIDER.png" alt="">
+                                    <img src="/images/nueva/elements/SLIDE_FELIZ.png" alt="">
                                     <div class="winner-name-box">
                                         <p class="s-name">{{ slide.name }}</p>
-                                        <p class="s-state">{{ slide.state }}</p>
                                         <p class="s-quote">{{ slide.quote }}</p>
                                     </div>
                                 </div>
