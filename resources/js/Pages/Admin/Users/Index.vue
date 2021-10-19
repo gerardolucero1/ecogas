@@ -21,7 +21,7 @@
                                 <thead>
                                     <tr class="text-md font-semibold tracking-wide text-left text-gray-900 bg-gray-100 uppercase border-b border-gray-600">
                                         <th class="px-4 py-3">Nombre</th>
-                                        <!-- <th class="px-4 py-3">Puntos</th> -->
+                                        <th class="px-4 py-3">Cita</th>
                                         <th class="px-4 py-3">Opciones</th>
                                     </tr>
                                 </thead>
@@ -35,8 +35,13 @@
                                                 </div>
                                                 <div>
                                                 <p class="font-semibold text-black">{{ winner.name }}</p>
-                                                <p class="text-xs text-gray-600">Ganador</p>
+                                                <p class="text-xs text-gray-600">{{ winner.state }}</p>
                                                 </div>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-3 border">
+                                            <div class="flex items-center text-sm">
+                                                <p class="font-semibold text-black">{{ winner.quote }}</p>
                                             </div>
                                         </td>
                                         <!-- <td class="px-4 py-3 text-ms font-semibold border">{{ winner.points }}</td> -->

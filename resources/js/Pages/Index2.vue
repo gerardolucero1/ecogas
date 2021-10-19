@@ -1,4 +1,11 @@
 <style lang="scss" scoped>
+    @font-face {
+        font-family: Avenir;
+        src: url('../../fonts/Avenir Black.ttf'); 
+        font-weight: normal;
+        font-style: normal;
+    }
+
     .main-container{
         padding: 0;
         margin: 0;
@@ -66,11 +73,60 @@
                             width: 60%;
                             display: block !important;
 
+                            .winner-name-container{
+                                width: 80%;
+
+                                .winner-name-box{
+                                    width: 100%;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: rgba(0, 0, 0, 0.1);
+                                    margin-left: 10%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    color: white;
+                                    font-family: Avenir;
+                                    padding-right: 25%;
+                                    text-align: center;
+
+                                    .s-name{
+                                        text-align: center;
+                                        line-height: 25px;
+                                        font-size: 1.6em;
+                                    }
+
+                                    .s-state{
+                                        font-size: 1em;
+                                        text-align: center;
+                                        line-height: 25px;
+                                    }
+
+                                    .s-quote{
+                                        text-align: center;
+                                        font-size: 10px;
+                                        width: 40%;
+                                    }
+                                }
+
+                                img{
+                                    margin-left: 10%;
+                                    margin-top: 15%;
+                                    width: 100%;
+                                }
+                            }
+
                             img{
                                 margin-left: 10%;
                                 margin-top: 15%;
                                 width: 60%;
                             }
+
+                            
                         }
                     }
                     
@@ -125,6 +181,8 @@
 
                             .winners-container{
                                 width: 100%;
+                                max-height: 500px;
+                                overflow: scroll;
                                 background-color: #76B727;
                                 box-shadow: 1px 1px 5px gray;
                                 padding: 50px 5px;
@@ -278,6 +336,54 @@
                         .carousel-movil{
                             margin-top: 50%;
                             width: 80%;
+
+                            .winner-name-container{
+                                width: 100%;
+
+                                .winner-name-box{
+                                    width: 100%;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: rgba(0, 0, 0, 0.1);
+                                    margin-left: 10%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    color: white;
+                                    font-family: Avenir;
+                                    padding-right: 25%;
+                                    text-align: center;
+
+                                    .s-name{
+                                        text-align: center;
+                                        line-height: 15px;
+                                        font-size: 13px;
+                                    }
+
+                                    .s-state{
+                                        font-size: 11px;
+                                        text-align: center;
+                                        line-height: 15px;
+                                    }
+
+                                    .s-quote{
+                                        text-align: center;
+                                        font-size: 8px;
+                                        width: 40%;
+                                        display: none;
+                                    }
+                                }
+
+                                img{
+                                    margin-left: 10%;
+                                    margin-top: 15%;
+                                    width: 100%;
+                                }
+                            }
                         }
                         
                     }
@@ -330,6 +436,8 @@
 
                                 .winners-container{
                                     width: 100%;
+                                    max-height: 500px;
+                                    overflow: scroll;
                                     background-color: #76B727;
                                     box-shadow: 1px 1px 5px gray;
                                     padding: 50px 5px;
@@ -562,10 +670,18 @@
                 <img src="/images/nueva/web/PREMIOS.png" alt="">
                 <div class="content">
                     <div class="box">
-                        <div class="carousel">
+                        <div class="carousel" :key="indexChange">
                             <agile :centerMode="true" autoplay="autoplay" :nav-buttons="false" :autoplay-speed="4000" :speed="1000">
-                                <div class="slide" v-for="(slide, index) in slides" :key="index">
-                                    <img :src="slide" alt="">
+                                <div class="slide" v-for="(slide, index) in filteredWinners" :key="index">
+                                    <div v-if="slide.id" class="winner-name-container" style="position: relative;">
+                                        <img src="/images/nueva/web/SLIDER.png" alt="">
+                                        <div class="winner-name-box">
+                                            <p class="s-name">{{ slide.name }}</p>
+                                            <p class="s-state">{{ slide.state }}</p>
+                                            <p class="s-quote">{{ slide.quote }}</p>
+                                        </div>
+                                    </div>
+                                    <img v-else :src="slide" alt="">
                                 </div>
                             </agile>
                         </div>
@@ -693,8 +809,16 @@
                 <div class="content">
                     <div class="carousel-movil">
                         <agile :centerMode="true" autoplay="autoplay" :nav-buttons="false" :autoplay-speed="4000" :speed="1000">
-                            <div class="slide" v-for="(slide, index) in slides" :key="index">
-                                <img :src="slide" alt="">
+                            <div class="slide" v-for="(slide, index) in filteredWinners" :key="index">
+                                <div v-if="slide.id" class="winner-name-container" style="position: relative;">
+                                    <img src="/images/nueva/web/SLIDER.png" alt="">
+                                    <div class="winner-name-box">
+                                        <p class="s-name">{{ slide.name }}</p>
+                                        <p class="s-state">{{ slide.state }}</p>
+                                        <p class="s-quote">{{ slide.quote }}</p>
+                                    </div>
+                                </div>
+                                <img v-else :src="slide" alt="">
                             </div>
                         </agile>
                     </div>
@@ -788,7 +912,8 @@ export default {
                     '/images/nueva/elements/premios 2k.png',
                     '/images/nueva/elements/premios 5k.png',
                     '/images/nueva/elements/premios 25k.png',
-                ]
+                ],
+                indexChange: '',
             }
         },
 
@@ -799,13 +924,58 @@ export default {
                     this.slide = 0
                 }
             }, 4000)
+
+            // this.filterWinners()
         },
 
-        watch: {
-            
+        computed: {
+            filteredWinners(){
+                let winnersFilter = JSON.parse(JSON.stringify(this.winners))
+
+                let counter = 0
+
+                for (let index = 0; index < this.winners.length; index++) {
+                    counter++
+                    // this.indexChange = this.generateUUID()
+                    // console.log(this.indexChange);
+
+                    if (counter == 4) {
+
+                        let element = this.winners[index]
+                        let elementIndex = winnersFilter.findIndex(doc => doc.id == element.id)
+                        console.log(elementIndex);
+                        winnersFilter.splice(elementIndex, 0, ...this.slides)
+                        counter = 0
+                    }
+                    
+                }
+
+                return winnersFilter
+            }
         },
 
         methods: {
+            filterWinners(){
+                let counter = -1
+
+                for (let index = 0; index < this.winners.length; index++) {
+                    counter++
+                    this.indexChange = this.generateUUID()
+                    console.log(this.indexChange);
+
+                    if (counter == 4) {
+                        // this.winnersFilter.splice(index, 0, ...this.slides)
+
+                        let element = this.winners[index]
+                        let elementIndex = this.winnersFilter.findIndex(doc => doc.id == element.id)
+                        console.log(elementIndex);
+                        this.winnersFilter.splice(elementIndex, 0, ...this.slides)
+                        counter = 0
+                    }
+                    
+                }
+            },
+
             left(){
                 console.log('ola');
                 if (this.slide == 0) {
@@ -821,7 +991,18 @@ export default {
                 }else{
                     this.slides++
                 }
-            }
+            },
+
+            generateUUID(){
+                var h = ['0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f'];
+                var k = ['x','x','x','x','x','x','x','x','-','x','x','x','x','-','4','x','x','x','-','y','x','x','x','-','x','x','x','x','x','x','x','x','x','x','x','x'];
+                var u = '',i=0,rb=Math.random()*0xffffffff|0;
+                while(i++<36) {
+                    var c=k[i-1],r=rb&0xf,v=c=='x'?r:(r&0x3|0x8);
+                    u+=(c=='-'||c=='4')?c:h[v];rb=i%8==0?Math.random()*0xffffffff|0:rb>>4
+                }
+                return u
+            },
         },
 }
 </script>

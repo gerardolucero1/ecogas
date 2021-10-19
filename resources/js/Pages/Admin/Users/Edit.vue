@@ -21,8 +21,14 @@
                             <input v-model="winner.name" type="text" name="name" id="name" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" />
                         </div>
                         <div class="col-span-6 sm:col-span-6">
-                            <label for="number" class="block text-sm font-medium text-gray-700">Puntos</label>
-                            <textarea v-model="winner.points" type="text" name="number" id="number" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"></textarea>
+                            <label for="number" class="block text-sm font-medium text-gray-700">Estado</label>
+                            <input v-model="winner.state" type="text" name="number" id="number" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" />
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-12 md:grid-cols-12 gap-6">
+                        <div class="col-span-6 sm:col-span-6">
+                            <label for="name" class="block text-sm font-medium text-gray-700">Cita</label>
+                            <textarea v-model="winner.quote" type="text" name="name" id="name" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"></textarea>
                         </div>
                     </div>
                     <div class="grid grid-cols-12 md:grid-cols-12 gap-6 mt-4">
@@ -63,7 +69,8 @@
 
                     let data = new FormData()
                     data.append('name', this.winner.name)
-                    data.append('points', this.winner.points)
+                    data.append('state', this.winner.state)
+                    data.append('quote', this.winner.quote)
 
                     axios.post(URL, data).then(response => {
                         alert('Actualizado')

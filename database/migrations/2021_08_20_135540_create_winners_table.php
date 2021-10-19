@@ -16,7 +16,8 @@ class CreateWinnersTable extends Migration
         Schema::create('winners', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->integer('points');
+            $table->string('state')->nullable();
+            $table->mediumText('quote')->nullable();
             $table->timestamps();
         });
     }

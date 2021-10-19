@@ -39,7 +39,8 @@ class WinnerController extends Controller
     {
         $user = new Winner();
         $user->name = $request->name;
-        $user->points = 0;
+        $user->state = $request->state;
+        $user->quote = $request->quote;
         $user->save();
         return;
     }
@@ -63,9 +64,10 @@ class WinnerController extends Controller
      */
     public function edit($id)
     {
-        $user = Winner::find($id);
+        $winner = Winner::find($id);
+        // \dd($user);
 
-        return Inertia::render('Admin/Users/Edit', \compact('user'));
+        return Inertia::render('Admin/Users/Edit', \compact('winner'));
     }
 
     /**
@@ -81,7 +83,8 @@ class WinnerController extends Controller
 
         $user = Winner::find($id);
         $user->name = $request->name;
-        $user->points = $request->points;
+        $user->state = $request->state;
+        $user->quote = $request->quote;
         $user->save();
 
         return;
