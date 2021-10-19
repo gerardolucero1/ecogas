@@ -338,7 +338,7 @@
                             width: 80%;
 
                             .winner-name-container{
-                                width: 100%;
+                                width: 90%;
 
                                 .winner-name-box{
                                     width: 100%;
@@ -347,8 +347,8 @@
                                     left: 0;
                                     width: 100%;
                                     height: 100%;
-                                    background-color: rgba(0, 0, 0, 0.1);
                                     margin-left: 10%;
+                                    background-color: rgba(0, 0, 0, 0.1);
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
